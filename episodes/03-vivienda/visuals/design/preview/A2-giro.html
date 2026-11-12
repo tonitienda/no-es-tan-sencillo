@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>A2 El giro</title>
+
+</head>
+<body>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Inter:wght@400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;display=swap">
+<style>
+body{margin:0}
+.a2-map{transform-origin:410px 716px;animation:a2m 11s infinite cubic-bezier(.55,0,.25,1)}
+@keyframes a2m{0%,28%{transform:scale(.62);opacity:1;filter:blur(0)}52%{transform:scale(9);opacity:1;filter:blur(0)}57%,100%{transform:scale(10);opacity:0;filter:blur(4px)}}
+.a2-local{animation:a2g 11s infinite cubic-bezier(.3,0,.2,1)}
+@keyframes a2g{0%,50%{opacity:0;transform:scale(1.35)}58%,82%{opacity:1;transform:none}88%,96%{opacity:1;transform:translateX(150px) scale(.86)}100%{opacity:0;transform:translateX(150px) scale(.86)}}
+.a2-nat{animation:a2n 11s infinite}
+@keyframes a2n{0%{opacity:0}4%,26%{opacity:1;transform:none}33%,82%{opacity:0;transform:translateY(-12px)}88%,96%{opacity:1;transform:none}100%{opacity:0}}
+.a2-ring{transform-origin:410px 716px;animation:a2r 11s infinite}
+@keyframes a2r{0%,10%{opacity:0}18%,28%{opacity:1}34%,100%{opacity:0}}
+.a2-dot{animation:a2d 11s infinite}
+@keyframes a2d{0%,84%{opacity:0}90%,96%{opacity:1}100%{opacity:0}}
+</style>
+
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; background: #0B0E14; font-family: 'Inter', sans-serif; color: #EEF1F5">
+
+  <!-- the country; the camera pushes into Málaga -->
+  <div class="a2-map" aria-hidden="true" style="position: absolute; left: 150px; top: -236px; width: 1040px; height: 820px">
+    <svg viewBox="0 0 1040 820" width="1040" height="820" style="display: block">
+      <defs>
+        <pattern id="a2n" width="14" height="14" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="9" height="9" rx="1" fill="#2E3646"></rect></pattern>
+        <pattern id="a2a" width="14" height="14" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="9" height="9" rx="1" fill="#5C4520"></rect></pattern>
+        <pattern id="a2t" width="112" height="98" patternUnits="userSpaceOnUse"><rect x="58" y="44" width="9" height="9" rx="1" fill="#C7A4FF"></rect></pattern>
+        <pattern id="a2tt" width="28" height="28" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="9" height="9" rx="1" fill="#C7A4FF"></rect><rect x="16" y="16" width="9" height="9" rx="1" fill="#C7A4FF"></rect></pattern>
+        <clipPath id="a2c"><path d="M120 30 L200 45 L296 40 L400 60 L456 55 L520 65 L616 62 L648 90 L704 115 L784 130 L824 115 L896 150 L1016 160 L1016 210 L936 260 L840 295 L824 330 L760 400 L736 450 L776 520 L720 570 L696 640 L632 670 L592 730 L520 725 L408 730 L328 795 L280 760 L248 720 L168 680 L160 640 L200 600 L176 550 L200 500 L160 430 L208 380 L216 300 L264 240 L232 205 L160 215 L104 210 L48 190 L48 140 L16 110 L24 80 L96 50 Z"></path></clipPath>
+      </defs>
+      <g clip-path="url(#a2c)">
+        <rect width="1040" height="820" fill="#10151E"></rect>
+        <rect width="1040" height="820" fill="url(#a2n)"></rect>
+        <rect width="1040" height="820" fill="url(#a2t)"></rect>
+        <!-- centre of Málaga: rental tiles, tourist share dense -->
+        <rect x="384" y="690" width="56" height="42" fill="url(#a2a)"></rect>
+        <rect x="384" y="690" width="56" height="42" fill="url(#a2tt)"></rect>
+      </g>
+      <circle class="a2-ring" cx="410" cy="712" r="30" fill="none" stroke="#C7A4FF" stroke-width="4"></circle>
+    </svg>
+  </div>
+
+  <!-- national number -->
+  <div class="a2-nat" style="position: absolute; left: 96px; top: 230px; display: flex; flex-direction: column; gap: 4px; width: 340px">
+    <span style="font: 900 92px 'Archivo'; font-stretch: 72%; line-height: 1; color: #C7A4FF">1,28%</span>
+    <span style="font-size: 19px; color: #B7C0CC">de las viviendas de España</span>
+    <span style="font: 13px 'IBM Plex Mono'; color: #8893A3">INE · anuncios, mayo 2026</span>
+  </div>
+
+  <!-- arrival: the rental market of the centre -->
+  <div class="a2-local" style="position: absolute; left: 360px; top: 150px; display: flex; gap: 36px; align-items: center">
+    <div style="width: 380px; height: 380px; box-sizing: border-box; border-radius: 22px; border: 2px solid #C7A4FF; background: #0E1219; box-shadow: 0 0 60px rgba(199,164,255,0.22); padding: 10px">
+      <svg viewBox="0 0 360 360" width="356" height="356" aria-hidden="true" style="display: block">
+        <defs>
+          <pattern id="a2r" width="36" height="36" patternUnits="userSpaceOnUse"><rect x="3" y="3" width="30" height="30" rx="3" fill="#5C4520"></rect><rect x="11" y="11" width="14" height="14" rx="2" fill="#F5B85A" opacity="0.7"></rect></pattern>
+          <pattern id="a2q" width="36" height="36" patternUnits="userSpaceOnUse"><rect x="3" y="3" width="30" height="30" rx="3" fill="#C7A4FF"></rect></pattern>
+        </defs>
+        <rect width="360" height="360" fill="url(#a2r)"></rect>
+        <rect x="0" y="216" width="360" height="144" fill="url(#a2q)"></rect>
+        <rect x="180" y="180" width="180" height="36" fill="url(#a2q)"></rect>
+      </svg>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 4px; width: 260px">
+      <span style="font: 900 92px 'Archivo'; font-stretch: 72%; line-height: 1; color: #C7A4FF">44,6%</span>
+      <span style="font-size: 19px; line-height: 1.3; color: #B7C0CC">del alquiler en el centro de Málaga</span>
+      <span style="font: 13px 'IBM Plex Mono'; color: #8893A3">Banco de España · puede inflar la cifra</span>
+    </div>
+  </div>
+
+  <!-- the comparison held in deep focus -->
+  <div class="a2-dot" aria-hidden="true" style="position: absolute; left: 470px; top: 200px; width: 2px; height: 280px; background: #3A4558"></div>
+
+  <div style="position: absolute; left: 56px; right: 56px; bottom: 28px; padding-top: 12px; border-top: 1px solid #2A3444; font: 13px 'IBM Plex Mono'; color: #8893A3">0–3 s plano general · 3–6 s push al centro (los mismos píxeles se hacen baldosas) · 6–9 s lectura · 9–11 s las dos cifras a la vez</div>
+</div>
+
+
+</body>
+</html>

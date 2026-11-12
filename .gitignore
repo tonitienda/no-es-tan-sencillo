@@ -5,3 +5,9 @@ output/
 .DS_Store
 .env
 .env.*
+# Video pipeline: derived files (sources, narration audio and timelines are committed)
+episodes/*/production/build/
+episodes/*/production/.audio-lock/
+production/public/*/generated/
+production/.cache/
+!.env.example

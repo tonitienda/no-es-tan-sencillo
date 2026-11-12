@@ -1,0 +1,36 @@
+{
+  "v": 3,
+  "createdOnFiles": {"v": 1, "at": "2026-11-10T10:00:00Z"},
+  "title": "No es tan sencillo · 03 Vivienda",
+  "launch": {"view": "canvas"},
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {"x": 0, "y": 0, "w": 1280, "h": 720, "title": "K02 · Cartela · ~0:24 · ENERGY 5"},
+    "Mundo.dc.html": {"x": 1360, "y": 0, "w": 1280, "h": 720, "title": "Mundo · planos de profundidad y arco de cámara"},
+    "Sistema.dc.html": {"x": 2720, "y": 0, "w": 1280, "h": 1500, "title": "Sistema · color, tipo, actores, R1–R4"},
+    "K01-frase.dc.html": {"x": 0, "y": 1900, "w": 1280, "h": 720, "title": "K01 · 1. Tres frases · 0:00 · ENERGY 2"},
+    "K03-cuenta.dc.html": {"x": 1360, "y": 1900, "w": 1280, "h": 720, "title": "K03 · 2. La cuenta · 0:29 · ENERGY 3"},
+    "K04-cola.dc.html": {"x": 2720, "y": 1900, "w": 1280, "h": 720, "title": "K04 · 2. ¿Dónde vive? · 0:45 · ENERGY 4"},
+    "K05-preguntas.dc.html": {"x": 4080, "y": 1900, "w": 1280, "h": 720, "title": "K05 · 2. Cuatro preguntas · 0:58 · ENERGY 3"},
+    "K06-construir.dc.html": {"x": 5440, "y": 1900, "w": 1280, "h": 720, "title": "K06 · 4. Construir: ¿cuántas? · 2:20 · ENERGY 3"},
+    "K07-suelo.dc.html": {"x": 6800, "y": 1900, "w": 1280, "h": 720, "title": "K07 · 4. Construir: ¿dónde? · 3:05 · ENERGY 3"},
+    "K08-vacias.dc.html": {"x": 0, "y": 3020, "w": 1280, "h": 720, "title": "K08 · 5. Vacías · 4:20 · ENERGY 3"},
+    "K09-turisticos.dc.html": {"x": 1360, "y": 3020, "w": 1280, "h": 720, "title": "K09 · 6. Turísticos: el giro · 6:30 · ENERGY 5 (WOW)"},
+    "K10-topes.dc.html": {"x": 2720, "y": 3020, "w": 1280, "h": 720, "title": "K10 · 7. Topes: ¿dónde? · 8:40 · ENERGY 2"},
+    "K11-publica.dc.html": {"x": 4080, "y": 3020, "w": 1280, "h": 720, "title": "K11 · 7. Vivienda pública: ¿para cuándo? · 12:00 · ENERGY 3"},
+    "K12-volver.dc.html": {"x": 5440, "y": 3020, "w": 1280, "h": 720, "title": "K12 · 8. Volver a la cuenta · 13:05 · ENERGY 4"},
+    "K13-cierre.dc.html": {"x": 6800, "y": 3020, "w": 1280, "h": 720, "title": "K13 · 9. Cierre · 13:59 · ENERGY 1"},
+    "A1-apertura.dc.html": {"x": 0, "y": 4140, "w": 1280, "h": 720, "title": "Animación A1 · frases → cartela (bucle 12 s)"},
+    "A2-giro.dc.html": {"x": 1360, "y": 4140, "w": 1280, "h": 720, "title": "Animación A2 · el giro: de España al centro de Málaga (bucle 11 s)"},
+    "A3-instrumentos.dc.html": {"x": 2720, "y": 4140, "w": 1280, "h": 720, "title": "Animación A3 · R1 y R4 en uso (bucle 10 s)"},
+    "A4-volver.dc.html": {"x": 4080, "y": 4140, "w": 1280, "h": 720, "title": "Animación A4 · los hogares entran en lo que ya existía (bucle 10 s)"}
+  },
+  "order": ["Main.dc.html", "Mundo.dc.html", "Sistema.dc.html", "K01-frase.dc.html", "K03-cuenta.dc.html", "K04-cola.dc.html", "K05-preguntas.dc.html", "K06-construir.dc.html", "K07-suelo.dc.html", "K08-vacias.dc.html", "K09-turisticos.dc.html", "K10-topes.dc.html", "K11-publica.dc.html", "K12-volver.dc.html", "K13-cierre.dc.html", "A1-apertura.dc.html", "A2-giro.dc.html", "A3-instrumentos.dc.html", "A4-volver.dc.html"],
+  "notes": {
+    "rowA": {"x": 0, "y": -300, "text": "Sistema y mundo: la frase arriba, la ciudad abajo", "kind": "title1", "maxW": 4000},
+    "rowB": {"x": 0, "y": 1600, "text": "Keyframes · secciones 1–4", "kind": "title1", "maxW": 8080},
+    "rowC": {"x": 0, "y": 2720, "text": "Keyframes · secciones 5–9", "kind": "title1", "maxW": 8080},
+    "rowD": {"x": 0, "y": 3840, "text": "Animaciones de muestra (en bucle)", "kind": "title1", "maxW": 5360}
+  },
+  "designSystems": []
+}

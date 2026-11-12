@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Mundo: planos y arco de cámara</title>
+
+</head>
+<body>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Inter:wght@400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;display=swap">
+<style>body{margin:0}</style>
+
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; background: #0B0E14; font-family: 'Inter', sans-serif; color: #EEF1F5; box-sizing: border-box; padding: 48px 56px; display: flex; gap: 56px">
+
+  <!-- left: the depth stack -->
+  <div style="flex: 0 0 560px; display: flex; flex-direction: column; gap: 14px">
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.12em; color: #8893A3">CINEMATIC_WORLD · PLANOS</div>
+    <h2 style="margin: 0 0 10px; font-family: 'Archivo', sans-serif; font-stretch: 75%; font-weight: 800; font-size: 44px; line-height: 1">La frase arriba, la ciudad abajo</h2>
+
+    <div style="display: flex; align-items: center; gap: 18px">
+      <div style="width: 220px; height: 54px; transform: skewX(-24deg); border: 1.5px dashed #8893A3; border-radius: 4px; display: flex; align-items: center; justify-content: center"><span style="transform: skewX(24deg); font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #B7C0CC">hud</span></div>
+      <div style="font-size: 15px; line-height: 1.35; color: #B7C0CC"><b style="color: #EEF1F5">Instrumentos fijos.</b> R1 cuatro preguntas, R3 rótulo de fuente, subtítulos. No se mueve con la cámara.</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 18px">
+      <div style="width: 220px; height: 54px; transform: skewX(-24deg); background: #1B2230; border: 1.5px solid #F2EDE4; border-radius: 4px; display: flex; align-items: center; justify-content: center"><span style="transform: skewX(24deg); font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #F2EDE4">near · ×1.25</span></div>
+      <div style="font-size: 15px; line-height: 1.35; color: #B7C0CC"><b style="color: #EEF1F5">Evidencia.</b> Barras, R2 tarjetas de frase, R4 barra de déficit. Aparece cuando la cámara se asienta.</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 18px">
+      <div style="width: 220px; height: 54px; transform: skewX(-24deg); background: #2A2416; border: 1.5px solid #F5B85A; border-radius: 4px; display: flex; align-items: center; justify-content: center"><span style="transform: skewX(24deg); font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #F5B85A">mid · ×1.0</span></div>
+      <div style="font-size: 15px; line-height: 1.35; color: #B7C0CC"><b style="color: #EEF1F5">El parque cercano.</b> Viviendas como baldosas; hogares como luz dentro. Aquí ocurren las mudanzas.</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 18px">
+      <div style="width: 220px; height: 54px; transform: skewX(-24deg); background: #161B25; border: 1.5px solid #4A5568; border-radius: 4px; display: flex; align-items: center; justify-content: center"><span style="transform: skewX(24deg); font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #8893A3">back · ×0.6</span></div>
+      <div style="font-size: 15px; line-height: 1.35; color: #B7C0CC"><b style="color: #EEF1F5">España entera.</b> Ciudades como charcos de luz; el interior, oscuro. Desenfocado si no es el sujeto.</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 18px">
+      <div style="width: 220px; height: 54px; transform: skewX(-24deg); background: #0E1219; border: 1.5px solid #2A3444; border-radius: 4px; display: flex; align-items: center; justify-content: center"><span style="transform: skewX(24deg); font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #5A6475">far · ×0.25</span></div>
+      <div style="font-size: 15px; line-height: 1.35; color: #B7C0CC"><b style="color: #EEF1F5">El cielo.</b> Donde viven las frases. Cada sección baja de la frase al suelo y vuelve con las cuatro respuestas.</div>
+    </div>
+
+    <div style="margin-top: 10px; padding: 14px 16px; background: #121722; border-radius: 8px; font-size: 14px; line-height: 1.45; color: #B7C0CC">Movimiento de serie, en cada episodio: <b style="color: #EEF1F5">frase en el cielo → descenso a los datos → R1 se rellena</b>. El tema cambia de mundo; el gesto se queda.</div>
+  </div>
+
+  <!-- right: the camera route over a flat map -->
+  <div style="flex: 1 1 auto; display: flex; flex-direction: column; gap: 14px">
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.12em; color: #8893A3">ARCO DE CÁMARA · UN SOLO VIAJE</div>
+    <div style="position: relative; width: 560px; height: 442px">
+      <svg viewBox="0 0 1040 820" width="560" height="442" aria-hidden="true" style="display: block">
+        <defs>
+          <pattern id="mlit" width="14" height="14" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="9" height="9" rx="1" fill="#2B3445"></rect></pattern>
+          <clipPath id="mes"><path d="M120 30 L200 45 L296 40 L400 60 L456 55 L520 65 L616 62 L648 90 L704 115 L784 130 L824 115 L896 150 L1016 160 L1016 210 L936 260 L840 295 L824 330 L760 400 L736 450 L776 520 L720 570 L696 640 L632 670 L592 730 L520 725 L408 730 L328 795 L280 760 L248 720 L168 680 L160 640 L200 600 L176 550 L200 500 L160 430 L208 380 L216 300 L264 240 L232 205 L160 215 L104 210 L48 190 L48 140 L16 110 L24 80 L96 50 Z"></path></clipPath>
+        </defs>
+        <g clip-path="url(#mes)"><rect width="1040" height="820" fill="#10151E"></rect><rect width="1040" height="820" fill="url(#mlit)"></rect></g>
+        <path d="M464 360 C 560 300, 600 300, 480 360 C 620 330, 800 260, 925 262 C 700 140, 420 160, 300 250 C 250 420, 330 600, 410 716 C 360 700, 320 680, 282 661 C 500 520, 800 300, 880 230 C 840 360, 760 480, 712 560 C 600 520, 500 440, 470 400" fill="none" stroke="#F2EDE4" stroke-width="3" stroke-dasharray="10 9" opacity="0.8"></path>
+        <circle cx="470" cy="400" r="300" fill="none" stroke="#5A6475" stroke-width="2" stroke-dasharray="4 8"></circle>
+      </svg>
+      <div style="position: absolute; left: 236px; top: 180px; width: 26px; height: 26px; border-radius: 50%; background: #F5B85A; color: #0B0E14; font: 600 13px 'Inter'; display: flex; align-items: center; justify-content: center">1</div>
+      <div style="position: absolute; left: 485px; top: 128px; width: 26px; height: 26px; border-radius: 50%; background: #F2EDE4; color: #0B0E14; font: 600 13px 'Inter'; display: flex; align-items: center; justify-content: center">3</div>
+      <div style="position: absolute; left: 150px; top: 120px; width: 26px; height: 26px; border-radius: 50%; background: #6F819A; color: #0B0E14; font: 600 13px 'Inter'; display: flex; align-items: center; justify-content: center">4</div>
+      <div style="position: absolute; left: 208px; top: 374px; width: 26px; height: 26px; border-radius: 50%; background: #C7A4FF; color: #0B0E14; font: 600 13px 'Inter'; display: flex; align-items: center; justify-content: center">5</div>
+      <div style="position: absolute; left: 462px; top: 104px; width: 26px; height: 26px; border-radius: 50%; background: #F2EDE4; color: #0B0E14; font: 600 13px 'Inter'; display: flex; align-items: center; justify-content: center">6</div>
+      <div style="position: absolute; left: 372px; top: 296px; width: 26px; height: 26px; border-radius: 50%; background: #F2EDE4; color: #0B0E14; font: 600 13px 'Inter'; display: flex; align-items: center; justify-content: center">7</div>
+      <div style="position: absolute; left: 30px; top: 380px; width: 26px; height: 26px; border-radius: 50%; border: 1.5px dashed #8893A3; color: #B7C0CC; font: 600 13px 'Inter'; display: flex; align-items: center; justify-content: center">2</div>
+    </div>
+    <ol style="margin: 0; padding-left: 20px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 28px; row-gap: 6px; font-size: 13.5px; line-height: 1.35; color: #B7C0CC">
+      <li><b style="color: #EEF1F5">Una ventana</b> en Madrid: la superficie conocida.</li>
+      <li><b style="color: #EEF1F5">Pull-back</b> a España: 26,6 M baldosas.</li>
+      <li><b style="color: #EEF1F5">Barcelona</b>: suelo, 120.000.</li>
+      <li><b style="color: #EEF1F5">Interior</b>: las vacías están lejos.</li>
+      <li><b style="color: #EEF1F5">Málaga centro</b>: el giro (WOW).</li>
+      <li><b style="color: #EEF1F5">Cataluña</b>: 271 de 317 topes.</li>
+      <li><b style="color: #EEF1F5">Costa</b>: extranjeros; vuelta al plano general.</li>
+    </ol>
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #8893A3">Contorno aproximado, sin islas. Base cartográfica y licencia pendientes (inventario, punto 5).</div>
+  </div>
+</div>
+
+
+</body>
+</html>

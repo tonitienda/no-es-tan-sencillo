@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>K12 Volver a la cuenta</title>
+
+</head>
+<body>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Inter:wght@400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;display=swap">
+<style>body{margin:0}</style>
+
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; background: #0B0E14; font-family: 'Inter', sans-serif; color: #EEF1F5">
+
+  <svg viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="De cada diez hogares nuevos, unos cuatro en obra nueva y unos seis en viviendas que ya existían" style="position: absolute; inset: 0">
+    <defs>
+      <filter id="g" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="6" result="b"></feGaussianBlur><feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter>
+      <pattern id="mh" width="14" height="14" patternUnits="userSpaceOnUse"><rect x="1.5" y="1.5" width="11" height="11" rx="1.5" fill="#0B0E14" stroke="#6F819A" stroke-width="1.3"></rect></pattern>
+      <pattern id="ml" width="14" height="14" patternUnits="userSpaceOnUse"><rect x="1.5" y="1.5" width="11" height="11" rx="1.5" fill="#F5B85A" opacity="0.85"></rect></pattern>
+    </defs>
+    <!-- ribbons: household (sender) → dwelling (receiver) -->
+    <g fill="none" stroke="#F5B85A" stroke-width="2" opacity="0.4">
+      <path d="M640 96 C 560 160, 280 200, 200 316"></path><path d="M640 96 C 560 170, 340 210, 268 316"></path><path d="M640 96 C 580 180, 400 220, 336 316"></path><path d="M640 96 C 600 190, 460 230, 404 316"></path>
+      <path d="M640 96 C 700 160, 700 230, 716 316"></path><path d="M640 96 C 720 160, 760 230, 784 316"></path><path d="M640 96 C 740 160, 820 230, 852 316"></path><path d="M640 96 C 760 160, 880 230, 920 316"></path><path d="M640 96 C 780 160, 940 230, 988 316"></path><path d="M640 96 C 800 160, 1000 230, 1056 316"></path>
+    </g>
+    <circle cx="640" cy="96" r="18" fill="#F5B85A" filter="url(#g)"></circle>
+    <!-- ~40%: new builds -->
+    <g fill="#14231F" stroke="#7FE0C2" stroke-width="2.5"><rect x="172" y="316" width="56" height="56" rx="4"></rect><rect x="240" y="316" width="56" height="56" rx="4"></rect><rect x="308" y="316" width="56" height="56" rx="4"></rect><rect x="376" y="316" width="56" height="56" rx="4"></rect></g>
+    <!-- ~60%: dwellings that already existed, now lit -->
+    <g fill="#0B0E14" stroke="#6F819A" stroke-width="2.5"><rect x="688" y="316" width="56" height="56" rx="4"></rect><rect x="756" y="316" width="56" height="56" rx="4"></rect><rect x="824" y="316" width="56" height="56" rx="4"></rect><rect x="892" y="316" width="56" height="56" rx="4"></rect><rect x="960" y="316" width="56" height="56" rx="4"></rect><rect x="1028" y="316" width="56" height="56" rx="4"></rect></g>
+    <g fill="#F5B85A" filter="url(#g)">
+      <circle cx="200" cy="344" r="12"></circle><circle cx="268" cy="344" r="12"></circle><circle cx="336" cy="344" r="12"></circle><circle cx="404" cy="344" r="12"></circle>
+      <circle cx="716" cy="344" r="12"></circle><circle cx="784" cy="344" r="12"></circle><circle cx="852" cy="344" r="12"></circle><circle cx="920" cy="344" r="12"></circle><circle cx="988" cy="344" r="12"></circle><circle cx="1056" cy="344" r="12"></circle>
+    </g>
+    <!-- Madrid 9,9% · Zamora 50,5% sin uso residencial (10 × 10) -->
+    <rect x="294" y="490" width="140" height="126" fill="url(#ml)"></rect><rect x="294" y="476" width="140" height="14" fill="url(#mh)"></rect>
+    <rect x="840" y="546" width="140" height="70" fill="url(#ml)"></rect><rect x="840" y="476" width="140" height="70" fill="url(#mh)"></rect>
+  </svg>
+
+  <div style="position: absolute; left: 172px; top: 386px; display: flex; flex-direction: column; gap: 2px"><span style="font: 900 40px 'Archivo'; font-stretch: 72%; color: #7FE0C2">~40%</span><span style="font-size: 15px; color: #B7C0CC">obra nueva</span></div>
+  <div style="position: absolute; left: 688px; top: 386px; display: flex; flex-direction: column; gap: 2px"><span style="font: 900 40px 'Archivo'; font-stretch: 72%; color: #F5B85A">~60%</span><span style="font-size: 15px; color: #B7C0CC">viviendas que ya existían y tenían otro uso</span></div>
+  <div style="position: absolute; left: 700px; top: 72px; font-size: 16px; color: #B7C0CC">hogares nuevos</div>
+
+  <div style="position: absolute; left: 140px; top: 480px; display: flex; flex-direction: column; align-items: flex-end; gap: 0; width: 140px"><span style="font: 900 44px 'Archivo'; font-stretch: 72%; color: #EEF1F5">9,9%</span><span style="font-size: 15px; color: #B7C0CC">Madrid</span></div>
+  <div style="position: absolute; left: 680px; top: 480px; display: flex; flex-direction: column; align-items: flex-end; gap: 0; width: 140px"><span style="font: 900 44px 'Archivo'; font-stretch: 72%; color: #EEF1F5">50,5%</span><span style="font-size: 15px; color: #B7C0CC">Zamora</span></div>
+  <div style="position: absolute; left: 140px; top: 590px; font-size: 13px; color: #8893A3; width: 140px; text-align: right">sin uso residencial</div>
+
+  <div style="position: absolute; left: 56px; right: 56px; bottom: 32px; padding-top: 12px; border-top: 1px solid #2A3444; display: flex; gap: 14px; align-items: center">
+    <span style="font: 15px 'IBM Plex Mono'; color: #B7C0CC">Banco de España · el próximo censo debería confirmarla o refutarla</span>
+    <span style="font: 500 13px 'IBM Plex Mono'; padding: 4px 10px; border-radius: 999px; border: 1.5px solid #8893A3; color: #B7C0CC">≈ estimación</span>
+  </div>
+</div>
+
+
+</body>
+</html>

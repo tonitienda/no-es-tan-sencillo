@@ -1,0 +1,759 @@
+{
+  "script": "episodes/03-vivienda/script/06-guion-v4.md",
+  "scriptSha256": "a2bd7563b1bcb737ed49127ff4f572cca9c0cb5bbe8c638918326a704e78fb5a",
+  "sections": [
+    {
+      "n": 1,
+      "title": "Tres frases",
+      "plannedAt": "0:00",
+      "sources": [],
+      "lines": 6
+    },
+    {
+      "n": 2,
+      "title": "Las cuatro preguntas",
+      "plannedAt": "0:50",
+      "sources": [
+        "V7",
+        "V2",
+        "V35"
+      ],
+      "lines": 7
+    },
+    {
+      "n": 3,
+      "title": "Primera frase: construir",
+      "plannedAt": "2:10",
+      "sources": [
+        "V37",
+        "V32",
+        "V8",
+        "V7",
+        "V35",
+        "V33",
+        "V16",
+        "V15"
+      ],
+      "lines": 14
+    },
+    {
+      "n": 4,
+      "title": "Segunda frase: las vacías",
+      "plannedAt": "5:20",
+      "sources": [
+        "V9",
+        "V7",
+        "V12",
+        "V34",
+        "V31"
+      ],
+      "lines": 8
+    },
+    {
+      "n": 5,
+      "title": "Tercera frase: los pisos turísticos",
+      "plannedAt": "7:20",
+      "sources": [
+        "V27",
+        "V26",
+        "V7",
+        "V31",
+        "V32"
+      ],
+      "lines": 9
+    },
+    {
+      "n": 6,
+      "title": "Otras frases de la campaña",
+      "plannedAt": "9:30",
+      "sources": [
+        "V36",
+        "V29",
+        "V35",
+        "V32",
+        "V30",
+        "V7"
+      ],
+      "lines": 21
+    },
+    {
+      "n": 7,
+      "title": "La cuenta que no cuadra",
+      "plannedAt": "13:30",
+      "sources": [
+        "V9",
+        "V4",
+        "V7",
+        "V8",
+        "V21",
+        "V24",
+        "V23"
+      ],
+      "lines": 6
+    },
+    {
+      "n": 8,
+      "title": "Cierre",
+      "plannedAt": "15:00",
+      "sources": [],
+      "lines": 5
+    }
+  ],
+  "screens": [
+    {
+      "id": "s1-p1",
+      "section": 1,
+      "text": "tres titulares, uno tras otro, cada uno con su cifra, con el rótulo «frases resumidas por nosotros». La de vacías lleva fecha: censo de 2021, consumo de 2020. Después, NO ES TAN SENCILLO. Después, la tesis en una línea. Después, la agenda, con los capítulos."
+    },
+    {
+      "id": "s2-p1",
+      "section": 2,
+      "text": "plantilla de cuatro preguntas. Después, el ejemplo: la frase «Hay que construir» y una fila por pregunta, con la conclusión arriba y el dato debajo. Al final, las cuatro conclusiones juntas."
+    },
+    {
+      "id": "s3-p1",
+      "section": 3,
+      "text": "portadilla «1 · Construir». Las dos promesas, con el mismo estilo y su origen: Gobierno del PSOE, 2023, según idealista; PP, web del partido, 21 de octubre de 2026. Debajo, lo entregado, con tres cifras y su fuente. Después, serie de terminadas, 2003-2025, con una línea en 250.000 y otra en los visados de 2025. Al final de la sección, el resumen en pantalla."
+    },
+    {
+      "id": "s4-p1",
+      "section": 4,
+      "text": "portadilla «2 · Las vacías». Después, barras, porcentaje de población frente a porcentaje de vacías por tamaño de municipio. Al final, el resumen en pantalla."
+    },
+    {
+      "id": "s5-p1",
+      "section": 5,
+      "text": "portadilla «3 · Los pisos turísticos». Después, gráfico del Banco de España: peso en el alquiler, área urbana y centro turístico, con la línea de 10,8%. Al final, el resumen en pantalla."
+    },
+    {
+      "id": "s6-p1",
+      "section": 6,
+      "text": "portadilla «4 · Otras frases». Después, misma plantilla, con las cuatro preguntas marcándose una a una. Cada propuesta, con su documento y fecha. En los dos estudios catalanes, autores y financiación: Monràs y Montalvo, con apoyo de la Generalitat; Jofre-Monseny, Martínez-Mazza y Segú, con fondos del Ministerio de Ciencia. En Casa 47, «2 a 7,5 veces el IPREM» con su equivalente en euros. Tras cada frase, su resumen en pantalla."
+    },
+    {
+      "id": "s7-p1",
+      "section": 7,
+      "text": "portadilla «5 · La cuenta que no cuadra». Dos barras: 26,6 millones y 18,5 millones. Después, 240.000 frente a 92.000. Después, hogares nuevos repartidos, ~40% en obra nueva y ~60% en stock existente, con la etiqueta «estimación»; Madrid 9,9% y Zamora 50,5%. Al final, el resumen en pantalla."
+    },
+    {
+      "id": "s8-p1",
+      "section": 8,
+      "text": "tabla final: cada frase, qué hace bien, cuánto pesa frente al déficit, si cuenta una vez o cada año, y en qué escala (un barrio, una ciudad, el país). Las filas aparecen una a una con la narración. Sin puntuación global. Después, la tesis."
+    },
+    {
+      "id": "s8-p2",
+      "section": 8,
+      "text": "fuentes y enlace al registro en la descripción."
+    }
+  ],
+  "lines": [
+    {
+      "id": "s1-01",
+      "section": 1,
+      "screen": "s1-p1",
+      "text": "«Faltan 750.000 viviendas. La solución es evidente: construir».",
+      "placeholders": [],
+      "spoken": "«Faltan 750.000 viviendas. La solución es evidente: construir»."
+    },
+    {
+      "id": "s1-02",
+      "section": 1,
+      "screen": "s1-p1",
+      "text": "«Hay 3,8 millones de viviendas vacías. La solución es evidente: que se usen».",
+      "placeholders": [],
+      "spoken": "«Hay 3,8 millones de viviendas vacías. La solución es evidente: que se usen»."
+    },
+    {
+      "id": "s1-03",
+      "section": 1,
+      "screen": "s1-p1",
+      "text": "«Los pisos turísticos han echado a los vecinos. La solución es evidente: prohibirlos».",
+      "placeholders": [],
+      "spoken": "«Los pisos turísticos han echado a los vecinos. La solución es evidente: prohibirlos»."
+    },
+    {
+      "id": "s1-04",
+      "section": 1,
+      "screen": "s1-p1",
+      "text": "Frases así se oyen mucho en esta campaña. Las elecciones son el 29 de noviembre. Cada una de esas frases tira de una sola palanca. Y cada palanca señala un problema real.",
+      "placeholders": [],
+      "spoken": "Frases así se oyen mucho en esta campaña. Las elecciones son el 29 de noviembre. Cada una de esas frases tira de una sola palanca. Y cada palanca señala un problema real."
+    },
+    {
+      "id": "s1-05",
+      "section": 1,
+      "screen": "s1-p1",
+      "text": "La idea de este vídeo cabe en una línea. Ninguna palanca sola arregla la vivienda.",
+      "placeholders": [],
+      "spoken": "La idea de este vídeo cabe en una línea. Ninguna palanca sola arregla la vivienda."
+    },
+    {
+      "id": "s1-06",
+      "section": 1,
+      "screen": "s1-p1",
+      "text": "No vamos a decirte qué votar. Vamos a probar cada frase con cuatro preguntas. Primero, las cuatro preguntas, con un ejemplo. Después, seis frases de la campaña, una a una. Al final, una cuenta que no cuadra. Si solo te interesa una frase, usa los capítulos.",
+      "placeholders": [],
+      "spoken": "No vamos a decirte qué votar. Vamos a probar cada frase con cuatro preguntas. Primero, las cuatro preguntas, con un ejemplo. Después, seis frases de la campaña, una a una. Al final, una cuenta que no cuadra. Si solo te interesa una frase, usa los capítulos."
+    },
+    {
+      "id": "s2-01",
+      "section": 2,
+      "screen": "s2-p1",
+      "text": "Cada vez que alguien arregle la vivienda en una frase, vamos a hacerle cuatro preguntas. ¿Cuántas viviendas? ¿Dónde? ¿Para quién? ¿Para cuándo?",
+      "placeholders": [],
+      "spoken": "Cada vez que alguien arregle la vivienda en una frase, vamos a hacerle cuatro preguntas. ¿Cuántas viviendas? ¿Dónde? ¿Para quién? ¿Para cuándo?"
+    },
+    {
+      "id": "s2-02",
+      "section": 2,
+      "screen": "s2-p1",
+      "text": "Un ejemplo. Alguien dice: «hay que construir».",
+      "placeholders": [],
+      "spoken": "Un ejemplo. Alguien dice: «hay que construir»."
+    },
+    {
+      "id": "s2-03",
+      "section": 2,
+      "screen": "s2-p1",
+      "text": "¿Cuántas viviendas? Unas 750.000, según el Banco de España. Los hogares también son más pequeños. En 1970, un hogar medio tenía casi cuatro personas. El hogar medio de hoy tiene dos y media.",
+      "placeholders": [],
+      "spoken": "¿Cuántas viviendas? Unas 750.000, según el Banco de España. Los hogares también son más pequeños. En 1970, un hogar medio tenía casi cuatro personas. El hogar medio de hoy tiene dos y media."
+    },
+    {
+      "id": "s2-04",
+      "section": 2,
+      "screen": "s2-p1",
+      "text": "¿Dónde? Sobre todo en las grandes ciudades y en la costa. Seis provincias suman más de la mitad del déficit.",
+      "placeholders": [],
+      "spoken": "¿Dónde? Sobre todo en las grandes ciudades y en la costa. Seis provincias suman más de la mitad del déficit."
+    },
+    {
+      "id": "s2-05",
+      "section": 2,
+      "screen": "s2-p1",
+      "text": "¿Para quién? Sobre todo para quien alquila a precio de mercado. Más de una de cada cuatro de esas personas dedica más del 40% de sus ingresos a la vivienda. En la zona euro, la proporción es menos de una de cada cinco. Si se cuentan también los propietarios, España queda por debajo de la media.",
+      "placeholders": [],
+      "spoken": "¿Para quién? Sobre todo para quien alquila a precio de mercado. Más de una de cada cuatro de esas personas dedica más del 40% de sus ingresos a la vivienda. En la zona euro, la proporción es menos de una de cada cinco. Si se cuentan también los propietarios, España queda por debajo de la media."
+    },
+    {
+      "id": "s2-06",
+      "section": 2,
+      "screen": "s2-p1",
+      "text": "¿Para cuándo? Para ya. Cada año aparecen más hogares que viviendas terminadas.",
+      "placeholders": [],
+      "spoken": "¿Para cuándo? Para ya. Cada año aparecen más hogares que viviendas terminadas."
+    },
+    {
+      "id": "s2-07",
+      "section": 2,
+      "screen": "s2-p1",
+      "text": "Las cuatro respuestas dibujan el problema. El problema es grande y urgente. El problema está sobre todo en las ciudades. Y golpea sobre todo a quien alquila. Una palanca útil tiene que responder a esas cuatro cosas. Vamos a ver cuánto responde cada una.",
+      "placeholders": [],
+      "spoken": "Las cuatro respuestas dibujan el problema. El problema es grande y urgente. El problema está sobre todo en las ciudades. Y golpea sobre todo a quien alquila. Una palanca útil tiene que responder a esas cuatro cosas. Vamos a ver cuánto responde cada una."
+    },
+    {
+      "id": "s3-01",
+      "section": 3,
+      "screen": "s3-p1",
+      "text": "Primera frase: construir. Lo que acierta: sin viviendas nuevas, el déficit no se cierra.",
+      "placeholders": [],
+      "spoken": "Primera frase: construir. Lo que acierta: sin viviendas nuevas, el déficit no se cierra."
+    },
+    {
+      "id": "s3-02",
+      "section": 3,
+      "screen": "s3-p1",
+      "text": "Los dos grandes partidos prometen construir. En 2023, el Gobierno del PSOE anunció unas 184.000 viviendas asequibles. Este año, el PP promete un millón de viviendas en la próxima legislatura.",
+      "placeholders": [],
+      "spoken": "Los dos grandes partidos prometen construir. En 2023, el Gobierno del PSOE anunció unas 184.000 viviendas asequibles. Este año, el PP promete un millón de viviendas en la próxima legislatura."
+    },
+    {
+      "id": "s3-03",
+      "section": 3,
+      "screen": "s3-p1",
+      "text": "¿Cuántas viviendas de esa promesa se han entregado? Nadie publica un recuento oficial. La ministra habla de unas 100.000, pero no hemos encontrado cómo las cuenta. Un recuento de El Español encuentra unas 49.000 protegidas desde 2021. En 2025 se terminaron 11.000 viviendas protegidas en toda España.",
+      "placeholders": [],
+      "spoken": "¿Cuántas viviendas de esa promesa se han entregado? Nadie publica un recuento oficial. La ministra habla de unas 100.000, pero no hemos encontrado cómo las cuenta. Un recuento de El Español encuentra unas 49.000 protegidas desde 2021. En 2025 se terminaron 11.000 viviendas protegidas en toda España."
+    },
+    {
+      "id": "s3-04",
+      "section": 3,
+      "screen": "s3-p1",
+      "text": "Prometer viviendas es mucho más fácil que terminarlas.",
+      "placeholders": [],
+      "spoken": "Prometer viviendas es mucho más fácil que terminarlas."
+    },
+    {
+      "id": "s3-05",
+      "section": 3,
+      "screen": "s3-p1",
+      "text": "El PP no gobierna España desde 2018. La promesa del PP no tiene un historial nacional que medir. Así que le hacemos tres preguntas. ¿Es posible? ¿Es sostenible? ¿Bajarían los precios?",
+      "placeholders": [],
+      "spoken": "El PP no gobierna España desde 2018. La promesa del PP no tiene un historial nacional que medir. Así que le hacemos tres preguntas. ¿Es posible? ¿Es sostenible? ¿Bajarían los precios?"
+    },
+    {
+      "id": "s3-06",
+      "section": 3,
+      "screen": "s3-p1",
+      "text": "¿Es posible? Un millón en cuatro años son 250.000 viviendas al año. Esa cifra es unas 2,7 veces lo terminado en 2025. España superó esa cifra todos los años de 2003 a 2010. El máximo pasó de 650.000.",
+      "placeholders": [],
+      "spoken": "¿Es posible? Un millón en cuatro años son 250.000 viviendas al año. Esa cifra es unas 2,7 veces lo terminado en 2025. España superó esa cifra todos los años de 2003 a 2010. El máximo pasó de 650.000."
+    },
+    {
+      "id": "s3-07",
+      "section": 3,
+      "screen": "s3-p1",
+      "text": "¿Es sostenible? Aquel ritmo acabó en crisis. En 2025 se concedieron unos 139.000 visados de obra nueva. Esos visados son poco más de la mitad de lo necesario cada año.",
+      "placeholders": [],
+      "spoken": "¿Es sostenible? Aquel ritmo acabó en crisis. En 2025 se concedieron unos 139.000 visados de obra nueva. Esos visados son poco más de la mitad de lo necesario cada año."
+    },
+    {
+      "id": "s3-08",
+      "section": 3,
+      "screen": "s3-p1",
+      "text": "Una cuenta nuestra. Con 240.000 hogares nuevos al año, un millón de viviendas frena la brecha. Pero no la cierra. Con unos 100.000 hogares nuevos al año, como en la década pasada, la brecha se cierra en buena parte.",
+      "placeholders": [],
+      "spoken": "Una cuenta nuestra. Con 240.000 hogares nuevos al año, un millón de viviendas frena la brecha. Pero no la cierra. Con unos 100.000 hogares nuevos al año, como en la década pasada, la brecha se cierra en buena parte."
+    },
+    {
+      "id": "s3-09",
+      "section": 3,
+      "screen": "s3-p1",
+      "text": "¿Bajarían los precios? Algunos estudios indican que los edificios nuevos moderan los alquileres cercanos. Esos estudios son de Estados Unidos. Para España no hemos encontrado uno parecido.",
+      "placeholders": [],
+      "spoken": "¿Bajarían los precios? Algunos estudios indican que los edificios nuevos moderan los alquileres cercanos. Esos estudios son de Estados Unidos. Para España no hemos encontrado uno parecido."
+    },
+    {
+      "id": "s3-10",
+      "section": 3,
+      "screen": "s3-p1",
+      "text": "Construir también permite que más gente se independice. Cada persona que se independiza forma un hogar nuevo. Por eso la brecha puede tardar en bajar, aunque construir funcione.",
+      "placeholders": [],
+      "spoken": "Construir también permite que más gente se independice. Cada persona que se independiza forma un hogar nuevo. Por eso la brecha puede tardar en bajar, aunque construir funcione."
+    },
+    {
+      "id": "s3-11",
+      "section": 3,
+      "screen": "s3-p1",
+      "text": "¿Dónde? Según el Banco de España, los planes urbanísticos permiten unos 7 millones de viviendas en todo el país. En las seis grandes áreas urbanas, solo 1,1 millones. En esas seis áreas vive el 36% de los hogares. Vox pide más suelo, más altura y más densidad.",
+      "placeholders": [],
+      "spoken": "¿Dónde? Según el Banco de España, los planes urbanísticos permiten unos 7 millones de viviendas en todo el país. En las seis grandes áreas urbanas, solo 1,1 millones. En esas seis áreas vive el 36% de los hogares. Vox pide más suelo, más altura y más densidad."
+    },
+    {
+      "id": "s3-12",
+      "section": 3,
+      "screen": "s3-p1",
+      "text": "¿Para quién? Unas 450.000 viviendas nuevas siguen sin vender. Según el Banco de España, muchas de esas viviendas están en mal sitio o en mal estado.",
+      "placeholders": [],
+      "spoken": "¿Para quién? Unas 450.000 viviendas nuevas siguen sin vender. Según el Banco de España, muchas de esas viviendas están en mal sitio o en mal estado."
+    },
+    {
+      "id": "s3-13",
+      "section": 3,
+      "screen": "s3-p1",
+      "text": "¿Para cuándo? En Madrid, los desarrollos del Sureste aparecen en el plan general de 1997. La primera fase de uno de esos desarrollos se autorizó en 2025. Según el Banco de España, convertir suelo en edificable puede durar más de una década.",
+      "placeholders": [],
+      "spoken": "¿Para cuándo? En Madrid, los desarrollos del Sureste aparecen en el plan general de 1997. La primera fase de uno de esos desarrollos se autorizó en 2025. Según el Banco de España, convertir suelo en edificable puede durar más de una década."
+    },
+    {
+      "id": "s3-14",
+      "section": 3,
+      "screen": "s3-p1",
+      "text": "Qué significa todo esto. Construir es necesario. Pero construir es lento, y el suelo disponible no está donde falta vivienda. Por sí sola, esa palanca llega tarde y no siempre al sitio correcto.",
+      "placeholders": [],
+      "spoken": "Qué significa todo esto. Construir es necesario. Pero construir es lento, y el suelo disponible no está donde falta vivienda. Por sí sola, esa palanca llega tarde y no siempre al sitio correcto."
+    },
+    {
+      "id": "s4-01",
+      "section": 4,
+      "screen": "s4-p1",
+      "text": "Segunda frase: que se usen las vacías. Lo que acierta: esas viviendas ya están construidas.",
+      "placeholders": [],
+      "spoken": "Segunda frase: que se usen las vacías. Lo que acierta: esas viviendas ya están construidas."
+    },
+    {
+      "id": "s4-02",
+      "section": 4,
+      "screen": "s4-p1",
+      "text": "¿Qué cuenta el censo como vivienda vacía? Una vivienda sin contrato de luz, o con un consumo muy bajo. El dato no distingue un piso cerrado de una ruina. Y el consumo medido es de 2020.",
+      "placeholders": [],
+      "spoken": "¿Qué cuenta el censo como vivienda vacía? Una vivienda sin contrato de luz, o con un consumo muy bajo. El dato no distingue un piso cerrado de una ruina. Y el consumo medido es de 2020."
+    },
+    {
+      "id": "s4-03",
+      "section": 4,
+      "screen": "s4-p1",
+      "text": "¿Dónde? El 45% de las vacías está en municipios de menos de 10.000 habitantes. En esos municipios vive el 20% de la población.",
+      "placeholders": [],
+      "spoken": "¿Dónde? El 45% de las vacías está en municipios de menos de 10.000 habitantes. En esos municipios vive el 20% de la población."
+    },
+    {
+      "id": "s4-04",
+      "section": 4,
+      "screen": "s4-p1",
+      "text": "¿Cuántas viviendas? Las ciudades de más de 250.000 habitantes suman unas 400.000 vacías. Aunque todas sirvieran, cubrirían algo más de la mitad del déficit.",
+      "placeholders": [],
+      "spoken": "¿Cuántas viviendas? Las ciudades de más de 250.000 habitantes suman unas 400.000 vacías. Aunque todas sirvieran, cubrirían algo más de la mitad del déficit."
+    },
+    {
+      "id": "s4-05",
+      "section": 4,
+      "screen": "s4-p1",
+      "text": "¿Para quién? La pregunta es si un impuesto devuelve esas viviendas al mercado. Cataluña tiene uno. Una evaluación de Ivàlua lo asocia a más alquiler asequible, con sesgos que la propia evaluación admite. Pero esa evaluación no halla un efecto significativo en el número de vacías.",
+      "placeholders": [],
+      "spoken": "¿Para quién? La pregunta es si un impuesto devuelve esas viviendas al mercado. Cataluña tiene uno. Una evaluación de Ivàlua lo asocia a más alquiler asequible, con sesgos que la propia evaluación admite. Pero esa evaluación no halla un efecto significativo en el número de vacías."
+    },
+    {
+      "id": "s4-06",
+      "section": 4,
+      "screen": "s4-p1",
+      "text": "Vancouver es el caso más favorable. Según la ciudad, sus viviendas vacías bajaron del 0,9% al 0,5% entre 2017 y 2024. La propia ciudad admite que el efecto del impuesto es difícil de aislar.",
+      "placeholders": [],
+      "spoken": "Vancouver es el caso más favorable. Según la ciudad, sus viviendas vacías bajaron del 0,9% al 0,5% entre 2017 y 2024. La propia ciudad admite que el efecto del impuesto es difícil de aislar."
+    },
+    {
+      "id": "s4-07",
+      "section": 4,
+      "screen": "s4-p1",
+      "text": "¿Para cuándo? Las vacías ya están ahí, y esa es su ventaja. Pero presionar a sus dueños lleva tiempo. Un decreto del Gobierno de octubre prevé un recargo del IBI a las viviendas vacías más de dos años. La Diputación Permanente debía votarlo el 12 de noviembre. Ese decreto usa otra definición que el censo.",
+      "placeholders": [],
+      "spoken": "¿Para cuándo? Las vacías ya están ahí, y esa es su ventaja. Pero presionar a sus dueños lleva tiempo. Un decreto del Gobierno de octubre prevé un recargo del I-B-I a las viviendas vacías más de dos años. La Diputación Permanente debía votarlo el 12 de noviembre. Ese decreto usa otra definición que el censo."
+    },
+    {
+      "id": "s4-08",
+      "section": 4,
+      "screen": "s4-p1",
+      "text": "Qué significa todo esto. Las vacías existen, pero la mayoría está donde no falta vivienda. Y nadie ha demostrado todavía cómo devolverlas al mercado. Por sí sola, esa palanca cubre una parte del déficit, en algunas ciudades.",
+      "placeholders": [],
+      "spoken": "Qué significa todo esto. Las vacías existen, pero la mayoría está donde no falta vivienda. Y nadie ha demostrado todavía cómo devolverlas al mercado. Por sí sola, esa palanca cubre una parte del déficit, en algunas ciudades."
+    },
+    {
+      "id": "s5-01",
+      "section": 5,
+      "screen": "s5-p1",
+      "text": "Tercera frase: prohibir los pisos turísticos. Lo que acierta: el mejor estudio causal de este vídeo trata de pisos turísticos. En Barcelona, hasta 2016, Airbnb subió los alquileres anunciados un 1,9% en el barrio medio. En los barrios más afectados, la subida fue del 7%. Los propios autores advierten de que Airbnb no explica la mayor parte de la subida.",
+      "placeholders": [],
+      "spoken": "Tercera frase: prohibir los pisos turísticos. Lo que acierta: el mejor estudio causal de este vídeo trata de pisos turísticos. En Barcelona, hasta 2016, Airbnb subió los alquileres anunciados un 1,9% en el barrio medio. En los barrios más afectados, la subida fue del 7%. Los propios autores advierten de que Airbnb no explica la mayor parte de la subida."
+    },
+    {
+      "id": "s5-02",
+      "section": 5,
+      "screen": "s5-p1",
+      "text": "¿Cuántas viviendas? El INE contó 341.001 anuncios en mayo de 2026, el 1,28% de las viviendas. El INE cuenta anuncios en plataformas, no pisos. Aunque todos pasaran a vivienda habitual, cubrirían cerca del 45% del déficit. Y solo una vez.",
+      "placeholders": [],
+      "spoken": "¿Cuántas viviendas? El INE contó 341.001 anuncios en mayo de 2026, el 1,28% de las viviendas. El INE cuenta anuncios en plataformas, no pisos. Aunque todos pasaran a vivienda habitual, cubrirían cerca del 45% del déficit. Y solo una vez."
+    },
+    {
+      "id": "s5-03",
+      "section": 5,
+      "screen": "s5-p1",
+      "text": "¿Dónde? Aquí está el giro. En la provincia de Madrid, los pisos turísticos son el 0,45% de las viviendas.",
+      "placeholders": [],
+      "spoken": "¿Dónde? Aquí está el giro. En la provincia de Madrid, los pisos turísticos son el 0,45% de las viviendas."
+    },
+    {
+      "id": "s5-04",
+      "section": 5,
+      "screen": "s5-p1",
+      "text": "Pero mira el alquiler. Según el Banco de España, los pisos turísticos son cerca del 11% del alquiler en España. Esos datos no incluyen todo el alquiler, así que pueden inflar el porcentaje. En el centro de Málaga y en el de Sevilla, el peso ronda el 45%. En el centro de Barcelona, el 22%.",
+      "placeholders": [],
+      "spoken": "Pero mira el alquiler. Según el Banco de España, los pisos turísticos son cerca del 11% del alquiler en España. Esos datos no incluyen todo el alquiler, así que pueden inflar el porcentaje. En el centro de Málaga y en el de Sevilla, el peso ronda el 45%. En el centro de Barcelona, el 22%."
+    },
+    {
+      "id": "s5-05",
+      "section": 5,
+      "screen": "s5-p1",
+      "text": "Las dos cosas son ciertas. Para la cuenta nacional, los pisos turísticos pesan poco. Para algunos barrios, quizá son lo que más importa.",
+      "placeholders": [],
+      "spoken": "Las dos cosas son ciertas. Para la cuenta nacional, los pisos turísticos pesan poco. Para algunos barrios, quizá son lo que más importa."
+    },
+    {
+      "id": "s5-06",
+      "section": 5,
+      "screen": "s5-p1",
+      "text": "¿Para quién? Depende de adónde vayan esos pisos. Los anuncios ya bajan: 40.000 menos en un año. El Ministerio atribuye la caída a sus medidas. El Banco de España apunta también a restricciones locales y al alquiler de temporada. Nadie ha medido adónde fueron esos pisos.",
+      "placeholders": [],
+      "spoken": "¿Para quién? Depende de adónde vayan esos pisos. Los anuncios ya bajan: 40.000 menos en un año. El Ministerio atribuye la caída a sus medidas. El Banco de España apunta también a restricciones locales y al alquiler de temporada. Nadie ha medido adónde fueron esos pisos."
+    },
+    {
+      "id": "s5-07",
+      "section": 5,
+      "screen": "s5-p1",
+      "text": "¿Para cuándo? Barcelona dejará de renovar unas 10.000 licencias desde noviembre de 2028. El Constitucional avaló el decreto catalán en 2025. Algunos dueños pueden pedir hasta cinco años más. Barcelona será el experimento que todavía no tenemos.",
+      "placeholders": [],
+      "spoken": "¿Para cuándo? Barcelona dejará de renovar unas 10.000 licencias desde noviembre de 2028. El Constitucional avaló el decreto catalán en 2025. Algunos dueños pueden pedir hasta cinco años más. Barcelona será el experimento que todavía no tenemos."
+    },
+    {
+      "id": "s5-08",
+      "section": 5,
+      "screen": "s5-p1",
+      "text": "Prohibir tampoco es la única opción. El decreto de octubre prevé subir el IVA de estos pisos al 10%. Vox pide regular «la proliferación masiva» e inspeccionar los pisos ilegales.",
+      "placeholders": [],
+      "spoken": "Prohibir tampoco es la única opción. El decreto de octubre prevé subir el IVA de estos pisos al 10%. Vox pide regular «la proliferación masiva» e inspeccionar los pisos ilegales."
+    },
+    {
+      "id": "s5-09",
+      "section": 5,
+      "screen": "s5-p1",
+      "text": "Qué significa todo esto. Limitar los pisos turísticos puede aliviar algunos barrios. Para el país, esa medida mueve pocas viviendas, y solo una vez. Por sí sola, esa palanca resuelve un problema local.",
+      "placeholders": [],
+      "spoken": "Qué significa todo esto. Limitar los pisos turísticos puede aliviar algunos barrios. Para el país, esa medida mueve pocas viviendas, y solo una vez. Por sí sola, esa palanca resuelve un problema local."
+    },
+    {
+      "id": "s6-01",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "Quedan tres frases más, con las mismas cuatro preguntas.",
+      "placeholders": [],
+      "spoken": "Quedan tres frases más, con las mismas cuatro preguntas."
+    },
+    {
+      "id": "s6-02",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "Cuarta frase: «topar los alquileres». Y su contraria: «eliminar los topes». El Gobierno defiende su ley de vivienda de 2023. Vox quiere derogar los topes y endurecer la respuesta a la okupación. Según Vox, así volvería el alquiler de larga duración.",
+      "placeholders": [],
+      "spoken": "Cuarta frase: «topar los alquileres». Y su contraria: «eliminar los topes». El Gobierno defiende su ley de vivienda de 2023. Vox quiere derogar los topes y endurecer la respuesta a la okupación. Según Vox, así volvería el alquiler de larga duración."
+    },
+    {
+      "id": "s6-03",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "¿Dónde? En septiembre, los topes se aplicaban en 317 municipios de cinco comunidades. De esos municipios, 271 están en Cataluña. En Madrid, ninguno.",
+      "placeholders": [],
+      "spoken": "¿Dónde? En septiembre, los topes se aplicaban en 317 municipios de cinco comunidades. De esos municipios, 271 están en Cataluña. En Madrid, ninguno."
+    },
+    {
+      "id": "s6-04",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "¿Cuántas viviendas? Aquí la pregunta es cuántos pisos siguen en alquiler. Y los estudios discrepan. Dos equipos estudiaron el tope catalán de 2020. Los dos equipos hallan precios cerca de un 5% menores.",
+      "placeholders": [],
+      "spoken": "¿Cuántas viviendas? Aquí la pregunta es cuántos pisos siguen en alquiler. Y los estudios discrepan. Dos equipos estudiaron el tope catalán de 2020. Los dos equipos hallan precios cerca de un 5% menores."
+    },
+    {
+      "id": "s6-05",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "Uno de esos equipos ve entre un 10% y un 20% menos de contratos nuevos, según el cálculo. El otro equipo, con más meses de datos, no ve caída de contratos ni de pisos alquilados.",
+      "placeholders": [],
+      "spoken": "Uno de esos equipos ve entre un 10% y un 20% menos de contratos nuevos, según el cálculo. El otro equipo, con más meses de datos, no ve caída de contratos ni de pisos alquilados."
+    },
+    {
+      "id": "s6-06",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "Del tope actual no hemos encontrado una evaluación causal. Los contratos firmados están en mínimos desde 2010. Pero esa caída empezó antes del tope.",
+      "placeholders": [],
+      "spoken": "Del tope actual no hemos encontrado una evaluación causal. Los contratos firmados están en mínimos desde 2010. Pero esa caída empezó antes del tope."
+    },
+    {
+      "id": "s6-07",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "¿Para quién? Uno de cada cinco hogares vive de alquiler. Según el Banco de España, los topes ayudan sobre todo a quien ya tiene contrato. ¿Para cuándo? A largo plazo, advierte el Banco de España, la oferta nueva puede caer. Algunos pisos pueden pasar a turístico, a temporada o a venta.",
+      "placeholders": [],
+      "spoken": "¿Para quién? Uno de cada cinco hogares vive de alquiler. Según el Banco de España, los topes ayudan sobre todo a quien ya tiene contrato. ¿Para cuándo? A largo plazo, advierte el Banco de España, la oferta nueva puede caer. Algunos pisos pueden pasar a turístico, a temporada o a venta."
+    },
+    {
+      "id": "s6-08",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "Qué significa todo esto. Los topes protegen a quien ya alquila. Para quien busca piso, el efecto es dudoso. Los datos miden ese coste. Cómo repartir ese coste es una decisión política. Por sí sola, esa palanca reparte el problema, pero no lo reduce.",
+      "placeholders": [],
+      "spoken": "Qué significa todo esto. Los topes protegen a quien ya alquila. Para quien busca piso, el efecto es dudoso. Los datos miden ese coste. Cómo repartir ese coste es una decisión política. Por sí sola, esa palanca reparte el problema, pero no lo reduce."
+    },
+    {
+      "id": "s6-09",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "Quinta frase: «limitar la compra a extranjeros». PSOE y Vox proponen gravar más a los compradores de fuera de la UE, con medidas distintas.",
+      "placeholders": [],
+      "spoken": "Quinta frase: «limitar la compra a extranjeros». PSOE y Vox proponen gravar más a los compradores de fuera de la UE, con medidas distintas."
+    },
+    {
+      "id": "s6-10",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "¿Cuántas viviendas? Los no residentes compraron unas 52.800 viviendas en 2025, cerca del 7% de las ventas. Los compradores de fuera de la UE compraron unas 18.800 en 2024, según notarios citados por idealista.",
+      "placeholders": [],
+      "spoken": "¿Cuántas viviendas? Los no residentes compraron unas 52.800 viviendas en 2025, cerca del 7% de las ventas. Los compradores de fuera de la UE compraron unas 18.800 en 2024, según notarios citados por idealista."
+    },
+    {
+      "id": "s6-11",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "¿Dónde? En Alicante, los no residentes hacen el 33% de las compraventas. En Málaga, el 28%. En la provincia de Madrid, el 1,6%.",
+      "placeholders": [],
+      "spoken": "¿Dónde? En Alicante, los no residentes hacen el 33% de las compraventas. En Málaga, el 28%. En la provincia de Madrid, el 1,6%."
+    },
+    {
+      "id": "s6-12",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "¿Para quién? Para quien busca casa en esa costa. Pero no sabemos qué parte de esas compras compite con esa persona. ¿Para cuándo? Por ahora, esta frase es una proposición y un programa, sin evaluación española.",
+      "placeholders": [],
+      "spoken": "¿Para quién? Para quien busca casa en esa costa. Pero no sabemos qué parte de esas compras compite con esa persona. ¿Para cuándo? Por ahora, esta frase es una proposición y un programa, sin evaluación española."
+    },
+    {
+      "id": "s6-13",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "Qué significa todo esto. Limitar a los compradores extranjeros cambiaría algo en la costa. En el resto del país, esas compras son pocas. Por sí sola, esa palanca toca una parte pequeña del mercado.",
+      "placeholders": [],
+      "spoken": "Qué significa todo esto. Limitar a los compradores extranjeros cambiaría algo en la costa. En el resto del país, esas compras son pocas. Por sí sola, esa palanca toca una parte pequeña del mercado."
+    },
+    {
+      "id": "s6-14",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "Sexta frase: «más vivienda pública». Lo que acierta: esta frase es la única que dice de entrada para quién.",
+      "placeholders": [],
+      "spoken": "Sexta frase: «más vivienda pública». Lo que acierta: esta frase es la única que dice de entrada para quién."
+    },
+    {
+      "id": "s6-15",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "¿Cuántas viviendas? La vivienda pública es el 1,5% de las viviendas principales. La media que da el Banco de España ronda el 7%. Por nuestra cuenta, llegar a ese 7% exige 1,1 millones de viviendas.",
+      "placeholders": [],
+      "spoken": "¿Cuántas viviendas? La vivienda pública es el 1,5% de las viviendas principales. La media que da el Banco de España ronda el 7%. Por nuestra cuenta, llegar a ese 7% exige 1,1 millones de viviendas."
+    },
+    {
+      "id": "s6-16",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "Las 184.000 viviendas del Gobierno nos llevarían a cerca del 2,4%. Y ese cálculo supone que todas fueran nuevas en el parque público.",
+      "placeholders": [],
+      "spoken": "Las 184.000 viviendas del Gobierno nos llevarían a cerca del 2,4%. Y ese cálculo supone que todas fueran nuevas en el parque público."
+    },
+    {
+      "id": "s6-17",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "¿Por qué el parque público es tan pequeño? España construyó más de 1,3 millones de viviendas protegidas entre 1991 y 2015. La mayoría de esas viviendas se vendieron. Su protección tenía fecha de caducidad.",
+      "placeholders": [],
+      "spoken": "¿Por qué el parque público es tan pequeño? España construyó más de 1,3 millones de viviendas protegidas entre 1991 y 2015. La mayoría de esas viviendas se vendieron. Su protección tenía fecha de caducidad."
+    },
+    {
+      "id": "s6-18",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "¿Para cuándo? En 2025 se terminaron 11.000 viviendas protegidas. En los noventa, la media era de 62.000 al año. A 11.000 al año, llegar al 7% llevaría un siglo. Al ritmo de los noventa, y sin vender ninguna, unos 18 años.",
+      "placeholders": [],
+      "spoken": "¿Para cuándo? En 2025 se terminaron 11.000 viviendas protegidas. En los noventa, la media era de 62.000 al año. A 11.000 al año, llegar al 7% llevaría un siglo. Al ritmo de los noventa, y sin vender ninguna, unos 18 años."
+    },
+    {
+      "id": "s6-19",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "¿Para quién, exactamente? Aquí los partidos discrepan. Casa 47 admite rentas de 2 a 7,5 veces el IPREM. Vox quiere vivienda protegida «para las familias españolas». Sumar pedía en 2023 el 1% del PIB al año.",
+      "placeholders": [],
+      "spoken": "¿Para quién, exactamente? Aquí los partidos discrepan. Casa 47 admite rentas de 2 a 7,5 veces el IPREM. Vox quiere vivienda protegida «para las familias españolas». Sumar pedía en 2023 el 1% del PIB al año."
+    },
+    {
+      "id": "s6-20",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "Qué significa todo esto. La vivienda pública apunta a quien más lo necesita. Pero partir del 1,5% exige décadas de constancia. Por sí sola, esa palanca tarda una generación.",
+      "placeholders": [],
+      "spoken": "Qué significa todo esto. La vivienda pública apunta a quien más lo necesita. Pero partir del 1,5% exige décadas de constancia. Por sí sola, esa palanca tarda una generación."
+    },
+    {
+      "id": "s6-21",
+      "section": 6,
+      "screen": "s6-p1",
+      "text": "Dos temas se quedan fuera: quién es dueño de las viviendas y los impagos. Esos temas importan, pero no caben hoy.",
+      "placeholders": [],
+      "spoken": "Dos temas se quedan fuera: quién es dueño de las viviendas y los impagos. Esos temas importan, pero no caben hoy."
+    },
+    {
+      "id": "s7-01",
+      "section": 7,
+      "screen": "s7-p1",
+      "text": "Terminamos con una cuenta rara. El censo de 2021 contó 26,6 millones de viviendas y 18,5 millones de hogares. Sobre el papel, sobran viviendas.",
+      "placeholders": [],
+      "spoken": "Terminamos con una cuenta rara. El censo de 2021 contó 26,6 millones de viviendas y 18,5 millones de hogares. Sobre el papel, sobran viviendas."
+    },
+    {
+      "id": "s7-02",
+      "section": 7,
+      "screen": "s7-p1",
+      "text": "Sin embargo, en 2025 aparecieron unos 240.000 hogares nuevos. Ese mismo año se terminaron unas 92.000 viviendas. ¿Dónde vive la mayoría de esos hogares nuevos?",
+      "placeholders": [],
+      "spoken": "Sin embargo, en 2025 aparecieron unos 240.000 hogares nuevos. Ese mismo año se terminaron unas 92.000 viviendas. ¿Dónde vive la mayoría de esos hogares nuevos?"
+    },
+    {
+      "id": "s7-03",
+      "section": 7,
+      "screen": "s7-p1",
+      "text": "El Banco de España estima que al menos un 60% de esos hogares entró en viviendas que ya existían. Esas viviendas tenían antes otro uso. Así que parte de «que se usen las vacías» ya está pasando, sin decreto.",
+      "placeholders": [],
+      "spoken": "El Banco de España estima que al menos un 60% de esos hogares entró en viviendas que ya existían. Esas viviendas tenían antes otro uso. Así que parte de «que se usen las vacías» ya está pasando, sin decreto."
+    },
+    {
+      "id": "s7-04",
+      "section": 7,
+      "screen": "s7-p1",
+      "text": "Pero ese cambio no pasa donde hace falta. En Madrid, las viviendas sin uso residencial son el 9,9%. En Zamora, el 50,5%.",
+      "placeholders": [],
+      "spoken": "Pero ese cambio no pasa donde hace falta. En Madrid, las viviendas sin uso residencial son el 9,9%. En Zamora, el 50,5%."
+    },
+    {
+      "id": "s7-05",
+      "section": 7,
+      "screen": "s7-p1",
+      "text": "Una advertencia. Ese 60% sale de una resta, no de un recuento. Desde 2021, nadie cuenta estas viviendas. Según la serie oficial que uses, el déficit va de unas 570.000 a unas 840.000 viviendas. Algunos investigadores, como Arellano y Roca, niegan que haya un déficit grave. El próximo censo debería aclararlo.",
+      "placeholders": [],
+      "spoken": "Una advertencia. Ese 60% sale de una resta, no de un recuento. Desde 2021, nadie cuenta estas viviendas. Según la serie oficial que uses, el déficit va de unas 570.000 a unas 840.000 viviendas. Algunos investigadores, como Arellano y Roca, niegan que haya un déficit grave. El próximo censo debería aclararlo."
+    },
+    {
+      "id": "s7-06",
+      "section": 7,
+      "screen": "s7-p1",
+      "text": "Qué significa todo esto. Las palancas ya se mezclan solas. Las viviendas nuevas y las que cambian de uso suman a la vez. Y aun así, la cuenta no cuadra donde más falta vivienda.",
+      "placeholders": [],
+      "spoken": "Qué significa todo esto. Las palancas ya se mezclan solas. Las viviendas nuevas y las que cambian de uso suman a la vez. Y aun así, la cuenta no cuadra donde más falta vivienda."
+    },
+    {
+      "id": "s8-01",
+      "section": 8,
+      "screen": "s8-p1",
+      "text": "Repasemos las seis palancas. Construir es necesario, pero lento. Las vacías ayudan en algunas ciudades. Limitar los pisos turísticos alivia algunos barrios.",
+      "placeholders": [],
+      "spoken": "Repasemos las seis palancas. Construir es necesario, pero lento. Las vacías ayudan en algunas ciudades. Limitar los pisos turísticos alivia algunos barrios."
+    },
+    {
+      "id": "s8-02",
+      "section": 8,
+      "screen": "s8-p1",
+      "text": "Los topes protegen a quien ya alquila. Limitar a los compradores extranjeros toca sobre todo la costa. Y la vivienda pública tarda décadas.",
+      "placeholders": [],
+      "spoken": "Los topes protegen a quien ya alquila. Limitar a los compradores extranjeros toca sobre todo la costa. Y la vivienda pública tarda décadas."
+    },
+    {
+      "id": "s8-03",
+      "section": 8,
+      "screen": "s8-p1",
+      "text": "Cada palanca hace algo real. Ninguna palanca cierra la cuenta sola.",
+      "placeholders": [],
+      "spoken": "Cada palanca hace algo real. Ninguna palanca cierra la cuenta sola."
+    },
+    {
+      "id": "s8-04",
+      "section": 8,
+      "screen": "s8-p1",
+      "text": "Los datos ayudan a responder cuántas viviendas, dónde y con qué efecto. Los datos no deciden a quién proteger ni quién paga. Esas decisiones se votan. Y dos personas con los mismos datos pueden discrepar.",
+      "placeholders": [],
+      "spoken": "Los datos ayudan a responder cuántas viviendas, dónde y con qué efecto. Los datos no deciden a quién proteger ni quién paga. Esas decisiones se votan. Y dos personas con los mismos datos pueden discrepar."
+    },
+    {
+      "id": "s8-05",
+      "section": 8,
+      "screen": "s8-p1",
+      "text": "La próxima vez que alguien arregle la vivienda en una frase, sea quien sea, hazle cuatro preguntas. ¿Cuántas, dónde, para quién y para cuándo? Y pregunta también qué otras palancas la acompañan.",
+      "placeholders": [],
+      "spoken": "La próxima vez que alguien arregle la vivienda en una frase, sea quien sea, hazle cuatro preguntas. ¿Cuántas, dónde, para quién y para cuándo? Y pregunta también qué otras palancas la acompañan."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>K06 Construir: cuántas</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Inter:wght@400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; background: #0B0E14; font-family: 'Inter', sans-serif; color: #EEF1F5">
+
+  <!-- R1 docked: ¿cuántas? being answered -->
+  <div style="position: absolute; right: 40px; top: 28px; display: flex; gap: 6px">
+    <div style="width: 92px; height: 30px; border-radius: 6px; background: #F2EDE4; color: #0B0E14; font: 800 13px 'Archivo'; font-stretch: 75%; display: flex; align-items: center; justify-content: center">¿CUÁNTAS?</div>
+    <div style="width: 92px; height: 30px; border-radius: 6px; border: 1.5px solid #3A4558; box-sizing: border-box; color: #8893A3; font: 800 13px 'Archivo'; font-stretch: 75%; display: flex; align-items: center; justify-content: center">¿DÓNDE?</div>
+    <div style="width: 92px; height: 30px; border-radius: 6px; border: 1.5px solid #3A4558; box-sizing: border-box; color: #8893A3; font: 800 13px 'Archivo'; font-stretch: 75%; display: flex; align-items: center; justify-content: center">¿PARA QUIÉN?</div>
+    <div style="width: 92px; height: 30px; border-radius: 6px; border: 1.5px solid #3A4558; box-sizing: border-box; color: #8893A3; font: 800 13px 'Archivo'; font-stretch: 75%; display: flex; align-items: center; justify-content: center">¿PARA CUÁNDO?</div>
+  </div>
+
+  <!-- R2 -->
+  <div style="position: absolute; left: 660px; top: 96px; width: 520px; padding: 18px 22px; border-radius: 12px; background: #121722; display: flex; flex-direction: column; gap: 10px">
+    <div style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 30px; line-height: 1.12">«Construirá un millón de viviendas en la próxima legislatura»</div>
+    <div style="font: 13px 'IBM Plex Mono'; color: #B7C0CC">PP · web del partido · 21 oct. 2026</div>
+  </div>
+
+  <svg viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Viviendas terminadas por año, 2003 a 2025, frente a la línea de 250.000" style="position: absolute; inset: 0">
+    <defs>
+      <pattern id="w" width="8" height="10" patternUnits="userSpaceOnUse"><rect width="8" height="10" fill="#15241F"></rect><rect x="2" y="3" width="4" height="4" fill="#7FE0C2" opacity="0.55"></rect></pattern>
+      <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#0B0E14"></rect><rect width="2.5" height="6" fill="#7FE0C2" opacity="0.7"></rect></pattern>
+    </defs>
+    <g fill="url(#w)" stroke="#7FE0C2" stroke-width="1.2">
+      <rect x="140" y="292" width="34" height="288"></rect><rect x="184" y="258" width="34" height="322"></rect><rect x="228" y="242" width="34" height="338"></rect>
+      <rect x="272" y="204" width="34" height="376"></rect><rect x="316" y="210" width="34" height="370"></rect><rect x="360" y="219" width="34" height="361"></rect>
+      <rect x="404" y="337" width="34" height="243"></rect><rect x="448" y="422" width="34" height="158"></rect><rect x="492" y="477" width="34" height="103"></rect>
+      <rect x="536" y="504" width="34" height="76"></rect><rect x="580" y="546" width="34" height="34"></rect><rect x="624" y="551" width="34" height="29"></rect>
+      <rect x="668" y="552" width="34" height="28"></rect><rect x="712" y="555" width="34" height="25"></rect><rect x="756" y="549" width="34" height="31"></rect>
+      <rect x="800" y="543" width="34" height="37"></rect><rect x="844" y="535" width="34" height="45"></rect><rect x="888" y="530" width="34" height="50"></rect>
+      <rect x="932" y="526" width="34" height="54"></rect><rect x="976" y="529" width="34" height="51"></rect><rect x="1020" y="529" width="34" height="51"></rect>
+      <rect x="1064" y="522" width="34" height="58"></rect>
+    </g>
+    <rect x="1108" y="527" width="34" height="53" fill="url(#hatch)" stroke="#7FE0C2" stroke-width="1.2" stroke-dasharray="3 2"></rect>
+    <!-- reflection on the plain -->
+    <g fill="#7FE0C2" opacity="0.06"><rect x="140" y="584" width="34" height="80"></rect><rect x="184" y="584" width="34" height="80"></rect><rect x="228" y="584" width="34" height="80"></rect><rect x="272" y="584" width="34" height="80"></rect><rect x="316" y="584" width="34" height="80"></rect><rect x="360" y="584" width="34" height="80"></rect><rect x="404" y="584" width="34" height="60"></rect></g>
+    <line x1="120" y1="580" x2="1170" y2="580" stroke="#5A6475" stroke-width="2"></line>
+    <!-- the promise line -->
+    <line x1="120" y1="437" x2="1170" y2="437" stroke="#F2EDE4" stroke-width="2" stroke-dasharray="8 6"></line>
+    <path d="M1158 437 L1158 527" stroke="#F2EDE4" stroke-width="1.5"></path>
+    <path d="M1152 437 L1164 437 M1152 527 L1164 527" stroke="#F2EDE4" stroke-width="1.5"></path>
+  </svg>
+
+  <div style="position: absolute; left: 254px; top: 168px; font-family: 'Archivo'; font-stretch: 72%; font-weight: 900; font-size: 30px; color: #7FE0C2">658.510</div>
+  <div style="position: absolute; left: 254px; top: 202px; font: 12px 'IBM Plex Mono'; color: #8893A3">2006</div>
+  <div style="position: absolute; left: 560px; top: 408px; font: 500 14px 'IBM Plex Mono'; color: #F2EDE4">250.000 al año = un millón en cuatro años</div>
+  <div style="position: absolute; left: 1172px; top: 466px; font-family: 'Archivo'; font-stretch: 72%; font-weight: 900; font-size: 30px; color: #F2EDE4">2,7×</div>
+  <div style="position: absolute; left: 1086px; top: 590px; font: 12px 'IBM Plex Mono'; color: #7FE0C2">2025 prov.</div>
+  <div style="position: absolute; left: 140px; top: 590px; font: 12px 'IBM Plex Mono'; color: #8893A3">2003</div>
+  <div style="position: absolute; left: 444px; top: 590px; font: 12px 'IBM Plex Mono'; color: #8893A3">2010</div>
+  <div style="position: absolute; left: 664px; top: 590px; font: 12px 'IBM Plex Mono'; color: #8893A3">2015</div>
+  <div style="position: absolute; left: 884px; top: 590px; font: 12px 'IBM Plex Mono'; color: #8893A3">2020</div>
+
+  <div style="position: absolute; left: 56px; right: 56px; bottom: 32px; padding-top: 12px; border-top: 1px solid #2A3444; font: 15px 'IBM Plex Mono'; color: #B7C0CC">Terminadas · Observatorio de Vivienda y Suelo, tabla 1.2 · 2025: Banco de España, provisional · eje desde cero</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>

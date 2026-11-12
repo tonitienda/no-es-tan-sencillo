@@ -1,0 +1,62 @@
+{
+  "title": "Vivienda",
+  "question": "Si hay 1,4 viviendas por hogar, ¿cómo pueden faltar viviendas?",
+  "script": "../03-vivienda/script/08-guion-v6.md",
+  "ledger": "../03-vivienda/research/01-source-ledger.md",
+  "pronunciation": [
+    [
+      "IBI",
+      "I-B-I"
+    ],
+    [
+      "IVA",
+      "IVA"
+    ]
+  ],
+  "outro": {
+    "title": "¿Qué frase probamos después?",
+    "question": "¿Cuántas? ¿Dónde? ¿Para quién? ¿Para cuándo?",
+    "prompt": "Y una quinta: ¿qué otras palancas la acompañan? Fuentes, fechas y registro completo en la descripción."
+  },
+  "youtube": {
+    "title": "Si hay 1,4 viviendas por hogar, ¿cómo pueden faltar viviendas?",
+    "alternatives": [
+      "1,4 viviendas por hogar. ¿Por qué faltan 750.000?",
+      "Vacías, pisos turísticos o construir: seis propuestas de vivienda, a prueba"
+    ],
+    "description": [
+      "El censo cuenta 26,6 millones de viviendas y 18,5 millones de hogares. El Banco de España calcula que faltan 750.000. Probamos seis frases de la campaña con las mismas cuatro preguntas. No decimos qué votar.",
+      "Cada cifra lleva su fuente y fecha en pantalla; las cuentas que son nuestras se dicen. Fuera de este vídeo: quién es dueño de las viviendas y los impagos."
+    ],
+    "tags": [
+      "vivienda",
+      "España",
+      "alquiler",
+      "viviendas vacías",
+      "pisos turísticos",
+      "economía",
+      "Banco de España",
+      "INE",
+      "No es tan sencillo"
+    ],
+    "hashtags": [
+      "#vivienda",
+      "#NoEsTanSencillo"
+    ],
+    "language": "español (España)",
+    "category": "Educación",
+    "ledgerUrl": null
+  },
+  "voice": {
+    "modelId": "eleven_v4",
+    "narrator": {
+      "name": "narrador v4",
+      "voiceSettings": {
+        "stability": 0.35,
+        "similarityBoost": 0.75,
+        "useSpeakerBoost": true,
+        "speed": 1
+      }
+    }
+  }
+}

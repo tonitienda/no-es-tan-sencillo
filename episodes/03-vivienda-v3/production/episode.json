@@ -1,0 +1,86 @@
+{
+  "title": "Vivienda",
+  "question": "Si hay 1,4 viviendas por hogar, ¿cómo pueden faltar viviendas?",
+  "script": "../03-vivienda/script/06-guion-v4.md",
+  "ledger": "../03-vivienda/research/01-source-ledger.md",
+  "pronunciation": [
+    [
+      "IBI",
+      "I-B-I"
+    ],
+    [
+      "IVA",
+      "IVA"
+    ]
+  ],
+  "intro": {
+    "kicker": "Vivienda",
+    "title": "Si hay 1,4 viviendas por hogar, ¿cómo pueden faltar viviendas?",
+    "premise": "Seis frases de campaña. Las mismas cuatro preguntas para todas. Ninguna palanca sola basta.",
+    "facts": [
+      {
+        "label": "Preguntas",
+        "value": "¿Cuántas? ¿Dónde? ¿Para quién? ¿Para cuándo?"
+      },
+      {
+        "label": "Datos",
+        "value": "Con fuente y fecha en pantalla"
+      },
+      {
+        "label": "Cuentas nuestras",
+        "value": "Marcadas como tales"
+      },
+      {
+        "label": "Registro",
+        "value": "Enlazado en la descripción"
+      }
+    ]
+  },
+  "outro": {
+    "title": "Gracias por vernos.",
+    "question": "¿Cuántas? ¿Dónde? ¿Para quién? ¿Para cuándo?",
+    "prompt": "Fuentes, fechas y registro completo en la descripción. ¿Qué frase probamos después?"
+  },
+  "youtube": {
+    "title": "Si hay 1,4 viviendas por hogar, ¿cómo pueden faltar viviendas?",
+    "alternatives": [
+      "Los dos grandes partidos prometen vivienda. ¿Se puede? No es tan sencillo",
+      "Construir, vaciar o prohibir: tres frases sobre vivienda, cuatro preguntas",
+      "¿Faltan viviendas en España? No es tan sencillo"
+    ],
+    "description": [
+      "«Faltan 750.000 viviendas». «Hay 3,8 millones vacías». «Los pisos turísticos han echado a los vecinos». Cada frase tira de una sola palanca, y cada palanca señala un problema real. Pero ninguna palanca sola arregla la vivienda.",
+      "No te decimos qué votar. Hacemos a cada frase las mismas cuatro preguntas: ¿cuántas?, ¿dónde?, ¿para quién? y ¿para cuándo? Cada cifra lleva su fuente y fecha en pantalla; las cuentas que son nuestras se dicen."
+    ],
+    "tags": [
+      "vivienda",
+      "España",
+      "alquiler",
+      "viviendas vacías",
+      "pisos turísticos",
+      "economía",
+      "Banco de España",
+      "INE",
+      "No es tan sencillo"
+    ],
+    "hashtags": [
+      "#vivienda",
+      "#NoEsTanSencillo"
+    ],
+    "language": "español (España)",
+    "category": "Educación",
+    "ledgerUrl": null
+  },
+  "voice": {
+    "modelId": "eleven_v4",
+    "narrator": {
+      "name": "narrador v4",
+      "voiceSettings": {
+        "stability": 0.35,
+        "similarityBoost": 0.75,
+        "useSpeakerBoost": true,
+        "speed": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,1640 @@
+{
+  "version": 1,
+  "fps": 60,
+  "resolution": {
+    "width": 3840,
+    "height": 2160
+  },
+  "defaults": {
+    "gap": 0.35,
+    "padBefore": 0.4,
+    "padAfter": 0.6,
+    "transition": 0.4
+  },
+  "beats": [
+    {
+      "id": "K01",
+      "visual": "frases",
+      "lines": [
+        "s1-01",
+        "s1-02",
+        "s1-03",
+        "s1-04"
+      ],
+      "sourceLabel": "Déficit: Banco de España · vacías: INE, censo de 2021, consumo de 2020 · turísticos: INE",
+      "sources": [],
+      "cues": {
+        "f2": "s1-02",
+        "f3": "s1-03",
+        "sky": "s1-04",
+        "preguntas": "una sola palanca"
+      },
+      "props": {
+        "mark": "estimacion",
+        "phrases": [
+          {
+            "pre": "«Faltan ",
+            "num": "750.000",
+            "post": " viviendas. La solución es evidente: construir»."
+          },
+          {
+            "pre": "«Hay ",
+            "num": "3,8 millones",
+            "post": " de viviendas vacías. La solución es evidente: que se usen»."
+          },
+          {
+            "pre": "«Los pisos turísticos han echado a los vecinos. La solución es evidente: prohibirlos».",
+            "num": "",
+            "post": ""
+          }
+        ]
+      },
+      "padAfter": 1.0
+    },
+    {
+      "id": "K02",
+      "visual": "cartela",
+      "duration": 3.2,
+      "props": {
+        "text": "NO ES TAN SENCILLO",
+        "sub": "La solución es",
+        "struck": "evidente"
+      }
+    },
+    {
+      "id": "TS",
+      "visual": "tesis",
+      "lines": [
+        "s1-05"
+      ],
+      "sourceLabel": false,
+      "sources": [],
+      "padAfter": 1.8,
+      "cues": {
+        "tesis": "Ninguna palanca"
+      },
+      "props": {
+        "line": "Ninguna palanca sola arregla la vivienda.",
+        "lineCue": "tesis"
+      }
+    },
+    {
+      "id": "AG",
+      "visual": "agenda",
+      "lines": [
+        "s1-06"
+      ],
+      "sourceLabel": false,
+      "sources": [],
+      "cues": {
+        "a0": "Primero",
+        "a1": "seis frases",
+        "a2": "seis frases",
+        "a3": "seis frases",
+        "a4": "seis frases",
+        "a5": "una cuenta",
+        "cap": "los capítulos"
+      },
+      "props": {
+        "items": [
+          {
+            "title": "Las cuatro preguntas, con un ejemplo",
+            "cue": "a0"
+          },
+          {
+            "n": "1",
+            "title": "Construir",
+            "cue": "a1"
+          },
+          {
+            "n": "2",
+            "title": "Las vacías",
+            "cue": "a2"
+          },
+          {
+            "n": "3",
+            "title": "Los pisos turísticos",
+            "cue": "a3"
+          },
+          {
+            "n": "4",
+            "title": "Otras frases de la campaña",
+            "cue": "a4"
+          },
+          {
+            "n": "5",
+            "title": "La cuenta que no cuadra",
+            "cue": "a5"
+          }
+        ],
+        "chaptersCue": "cap",
+        "chaptersText": "Si solo te interesa una frase, usa los capítulos."
+      }
+    },
+    {
+      "id": "K05",
+      "visual": "preguntas",
+      "lines": [
+        "s2-01"
+      ],
+      "sourceLabel": false,
+      "sources": [
+        "V2"
+      ],
+      "cues": {
+        "q0": "Cuántas",
+        "q1": "Dónde",
+        "q2": "Para quién",
+        "q3": "Para cuándo"
+      },
+      "props": {}
+    },
+    {
+      "id": "EJ",
+      "visual": "ejemplo",
+      "lines": [
+        "s2-02",
+        "s2-03",
+        "s2-04",
+        "s2-05",
+        "s2-06"
+      ],
+      "sourceLabel": "Déficit y reparto: Banco de España, Informe Anual 2025 · hogares: INE · sobrecarga: Eurostat, 2025",
+      "sources": [
+        "V7",
+        "V2",
+        "V35"
+      ],
+      "cues": {
+        "q0": "Cuántas",
+        "a0": "Unas 750.000",
+        "q1": "Dónde",
+        "a1": "Sobre todo en las grandes",
+        "q2": "Para quién",
+        "a2": "Sobre todo para quien",
+        "q3": "Para cuándo",
+        "a3": "Para ya"
+      },
+      "props": {
+        "quote": "Hay que construir.",
+        "who": "frase resumida por nosotros",
+        "mark": "estimacion",
+        "rows": [
+          {
+            "ask": "q0",
+            "cue": "a0",
+            "answer": "~750.000 viviendas",
+            "detail": "Hogares más pequeños: de 3,82 personas en 1970 a 2,49 hoy."
+          },
+          {
+            "ask": "q1",
+            "cue": "a1",
+            "answer": "Grandes ciudades y costa",
+            "detail": "Madrid, Barcelona, Alicante, València, Murcia y Málaga: el 52,5% del déficit."
+          },
+          {
+            "ask": "q2",
+            "cue": "a2",
+            "answer": "Sobre todo, quien alquila",
+            "detail": "El 26,8% dedica más del 40% de sus ingresos; en la zona euro, el 18%. Todos los hogares: 7,2%, bajo la media."
+          },
+          {
+            "ask": "q3",
+            "cue": "a3",
+            "answer": "Ya",
+            "detail": "Cada año aparecen más hogares que viviendas terminadas."
+          }
+        ],
+        "outro": null,
+        "outroCue": null
+      },
+      "padAfter": 1.0
+    },
+    {
+      "id": "R0",
+      "visual": "resumen",
+      "lines": [
+        "s2-07"
+      ],
+      "sourceLabel": false,
+      "sources": [],
+      "padAfter": 1.8,
+      "cues": {
+        "p0": "grande y urgente",
+        "p1": "en las ciudades",
+        "p2": "golpea",
+        "v": "Una palanca"
+      },
+      "props": {
+        "title": "El problema",
+        "points": [
+          {
+            "text": "Grande y urgente.",
+            "cue": "p0"
+          },
+          {
+            "text": "Sobre todo, en las ciudades.",
+            "cue": "p1"
+          },
+          {
+            "text": "Sobre todo, para quien alquila.",
+            "cue": "p2"
+          }
+        ],
+        "verdict": "Una palanca útil tiene que responder a las cuatro preguntas.",
+        "verdictCue": "v"
+      }
+    },
+    {
+      "id": "SP1",
+      "visual": "splash",
+      "duration": 2.6,
+      "section": 3,
+      "sourceLabel": false,
+      "props": {
+        "n": "1",
+        "of": "5",
+        "title": "Construir",
+        "sub": "«Faltan 750.000 viviendas»"
+      }
+    },
+    {
+      "id": "E10",
+      "visual": "frase",
+      "lines": [
+        "s3-01"
+      ],
+      "sourceLabel": false,
+      "sources": [],
+      "cues": {
+        "acierta": "Lo que acierta"
+      },
+      "props": {
+        "kicker": "Primera frase",
+        "quote": "Faltan 750.000 viviendas. La solución es evidente: construir.",
+        "who": "frase resumida por nosotros",
+        "right": "Sin viviendas nuevas, el déficit no se cierra.",
+        "r1": "pppp"
+      }
+    },
+    {
+      "id": "PR",
+      "visual": "promesas",
+      "lines": [
+        "s3-02",
+        "s3-03",
+        "s3-04",
+        "s3-05"
+      ],
+      "sourceLabel": "Gobierno, 2023, y ministra: según idealista · El Español, abril de 2026 · protegidas: Banco de España · PP: web del partido",
+      "sources": [
+        "V37",
+        "V32",
+        "V7"
+      ],
+      "cues": {
+        "psoe": "184.000",
+        "pp": "un millón",
+        "entregado": "se han entregado",
+        "m": "unas 100.000",
+        "ee": "49.000",
+        "bde": "11.000",
+        "prometer": "Prometer viviendas",
+        "r2018": "2018",
+        "c0": "Es posible",
+        "c1": "Es sostenible",
+        "c2": "Bajarían"
+      },
+      "props": {
+        "r1": "pppp",
+        "focus": 0,
+        "left": {
+          "quote": "Unas 184.000 viviendas asequibles, sumando tres fuentes.",
+          "who": "Gobierno de Pedro Sánchez (PSOE) · 2023 · según idealista",
+          "cue": "psoe"
+        },
+        "right": {
+          "quote": "«Construirá un millón de viviendas en la próxima legislatura»",
+          "who": "PP · web del partido · 21 oct. 2026",
+          "cue": "pp"
+        },
+        "deliveredTitle": "¿Cuánto se ha entregado? Sin recuento oficial",
+        "deliveredCue": "entregado",
+        "delivered": [
+          {
+            "value": "~100.000",
+            "label": "según la ministra; sin método publicado",
+            "cue": "m",
+            "mark": "segun"
+          },
+          {
+            "value": "~49.000",
+            "label": "protegidas desde 2021, recuento de El Español",
+            "cue": "ee",
+            "mark": "segun"
+          },
+          {
+            "value": "11.000",
+            "label": "protegidas terminadas en 2025, en toda España",
+            "cue": "bde"
+          }
+        ],
+        "statement": "Prometer es mucho más fácil que entregar.",
+        "statementCue": "prometer",
+        "noRecord": {
+          "title": "No gobierna España desde 2018",
+          "body": "Sin historial nacional que medir: probamos la capacidad del país.",
+          "cue": "r2018"
+        },
+        "chain": [
+          {
+            "text": "¿Es posible?",
+            "cue": "c0"
+          },
+          {
+            "text": "¿Es sostenible?",
+            "cue": "c1"
+          },
+          {
+            "text": "¿Bajarían los precios?",
+            "cue": "c2"
+          }
+        ]
+      },
+      "pauseAfter": {
+        "s3-03": 1.0
+      }
+    },
+    {
+      "id": "K06",
+      "visual": "construir",
+      "lines": [
+        "s3-06",
+        "s3-07",
+        "s3-08"
+      ],
+      "sourceLabel": "Terminadas · Observatorio de Vivienda y Suelo, tabla 1.2 · 2025: Banco de España, provisional · visados: Alimarket · eje desde cero",
+      "sources": [
+        "V8",
+        "V7",
+        "V33",
+        "V32"
+      ],
+      "cues": {
+        "promesa": "un millón",
+        "linea": "250.000 viviendas al año",
+        "veces": "2,7 veces",
+        "pasado": "de 2003 a 2010",
+        "maximo": "650.000",
+        "cuenta": "Una cuenta nuestra",
+        "cien": "unos 100.000",
+        "visados": "139.000"
+      },
+      "props": {
+        "r1": "pppp",
+        "focus": 0
+      },
+      "padAfter": 1.0
+    },
+    {
+      "id": "PRC",
+      "visual": "dato",
+      "lines": [
+        "s3-09",
+        "s3-10"
+      ],
+      "sourceLabel": "Estudios de Estados Unidos sobre edificios nuevos y alquileres cercanos",
+      "sources": [
+        "V16"
+      ],
+      "cues": {
+        "esp": "Para España",
+        "hog": "Construir también"
+      },
+      "props": {
+        "r1": "pppp",
+        "focus": -1,
+        "quoteLines": [
+          {
+            "text": "Edificios nuevos moderan los alquileres cercanos, en Estados Unidos.",
+            "cue": "start"
+          },
+          {
+            "text": "Para España, no hemos encontrado un estudio parecido.",
+            "cue": "esp"
+          }
+        ],
+        "statement": "Construir también crea hogares: la brecha puede tardar en bajar aunque funcione.",
+        "statementCue": "hog"
+      }
+    },
+    {
+      "id": "K07",
+      "visual": "suelo",
+      "lines": [
+        "s3-11"
+      ],
+      "sourceLabel": "Banco de España · Informe Anual 2025, con datos del SIU · área del círculo ∝ viviendas posibles",
+      "sources": [
+        "V7",
+        "V14"
+      ],
+      "cues": {
+        "siete": "7 millones",
+        "seis": "1,1 millones",
+        "vox": "Vox"
+      },
+      "props": {
+        "mark": "estimacion",
+        "r1": "rppp",
+        "focus": 1
+      }
+    },
+    {
+      "id": "E13",
+      "visual": "dato",
+      "lines": [
+        "s3-12"
+      ],
+      "sourceLabel": "Banco de España · Informe Anual 2025",
+      "sources": [],
+      "cues": {
+        "cifra": "450.000"
+      },
+      "props": {
+        "r1": "rrpp",
+        "focus": 2,
+        "mark": "estimacion",
+        "figure": "~450.000",
+        "figureColor": "terminadas",
+        "label": "viviendas nuevas sin vender",
+        "note": "Muchas, en mal sitio o en mal estado, según el Banco de España.",
+        "statement": null,
+        "statementCue": null
+      }
+    },
+    {
+      "id": "E14",
+      "visual": "plazo",
+      "lines": [
+        "s3-13"
+      ],
+      "sourceLabel": "Madrid: Desarrollos del Sureste · Barcelona: plan metropolitano (Ara, feb. 2026) · Banco de España",
+      "sources": [
+        "V15",
+        "V35"
+      ],
+      "cues": {
+        "aprobado": "1997",
+        "fase": "2025",
+        "decada": "más de una década"
+      },
+      "props": {
+        "r1": "rrrp",
+        "focus": 3,
+        "mark": "segun",
+        "from": 1995,
+        "to": 2030,
+        "marks": [
+          {
+            "year": 1997,
+            "label": "Madrid, Sureste: en el plan general",
+            "cue": "aprobado"
+          },
+          {
+            "year": 2025,
+            "label": "primera fase autorizada",
+            "cue": "fase"
+          }
+        ],
+        "statement": "Convertir suelo en edificable puede durar más de una década.",
+        "statementCue": "decada"
+      },
+      "padAfter": 1.0
+    },
+    {
+      "id": "R1",
+      "visual": "resumen",
+      "lines": [
+        "s3-14"
+      ],
+      "sourceLabel": false,
+      "sources": [],
+      "padAfter": 2.2,
+      "cues": {
+        "p0": "Construir es necesario",
+        "p1": "Pero construir es lento",
+        "v": "Por sí sola"
+      },
+      "props": {
+        "title": "1 · Construir",
+        "points": [
+          {
+            "text": "Construir es necesario.",
+            "cue": "p0"
+          },
+          {
+            "text": "Pero es lento, y el suelo no está donde falta vivienda.",
+            "cue": "p1"
+          }
+        ],
+        "verdict": "Por sí sola, esa palanca llega tarde y no siempre al sitio correcto.",
+        "verdictCue": "v",
+        "lever": 0
+      }
+    },
+    {
+      "id": "SP2",
+      "visual": "splash",
+      "duration": 2.6,
+      "section": 4,
+      "sourceLabel": false,
+      "props": {
+        "n": "2",
+        "of": "5",
+        "title": "Las vacías",
+        "sub": "«Hay 3,8 millones de viviendas vacías»"
+      }
+    },
+    {
+      "id": "E15",
+      "visual": "frase",
+      "lines": [
+        "s4-01"
+      ],
+      "sourceLabel": false,
+      "sources": [
+        "V9"
+      ],
+      "cues": {
+        "acierta": "Lo que acierta"
+      },
+      "props": {
+        "kicker": "Segunda frase",
+        "quote": "Hay 3,8 millones de viviendas vacías. La solución es evidente: que se usen.",
+        "who": "frase resumida por nosotros",
+        "right": "Esas viviendas ya están construidas.",
+        "r1": "pppp"
+      }
+    },
+    {
+      "id": "K08",
+      "visual": "vacias",
+      "lines": [
+        "s4-02",
+        "s4-03",
+        "s4-04"
+      ],
+      "sourceLabel": "INE · censo de 2021, consumo eléctrico de 2020",
+      "sources": [
+        "V7"
+      ],
+      "cues": {
+        "que": "Qué cuenta el censo",
+        "donde": "s4-03",
+        "pob": "20%",
+        "ciudades": "400.000",
+        "mitad": "la mitad"
+      },
+      "props": {
+        "r1": "pppp",
+        "focus": 0,
+        "r1Steps": [
+          {
+            "cue": "donde",
+            "r1": "pppp",
+            "focus": 1
+          },
+          {
+            "cue": "ciudades",
+            "r1": "prpp",
+            "focus": 0
+          }
+        ],
+        "defineFirst": true
+      },
+      "padAfter": 1.0
+    },
+    {
+      "id": "E18",
+      "visual": "dato",
+      "lines": [
+        "s4-05",
+        "s4-06"
+      ],
+      "sourceLabel": "Ivàlua, 2014-2019 (vía Diari de Tarragona) · Ciudad de Vancouver, Empty Homes Tax 2025",
+      "sources": [
+        "V12",
+        "V34"
+      ],
+      "cues": {
+        "cat": "Cataluña",
+        "vanc": "Vancouver"
+      },
+      "props": {
+        "r1": "rrpp",
+        "focus": 2,
+        "mark": "segun",
+        "pairs": [
+          {
+            "cue": "cat",
+            "kicker": "Cataluña · impuesto a vacías",
+            "value": "sin efecto",
+            "label": "significativo en el número de vacías ni en el alquiler",
+            "note": "Lo asocia a más alquiler asequible, con sesgos que admite."
+          },
+          {
+            "cue": "vanc",
+            "kicker": "Vancouver · el caso más favorable",
+            "value": "0,90% → 0,49%",
+            "label": "vacías, 2017-2024, según la propia ciudad",
+            "note": "Admite que es difícil aislar el efecto."
+          }
+        ]
+      }
+    },
+    {
+      "id": "E19",
+      "visual": "dato",
+      "lines": [
+        "s4-07"
+      ],
+      "sourceLabel": "Real Decreto-ley 29/2026, art. 8",
+      "sources": [
+        "V31"
+      ],
+      "cues": {
+        "ibi": "recargo",
+        "def": "otra definición"
+      },
+      "props": {
+        "r1": "rrrp",
+        "focus": 3,
+        "figure": "> 2 años",
+        "figureColor": "vacias",
+        "label": "desocupadas sin causa justificada: recargo del IBI",
+        "figureCue": "ibi",
+        "note": "Decreto de octubre: la Diputación Permanente debía votarlo el 12 de noviembre.",
+        "statement": "Ese decreto usa otra definición que el censo.",
+        "statementCue": "def"
+      },
+      "padAfter": 1.0
+    },
+    {
+      "id": "R2",
+      "visual": "resumen",
+      "lines": [
+        "s4-08"
+      ],
+      "sourceLabel": false,
+      "sources": [],
+      "padAfter": 2.2,
+      "cues": {
+        "p0": "Las vacías existen",
+        "p1": "nadie ha demostrado",
+        "v": "Por sí sola"
+      },
+      "props": {
+        "title": "2 · Las vacías",
+        "points": [
+          {
+            "text": "Las vacías existen, pero la mayoría está donde no falta vivienda.",
+            "cue": "p0"
+          },
+          {
+            "text": "Nadie ha demostrado todavía cómo devolverlas al mercado.",
+            "cue": "p1"
+          }
+        ],
+        "verdict": "Por sí sola, esa palanca cubre una parte del déficit, en algunas ciudades.",
+        "verdictCue": "v",
+        "lever": 1
+      }
+    },
+    {
+      "id": "SP3",
+      "visual": "splash",
+      "duration": 2.6,
+      "section": 5,
+      "sourceLabel": false,
+      "props": {
+        "n": "3",
+        "of": "5",
+        "title": "Los pisos turísticos",
+        "sub": "«Han echado a los vecinos»"
+      }
+    },
+    {
+      "id": "E20",
+      "visual": "frase",
+      "lines": [
+        "s5-01"
+      ],
+      "sourceLabel": "Barcelona, hasta 2016: alquileres anunciados y Airbnb",
+      "sources": [
+        "V27"
+      ],
+      "cues": {
+        "acierta": "Lo que acierta",
+        "medio": "1,9%",
+        "mas": "del 7%"
+      },
+      "props": {
+        "kicker": "Tercera frase",
+        "quote": "Los pisos turísticos han echado a los vecinos. La solución es evidente: prohibirlos.",
+        "who": "frase resumida por nosotros",
+        "mark": "segun",
+        "right": "El mejor estudio causal del vídeo trata de pisos turísticos.",
+        "figures": [
+          {
+            "value": "+1,9%",
+            "label": "barrio medio",
+            "cue": "medio"
+          },
+          {
+            "value": "+7%",
+            "label": "barrios más afectados",
+            "cue": "mas"
+          }
+        ],
+        "note": "Airbnb no explica la mayor parte de la subida, según sus autores.",
+        "r1": "pppp"
+      }
+    },
+    {
+      "id": "K09",
+      "visual": "giro",
+      "lines": [
+        "s5-02",
+        "s5-03",
+        "s5-04",
+        "s5-05"
+      ],
+      "sourceLabel": "INE · viviendas turísticas, mayo 2026 · Banco de España, gráfico 2.12, redibujado · INE: anuncios, no pisos",
+      "sources": [
+        "V26",
+        "V33",
+        "V7"
+      ],
+      "cues": {
+        "anuncios": "341.001",
+        "deficit": "45% del déficit",
+        "giro": "Aquí está el giro",
+        "madrid": "0,45%",
+        "alquiler": "mira el alquiler",
+        "espana": "11% del alquiler",
+        "malaga": "centro de Málaga",
+        "bcn": "22%",
+        "dos": "Las dos cosas"
+      },
+      "props": {
+        "r1": "pppp",
+        "focus": 0,
+        "r1Steps": [
+          {
+            "cue": "giro",
+            "r1": "rppp",
+            "focus": 1
+          },
+          {
+            "cue": "dos",
+            "r1": "rrpp",
+            "focus": 1
+          }
+        ]
+      },
+      "pauseAfter": {
+        "s5-02": 1.0,
+        "s5-04": 1.5
+      }
+    },
+    {
+      "id": "E25b",
+      "visual": "dato",
+      "lines": [
+        "s5-06"
+      ],
+      "sourceLabel": "INE · viviendas turísticas · Banco de España",
+      "sources": [],
+      "cues": {
+        "caida": "40.000",
+        "Nadie ha medido": "Nadie ha medido"
+      },
+      "props": {
+        "r1": "rrpp",
+        "focus": 2,
+        "figure": "−40.000",
+        "figureColor": "turisticos",
+        "label": "anuncios en un año",
+        "figureCue": "caida",
+        "note": "El Ministerio la atribuye a sus medidas; el Banco de España apunta también a restricciones locales y a la temporada.",
+        "statement": "Nadie ha medido adónde fueron esos pisos.",
+        "statementCue": "Nadie ha medido"
+      }
+    },
+    {
+      "id": "E26",
+      "visual": "plazo",
+      "lines": [
+        "s5-07"
+      ],
+      "sourceLabel": "Ayuntamiento de Barcelona · Tribunal Constitucional, 2025",
+      "sources": [
+        "V27",
+        "V28"
+      ],
+      "cues": {
+        "nov": "noviembre de 2028",
+        "tc": "2025",
+        "cinco": "cinco años",
+        "experimento": "experimento"
+      },
+      "props": {
+        "r1": "rrhp",
+        "focus": 3,
+        "mark": "segun",
+        "from": 2024,
+        "to": 2034,
+        "marks": [
+          {
+            "year": 2025,
+            "label": "el Constitucional avala el decreto catalán",
+            "cue": "tc"
+          },
+          {
+            "year": 2028.85,
+            "label": "Barcelona: fin de ~10.000 licencias",
+            "cue": "nov"
+          },
+          {
+            "year": 2033.85,
+            "label": "hasta cinco años más, algunos dueños",
+            "cue": "cinco",
+            "dashed": true
+          }
+        ],
+        "statement": "Barcelona será el experimento que todavía no tenemos.",
+        "statementCue": "experimento"
+      }
+    },
+    {
+      "id": "E27",
+      "visual": "dato",
+      "lines": [
+        "s5-08"
+      ],
+      "sourceLabel": "Real Decreto-ley 29/2026 · programas electorales",
+      "sources": [
+        "V31",
+        "V32"
+      ],
+      "cues": {
+        "enc": "IVA",
+        "reg": "Vox"
+      },
+      "props": {
+        "r1": "rrhp",
+        "focus": -1,
+        "trio": [
+          {
+            "title": "Prohibir",
+            "body": "Barcelona: no renovar licencias."
+          },
+          {
+            "title": "Encarecer",
+            "body": "Decreto de octubre: IVA al 10% y recargos del IBI en zonas tensionadas. Votación prevista: 12 de noviembre.",
+            "cue": "enc"
+          },
+          {
+            "title": "Regular",
+            "body": "Vox: regular «la proliferación masiva» e inspeccionar los ilegales.",
+            "who": "Vox · programa de 2025",
+            "cue": "reg"
+          }
+        ]
+      },
+      "padAfter": 1.0
+    },
+    {
+      "id": "R3",
+      "visual": "resumen",
+      "lines": [
+        "s5-09"
+      ],
+      "sourceLabel": false,
+      "sources": [],
+      "padAfter": 2.2,
+      "cues": {
+        "p0": "aliviar",
+        "p1": "Para el país",
+        "v": "Por sí sola"
+      },
+      "props": {
+        "title": "3 · Los pisos turísticos",
+        "points": [
+          {
+            "text": "Limitar los pisos turísticos puede aliviar algunos barrios.",
+            "cue": "p0"
+          },
+          {
+            "text": "Para el país, mueve pocas viviendas, y solo una vez.",
+            "cue": "p1"
+          }
+        ],
+        "verdict": "Por sí sola, esa palanca resuelve un problema local.",
+        "verdictCue": "v",
+        "lever": 2
+      }
+    },
+    {
+      "id": "SP4",
+      "visual": "splash",
+      "duration": 2.6,
+      "section": 6,
+      "sourceLabel": false,
+      "props": {
+        "n": "4",
+        "of": "5",
+        "title": "Otras frases",
+        "sub": "Topes, extranjeros, vivienda pública"
+      }
+    },
+    {
+      "id": "E28",
+      "visual": "frase",
+      "lines": [
+        "s6-01"
+      ],
+      "sourceLabel": false,
+      "sources": [],
+      "props": {
+        "kicker": "Tres frases más",
+        "list": [
+          "Topar los alquileres",
+          "Limitar la compra a extranjeros",
+          "Más vivienda pública"
+        ],
+        "r1": "pppp"
+      }
+    },
+    {
+      "id": "E29",
+      "visual": "frase",
+      "lines": [
+        "s6-02"
+      ],
+      "sourceLabel": "Ley 12/2023 · programas electorales",
+      "sources": [
+        "V35",
+        "V32"
+      ],
+      "cues": {
+        "contra": "eliminar los topes",
+        "vox": "Vox"
+      },
+      "props": {
+        "kicker": "Cuarta frase",
+        "quote": "Topar los alquileres.",
+        "who": "Gobierno · defiende su ley de 2023",
+        "quote2": "Eliminar los topes.",
+        "who2": "Vox · programa de 2025",
+        "quote2Cue": "contra",
+        "note": "Vox: derogar los topes y endurecer la respuesta a la okupación.",
+        "noteCue": "vox",
+        "r1": "pppp"
+      }
+    },
+    {
+      "id": "K10",
+      "visual": "topes",
+      "lines": [
+        "s6-03"
+      ],
+      "sourceLabel": "BOE · resoluciones de zonas tensionadas, a septiembre de 2026",
+      "sources": [
+        "V36"
+      ],
+      "cues": {
+        "total": "317",
+        "cat": "271",
+        "madrid": "ninguno"
+      },
+      "props": {
+        "r1": "hppp",
+        "focus": 1,
+        "r1Steps": [
+          {
+            "cue": "madrid",
+            "r1": "hrpp",
+            "focus": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "E31",
+      "visual": "estudios",
+      "lines": [
+        "s6-04",
+        "s6-05",
+        "s6-06"
+      ],
+      "sourceLabel": "Tope catalán de 2020 · registros de fianzas · Monràs y Montalvo; Jofre-Monseny, Martínez-Mazza y Segú",
+      "sources": [
+        "V29"
+      ],
+      "cues": {
+        "precios": "5% menores",
+        "uno": "Uno de esos equipos",
+        "otro": "El otro equipo",
+        "sin": "no hemos encontrado"
+      },
+      "props": {
+        "r1": "prpp",
+        "focus": 0
+      },
+      "pauseAfter": {
+        "s6-05": 1.0
+      }
+    },
+    {
+      "id": "E33",
+      "visual": "dato",
+      "lines": [
+        "s6-07"
+      ],
+      "sourceLabel": "Banco de España · Informe Anual 2025",
+      "sources": [
+        "V7"
+      ],
+      "cues": {
+        "cinco": "Uno de cada cinco",
+        "cuando": "Para cuándo",
+        "duda": "A largo plazo"
+      },
+      "props": {
+        "r1": "hrpp",
+        "focus": 2,
+        "r1Steps": [
+          {
+            "cue": "cuando",
+            "r1": "hrrp",
+            "focus": 3
+          },
+          {
+            "cue": "duda",
+            "r1": "hrrx",
+            "focus": 3
+          }
+        ],
+        "figure": "1 de cada 5",
+        "figureColor": "hogares",
+        "label": "hogares vive de alquiler",
+        "note": "Según el Banco de España, los topes ayudan sobre todo a quien ya tiene contrato. A largo plazo, la oferta nueva puede caer.",
+        "statement": null,
+        "statementCue": null
+      }
+    },
+    {
+      "id": "R4",
+      "visual": "resumen",
+      "lines": [
+        "s6-08"
+      ],
+      "sourceLabel": false,
+      "sources": [],
+      "padAfter": 2.2,
+      "cues": {
+        "p0": "Los topes protegen",
+        "p1": "Para quien busca piso",
+        "p2": "Cómo repartir",
+        "v": "Por sí sola"
+      },
+      "props": {
+        "title": "4 · Los topes",
+        "points": [
+          {
+            "text": "Los topes protegen a quien ya alquila.",
+            "cue": "p0"
+          },
+          {
+            "text": "Para quien busca piso, el efecto es dudoso.",
+            "cue": "p1"
+          },
+          {
+            "text": "Cómo repartir ese coste es una decisión política.",
+            "cue": "p2"
+          }
+        ],
+        "verdict": "Por sí sola, esa palanca reparte el problema, pero no lo reduce.",
+        "verdictCue": "v",
+        "lever": 3
+      }
+    },
+    {
+      "id": "E35",
+      "visual": "dato",
+      "lines": [
+        "s6-09",
+        "s6-10"
+      ],
+      "sourceLabel": "Notariado, 2025 · fuera de la UE: notarios vía idealista, 2024",
+      "sources": [
+        "V30",
+        "V32"
+      ],
+      "cues": {
+        "nores": "52.800",
+        "noue": "18.800"
+      },
+      "props": {
+        "r1": "pppp",
+        "focus": 0,
+        "mark": "segun",
+        "card": {
+          "quote": "Limitar la compra a extranjeros.",
+          "who": "PSOE y Vox · medidas distintas para compradores de fuera de la UE"
+        },
+        "figures": [
+          {
+            "value": "52.800",
+            "label": "compras de no residentes, 2025 · ~7% de las ventas",
+            "cue": "nores"
+          },
+          {
+            "value": "18.800",
+            "label": "de fuera de la UE, 2024",
+            "cue": "noue",
+            "mark": "segun"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E36",
+      "visual": "barras",
+      "lines": [
+        "s6-11",
+        "s6-12"
+      ],
+      "sourceLabel": "Banco de España · Informe Anual 2025, cuadro 2.8",
+      "sources": [
+        "V36"
+      ],
+      "cues": {
+        "ali": "33%",
+        "mal": "28%",
+        "mad": "1,6%",
+        "quien": "Para quién",
+        "cuando": "Para cuándo"
+      },
+      "props": {
+        "r1": "prpp",
+        "focus": 1,
+        "r1Steps": [
+          {
+            "cue": "quien",
+            "r1": "prhp",
+            "focus": 2
+          },
+          {
+            "cue": "cuando",
+            "r1": "prhx",
+            "focus": 3
+          }
+        ],
+        "title": "Compras de no residentes, sobre las compraventas, 2025",
+        "max": 35,
+        "bars": [
+          {
+            "label": "Alicante",
+            "value": 33.3,
+            "display": "33%",
+            "color": "#F2EDE4",
+            "cue": "ali"
+          },
+          {
+            "label": "Málaga",
+            "value": 27.9,
+            "display": "28%",
+            "color": "#F2EDE4",
+            "cue": "mal"
+          },
+          {
+            "label": "Provincia de Madrid",
+            "value": 1.6,
+            "display": "1,6%",
+            "color": "#B7C0CC",
+            "cue": "mad"
+          }
+        ],
+        "note": "No sabemos qué parte de esas compras compite con quien busca casa en esa costa."
+      }
+    },
+    {
+      "id": "R5",
+      "visual": "resumen",
+      "lines": [
+        "s6-13"
+      ],
+      "sourceLabel": false,
+      "sources": [],
+      "padAfter": 2.2,
+      "cues": {
+        "p0": "cambiaría algo",
+        "p1": "En el resto",
+        "v": "Por sí sola"
+      },
+      "props": {
+        "title": "5 · Los compradores extranjeros",
+        "points": [
+          {
+            "text": "Limitar a los compradores extranjeros cambiaría algo en la costa.",
+            "cue": "p0"
+          },
+          {
+            "text": "En el resto del país, esas compras son pocas.",
+            "cue": "p1"
+          }
+        ],
+        "verdict": "Por sí sola, esa palanca toca una parte pequeña del mercado.",
+        "verdictCue": "v",
+        "lever": 4
+      }
+    },
+    {
+      "id": "E37",
+      "visual": "frase",
+      "lines": [
+        "s6-14"
+      ],
+      "sourceLabel": false,
+      "sources": [],
+      "cues": {
+        "acierta": "Lo que acierta"
+      },
+      "props": {
+        "kicker": "Sexta frase",
+        "quote": "Más vivienda pública.",
+        "who": "frase resumida por nosotros",
+        "right": "Es la única frase que dice de entrada para quién.",
+        "r1": "pppp"
+      }
+    },
+    {
+      "id": "K11",
+      "visual": "publica",
+      "lines": [
+        "s6-15",
+        "s6-16",
+        "s6-17",
+        "s6-18"
+      ],
+      "sourceLabel": "Banco de España · protegidas terminadas",
+      "sources": [
+        "V30",
+        "V7"
+      ],
+      "cues": {
+        "espana": "1,5%",
+        "media": "7%",
+        "millon": "1,1 millones",
+        "gob": "184.000",
+        "cuando": "Para cuándo",
+        "once": "11.000 viviendas protegidas",
+        "noventa": "62.000",
+        "siglo": "un siglo",
+        "dieciocho": "unos 18"
+      },
+      "props": {
+        "r1": "pprp",
+        "focus": 0,
+        "mark": {
+          "kind": "nuestra",
+          "text": "cuenta nuestra · no es un pronóstico"
+        },
+        "r1Steps": [
+          {
+            "cue": "cuando",
+            "r1": "rprp",
+            "focus": 3
+          }
+        ]
+      },
+      "pauseAfter": {
+        "s6-16": 1.0
+      }
+    },
+    {
+      "id": "E39",
+      "visual": "dato",
+      "lines": [
+        "s6-19"
+      ],
+      "sourceLabel": "Casa 47 · programas electorales",
+      "sources": [
+        "V32"
+      ],
+      "cues": {
+        "casa": "Casa 47",
+        "vox": "Vox quiere",
+        "sumar": "Sumar",
+        "Discrepan": "discrepan"
+      },
+      "props": {
+        "r1": "rhrh",
+        "focus": 2,
+        "trio": [
+          {
+            "title": "Casa 47",
+            "body": "Rentas de 2 a 7,5 veces el IPREM [equivalente en € pendiente].",
+            "cue": "casa"
+          },
+          {
+            "title": "Vox",
+            "body": "«Inundar España de bloques de vivienda protegida para las familias españolas».",
+            "who": "Vox · programa",
+            "cue": "vox"
+          },
+          {
+            "title": "Sumar",
+            "body": "El 1% del PIB al año (2023).",
+            "cue": "sumar"
+          }
+        ],
+        "statement": "Los partidos discrepan en a quién va y en cómo.",
+        "statementCue": "Discrepan"
+      }
+    },
+    {
+      "id": "R6",
+      "visual": "resumen",
+      "lines": [
+        "s6-20"
+      ],
+      "sourceLabel": false,
+      "sources": [],
+      "padAfter": 2.2,
+      "cues": {
+        "p0": "apunta",
+        "p1": "Pero partir",
+        "v": "Por sí sola"
+      },
+      "props": {
+        "title": "6 · La vivienda pública",
+        "points": [
+          {
+            "text": "La vivienda pública apunta a quien más lo necesita.",
+            "cue": "p0"
+          },
+          {
+            "text": "Pero partir del 1,5% exige décadas de constancia.",
+            "cue": "p1"
+          }
+        ],
+        "verdict": "Por sí sola, esa palanca tarda una generación.",
+        "verdictCue": "v",
+        "lever": 5
+      }
+    },
+    {
+      "id": "E40",
+      "visual": "dato",
+      "lines": [
+        "s6-21"
+      ],
+      "sourceLabel": false,
+      "sources": [],
+      "props": {
+        "quoteLines": [
+          {
+            "text": "Fuera de hoy: quién es dueño de las viviendas, y los impagos.",
+            "cue": "start"
+          },
+          {
+            "text": "Importan, pero no caben en este vídeo.",
+            "cue": "fuera"
+          }
+        ]
+      },
+      "cues": {
+        "fuera": "Esos temas"
+      }
+    },
+    {
+      "id": "SP5",
+      "visual": "splash",
+      "duration": 2.6,
+      "section": 7,
+      "sourceLabel": false,
+      "props": {
+        "n": "5",
+        "of": "5",
+        "title": "La cuenta que no cuadra",
+        "sub": "1,4 viviendas por hogar, y faltan"
+      }
+    },
+    {
+      "id": "K03",
+      "visual": "cuenta",
+      "lines": [
+        "s7-01"
+      ],
+      "sourceLabel": "INE · Censo de Población y Viviendas 2021",
+      "sources": [
+        "V9",
+        "V4"
+      ],
+      "cues": {
+        "viviendas": "26,6 millones",
+        "hogares": "18,5 millones",
+        "ratio": "Sobre el papel"
+      },
+      "props": {}
+    },
+    {
+      "id": "K04",
+      "visual": "cola",
+      "lines": [
+        "s7-02"
+      ],
+      "sourceLabel": "Banco de España · 2025 · terminadas: tabla oficial de 2025 pendiente",
+      "sources": [
+        "V7",
+        "V8"
+      ],
+      "cues": {
+        "hogares": "240.000",
+        "terminadas": "92.000",
+        "resto": "la mayoría",
+        "donde": "Dónde vive"
+      },
+      "props": {},
+      "padAfter": 1.6
+    },
+    {
+      "id": "K12",
+      "visual": "volver",
+      "lines": [
+        "s7-03",
+        "s7-04"
+      ],
+      "sourceLabel": "Banco de España · el próximo censo debería confirmarla o refutarla",
+      "sources": [
+        "V7",
+        "V21"
+      ],
+      "cues": {
+        "sesenta": "60%",
+        "usen": "que se usen",
+        "madrid": "9,9%",
+        "zamora": "50,5%"
+      },
+      "props": {
+        "mark": "estimacion"
+      }
+    },
+    {
+      "id": "E42",
+      "visual": "rango",
+      "lines": [
+        "s7-05"
+      ],
+      "sourceLabel": "Series oficiales comparadas · Arellano y Roca (UPC)",
+      "sources": [
+        "V24",
+        "V23",
+        "V22"
+      ],
+      "cues": {
+        "resta": "una resta",
+        "bajo": "570.000",
+        "alto": "840.000",
+        "arellano": "Arellano"
+      },
+      "props": {
+        "mark": {
+          "kind": "nuestra",
+          "text": "cuenta nuestra · resta, no recuento"
+        }
+      },
+      "padAfter": 1.0
+    },
+    {
+      "id": "R7",
+      "visual": "resumen",
+      "lines": [
+        "s7-06"
+      ],
+      "sourceLabel": false,
+      "sources": [],
+      "padAfter": 2.2,
+      "cues": {
+        "p0": "se mezclan",
+        "p1": "Las viviendas nuevas",
+        "v": "Y aun"
+      },
+      "props": {
+        "title": "La cuenta",
+        "points": [
+          {
+            "text": "Las palancas ya se mezclan solas.",
+            "cue": "p0"
+          },
+          {
+            "text": "Viviendas nuevas y cambios de uso suman a la vez.",
+            "cue": "p1"
+          }
+        ],
+        "verdict": "Y aun así, la cuenta no cuadra donde más falta vivienda.",
+        "verdictCue": "v",
+        "lever": "all"
+      }
+    },
+    {
+      "id": "PL",
+      "visual": "palancas",
+      "lines": [
+        "s8-01",
+        "s8-02",
+        "s8-03",
+        "s8-04",
+        "s8-05"
+      ],
+      "sourceLabel": false,
+      "sources": [],
+      "pauseAfter": {
+        "s8-03": 2.0
+      },
+      "cues": {
+        "c0": "Construir es necesario",
+        "c1": "Las vacías",
+        "c2": "Limitar los pisos",
+        "c3": "Los topes",
+        "c4": "Limitar a los compradores",
+        "c5": "vivienda pública",
+        "tesis": "Cada palanca",
+        "datos": "Los datos ayudan",
+        "q0": {
+          "phrase": "Cuántas,",
+          "line": "s8-05"
+        },
+        "q1": {
+          "phrase": "dónde,",
+          "line": "s8-05"
+        },
+        "q2": {
+          "phrase": "para quién",
+          "line": "s8-05"
+        },
+        "q3": {
+          "phrase": "para cuándo",
+          "line": "s8-05"
+        },
+        "otras": "qué otras palancas"
+      },
+      "props": {
+        "cues": [
+          "c0",
+          "c1",
+          "c2",
+          "c3",
+          "c4",
+          "c5"
+        ],
+        "line": "Cada palanca hace algo real. Ninguna cierra la cuenta sola.",
+        "lineCue": "tesis",
+        "datosCue": "datos",
+        "questions": [
+          "q0",
+          "q1",
+          "q2",
+          "q3"
+        ],
+        "last": "¿Y qué otras palancas la acompañan?",
+        "lastCue": "otras"
+      }
+    },
+    {
+      "id": "E44",
+      "visual": "cartela",
+      "duration": 4,
+      "props": {
+        "text": "FUENTES Y REGISTRO",
+        "sub": "Cada cifra, con su fecha, en la descripción",
+        "small": true
+      }
+    },
+    {
+      "id": "outro",
+      "visual": "outro",
+      "minDuration": 20,
+      "transition": 0,
+      "props": {
+        "title": "Gracias por vernos.",
+        "question": "¿Cuántas? ¿Dónde? ¿Para quién? ¿Para cuándo?",
+        "prompt": "Fuentes, fechas y registro completo en la descripción. ¿Qué frase probamos después?"
+      }
+    }
+  ]
+}

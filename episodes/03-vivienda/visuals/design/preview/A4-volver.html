@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>A4 Volver a la cuenta</title>
+
+</head>
+<body>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Inter:wght@400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;display=swap">
+<style>
+body{margin:0}
+.a4-l{position:absolute;left:0;top:0;width:24px;height:24px;border-radius:50%;background:#F5B85A;box-shadow:0 0 18px 4px rgba(245,184,90,.55);offset-rotate:0deg;opacity:0;animation:a4go 10s infinite cubic-bezier(.5,0,.2,1)}
+@keyframes a4go{0%{offset-distance:0%;opacity:0}4%{offset-distance:0%;opacity:1}18%{offset-distance:100%;opacity:1}80%{offset-distance:100%;opacity:1}84%,100%{offset-distance:100%;opacity:0}}
+.a4-p1{offset-path:path('M640 96 C 560 160, 280 200, 200 344');animation-delay:.2s}
+.a4-p2{offset-path:path('M640 96 C 560 170, 340 210, 268 344');animation-delay:.6s}
+.a4-p3{offset-path:path('M640 96 C 580 180, 400 220, 336 344');animation-delay:1.0s}
+.a4-p4{offset-path:path('M640 96 C 600 190, 460 230, 404 344');animation-delay:1.4s}
+.a4-p5{offset-path:path('M640 96 C 700 160, 700 230, 716 344');animation-delay:.4s}
+.a4-p6{offset-path:path('M640 96 C 720 160, 760 230, 784 344');animation-delay:.8s}
+.a4-p7{offset-path:path('M640 96 C 740 160, 820 230, 852 344');animation-delay:1.2s}
+.a4-p8{offset-path:path('M640 96 C 760 160, 880 230, 920 344');animation-delay:1.6s}
+.a4-p9{offset-path:path('M640 96 C 780 160, 940 230, 988 344');animation-delay:2.0s}
+.a4-p10{offset-path:path('M640 96 C 800 160, 1000 230, 1056 344');animation-delay:2.4s}
+.a4-new{stroke-dasharray:224;stroke-dashoffset:224;animation:a4draw 10s infinite cubic-bezier(.6,0,.2,1)}
+@keyframes a4draw{0%{stroke-dashoffset:224;fill-opacity:0}10%{stroke-dashoffset:0;fill-opacity:0}14%,86%{stroke-dashoffset:0;fill-opacity:1}92%,100%{stroke-dashoffset:224;fill-opacity:0}}
+.a4-old{animation:a4old 10s infinite}
+@keyframes a4old{0%,86%{opacity:1}92%{opacity:.6}100%{opacity:1}}
+.a4-lab{opacity:0;animation:a4lab 10s infinite}
+@keyframes a4lab{0%,44%{opacity:0;transform:translateY(8px)}50%,84%{opacity:1;transform:none}88%,100%{opacity:0}}
+.a4-src{animation:a4src 10s infinite}
+@keyframes a4src{0%{opacity:.4;transform:scale(.8)}6%,40%{opacity:1;transform:scale(1.1)}55%,100%{opacity:.25;transform:scale(.7)}}
+</style>
+
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; background: #0B0E14; font-family: 'Inter', sans-serif; color: #EEF1F5">
+
+  <svg viewBox="0 0 1280 720" width="1280" height="720" aria-hidden="true" style="position: absolute; inset: 0">
+    <g fill="#14231F" stroke="#7FE0C2" stroke-width="2.5">
+      <rect class="a4-new" x="172" y="316" width="56" height="56" rx="4"></rect><rect class="a4-new" x="240" y="316" width="56" height="56" rx="4"></rect><rect class="a4-new" x="308" y="316" width="56" height="56" rx="4"></rect><rect class="a4-new" x="376" y="316" width="56" height="56" rx="4"></rect>
+    </g>
+    <g class="a4-old" fill="#0B0E14" stroke="#6F819A" stroke-width="2.5">
+      <rect x="688" y="316" width="56" height="56" rx="4"></rect><rect x="756" y="316" width="56" height="56" rx="4"></rect><rect x="824" y="316" width="56" height="56" rx="4"></rect><rect x="892" y="316" width="56" height="56" rx="4"></rect><rect x="960" y="316" width="56" height="56" rx="4"></rect><rect x="1028" y="316" width="56" height="56" rx="4"></rect>
+    </g>
+    <!-- the wider stock these came from, out of focus -->
+    <g fill="none" stroke="#2A3444" stroke-width="2" style="filter: blur(1.5px)">
+      <rect x="620" y="390" width="40" height="40" rx="3"></rect><rect x="1100" y="390" width="40" height="40" rx="3"></rect><rect x="1150" y="320" width="40" height="40" rx="3"></rect><rect x="560" y="330" width="40" height="40" rx="3"></rect><rect x="100" y="330" width="40" height="40" rx="3"></rect>
+    </g>
+  </svg>
+
+  <div class="a4-src" aria-hidden="true" style="position: absolute; left: 622px; top: 78px; width: 36px; height: 36px; border-radius: 50%; background: #F5B85A; box-shadow: 0 0 40px 10px rgba(245,184,90,0.45)"></div>
+  <div style="position: absolute; left: 676px; top: 84px; font-size: 16px; color: #B7C0CC">hogares nuevos</div>
+
+  <div class="a4-l a4-p1"></div><div class="a4-l a4-p2"></div><div class="a4-l a4-p3"></div><div class="a4-l a4-p4"></div><div class="a4-l a4-p5"></div>
+  <div class="a4-l a4-p6"></div><div class="a4-l a4-p7"></div><div class="a4-l a4-p8"></div><div class="a4-l a4-p9"></div><div class="a4-l a4-p10"></div>
+
+  <div class="a4-lab" style="position: absolute; left: 172px; top: 392px; display: flex; flex-direction: column; gap: 2px"><span style="font: 900 44px 'Archivo'; font-stretch: 72%; color: #7FE0C2">~40%</span><span style="font-size: 16px; color: #B7C0CC">obra nueva</span></div>
+  <div class="a4-lab" style="position: absolute; left: 688px; top: 392px; display: flex; flex-direction: column; gap: 2px"><span style="font: 900 44px 'Archivo'; font-stretch: 72%; color: #F5B85A">~60%</span><span style="font-size: 16px; color: #B7C0CC">viviendas que ya existían y tenían otro uso</span></div>
+
+
+  <div style="position: absolute; left: 56px; right: 56px; bottom: 32px; padding-top: 12px; border-top: 1px solid #2A3444; display: flex; gap: 14px; align-items: center">
+    <span style="font: 15px 'IBM Plex Mono'; color: #B7C0CC">Banco de España</span>
+    <span style="font: 500 13px 'IBM Plex Mono'; padding: 4px 10px; border-radius: 999px; border: 1.5px solid #8893A3; color: #B7C0CC">≈ estimación</span>
+  </div>
+</div>
+
+
+</body>
+</html>
