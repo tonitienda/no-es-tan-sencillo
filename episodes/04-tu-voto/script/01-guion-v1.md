@@ -1,6 +1,6 @@
 # Guion v1: qué hace tu voto
 
-**Fecha:** 20 de noviembre de 2026. **Estado:** primer borrador, sin leer en voz alta. **Nada de esto se graba** hasta que la norma (L1-L8) pase de [S] a [P] en el [registro](../research/01-source-ledger.md). Ver [decisiones](00-open-decisions.md).
+**Fecha:** 20 de noviembre de 2026. **Estado:** primer borrador, sin leer en voz alta. La norma (L1-L7), el decreto de convocatoria y los datos de 2023 ya están leídos en el original; queda abierto L8 (mayoría absoluta), C3 (¿el 3% ha decidido algún escaño?) y Escaños en Blanco (E1-E3). Ver el [registro](../research/01-source-ledger.md) y las [decisiones](00-open-decisions.md).
 
 **Cómo leerlo:** igual que vivienda. Las citas son narración, **PANTALLA** es lo que se ve, *Fuentes* remite al registro. **[C]**: cuenta o simulación nuestra. **PAUSA** marca un silencio.
 
@@ -34,11 +34,11 @@
 
 ## 2. Antes de nada: tu provincia (0:50)
 
-**PANTALLA:** mapa de España partido en 52 piezas. Se iluminan Soria y Madrid con su número de diputados (del anexo del decreto de 2026; hasta tenerlo, «X» y «Y»).
+**PANTALLA:** mapa de España partido en 52 piezas. Se iluminan Soria (2) y Madrid (38), con el rótulo «Real Decreto 806/2026, anexo».
 
 > Una cosa antes de empezar. El 29 no se reparten 350 escaños en España. Se reparten en 52 sitios: las 50 provincias, Ceuta y Melilla. Cada una elige sus diputados con sus votos, y los de las demás no cuentan.
 >
-> Y no todas eligen los mismos. Soria elige [2]. Madrid, [37]. Eso cambia casi todo lo que viene.
+> Y no todas eligen los mismos. Soria elige dos diputados. Madrid, treinta y ocho. Eso cambia casi todo lo que viene.
 
 **PANTALLA:** simulación C1, rótulo «provincia inventada, 5 escaños». Cinco partidos. Se reparten los escaños uno a uno.
 
@@ -46,7 +46,7 @@
 >
 > En una provincia como Madrid, con más de treinta, basta con algo más del 3%.
 
-*Fuentes: D3 (pendiente), C1 [C].*
+*Fuentes: D3, C1 [C].*
 
 ## 3. Votar a un partido que saca escaño (2:00)
 
@@ -68,17 +68,19 @@
 
 **PANTALLA:** segunda columna. Vuelve la provincia de cinco escaños: el 13% de D, en gris.
 
-> Segunda opción: votar a un partido que no saca escaño. Tu voto es válido. Se cuenta, se publica con el nombre de ese partido. Pero no entra en el reparto, y en el Congreso tampoco le da dinero.
+> Segunda opción: votar a un partido que no saca escaño en tu provincia. Tu voto es válido. Se cuenta y se publica con el nombre de ese partido. Pero no entra en el reparto. Y tampoco le da dinero: los 81 céntimos por voto solo se pagan a las listas que sacan escaño.
 >
-> ¿Sirve para algo más? Para la próxima vez. Con los votos de hoy se reparten los minutos gratis en la televisión y la radio públicas en la próxima campaña.
+> ¿Y para la próxima vez? Menos de lo que parece. Un partido sin escaño tendrá diez minutos gratis en la televisión pública en la próxima campaña, haya sacado 5.000 votos o 500.000. Y tendrá que volver a reunir firmas para presentarse. Las dos cosas solo cambian si saca un escaño.
 >
-> Lo que no le ahorra es esto: un partido sin escaño en ninguna de las dos cámaras tiene que reunir firmas para presentarse la próxima vez. Solo se libra si saca escaño.
+> Lo que sí queda es la cifra: cuánta gente le votó. Eso lo leen los demás partidos, la prensa y las encuestas. Nadie está obligado a hacerle caso.
 
 **PANTALLA:** dos provincias juntas, la pequeña y la grande, con el mismo partido al 5%: en una, cero escaños; en la otra, uno o dos.
 
 > Y aquí la provincia lo cambia todo. El mismo 5% no saca nada en una provincia pequeña y saca escaños en Madrid. Si un voto así es «útil» o no depende de dónde vives, y de qué esperas de tu voto.
 
 *Fuentes: L5, L6, L4, C1 [C], C2 [C].*
+
+**Nota:** la primera versión decía que estos votos «cuentan para los minutos de la próxima campaña». Es falso: el art. 64 da diez minutos fijos a quien no obtuvo representación (L6).
 
 ## 5. Votar nulo (4:20)
 
@@ -88,7 +90,7 @@
 >
 > Cuenta como participación: se sabe que fuiste. Pero no es un voto válido. No da escaños, no da dinero y no cuenta para el 3%. Es como si no estuviera en la cuenta del reparto.
 >
-> Queda registrado: se publica cuántos nulos hay en cada mesa. Pero esa cifra mezcla dos cosas: quien anula a propósito y quien se equivoca. En 2023 hubo más de 260.000. Nadie sabe cuántos eran protesta.
+> Queda registrado: se publica cuántos nulos hay en cada mesa. Pero esa cifra mezcla dos cosas: quien anula a propósito y quien se equivoca. En 2023 hubo 264.360, algo más que votos en blanco. Nadie sabe cuántos eran protesta.
 
 **PAUSA:** 1 s.
 
@@ -98,7 +100,7 @@
 
 ## 6. Votar en blanco (5:20)
 
-**PANTALLA:** cuarta columna. Un sobre vacío. Rótulo literal: «se considera voto en blanco, pero válido, el sobre que no contenga papeleta» (cuando esté en [P]).
+**PANTALLA:** cuarta columna. Un sobre vacío. Rótulo literal: «Se considera voto en blanco, pero válido, el sobre que no contenga papeleta» · LOREG, art. 96.5.
 
 > Cuarta opción: el voto en blanco. En el Congreso, es el sobre vacío.
 >
@@ -112,9 +114,9 @@
 >
 > ¿Cuándo importa? Solo donde el 3% es el listón de verdad. En la provincia de cinco escaños, el listón real está muy por encima: puedes multiplicar por diez los blancos y el reparto no cambia. En la práctica, el 3% solo pesa en las provincias que eligen muchos diputados, como Madrid y Barcelona.
 
-**PANTALLA:** simulación C2, rótulo «provincia inventada, 37 escaños». El partido F, justo encima del 3%. Caen 35.000 blancos más. La línea sube. F se queda fuera por 50 votos. Su escaño se mueve: a D, el cuarto partido.
+**PANTALLA:** simulación C2, rótulo «provincia inventada, 37 escaños; Madrid elige 38». El partido F, justo encima del 3%. Caen 35.000 blancos más. La línea sube. F se queda fuera por 50 votos. Su escaño se mueve: a D, el cuarto partido.
 
-> Mira esta provincia inventada, del tamaño de Madrid. El partido F tiene un escaño, justo por encima del 3%. Añadimos 35.000 votos en blanco. El 3% sube, y F se queda fuera por 50 votos.
+> Mira esta provincia inventada, casi del tamaño de Madrid. El partido F tiene un escaño, justo por encima del 3%. Añadimos 35.000 votos en blanco. El 3% sube, y F se queda fuera por 50 votos.
 >
 > ¿Adónde va su escaño? Aquí no al partido más grande, sino al cuarto. Se dice a menudo que el blanco «va al que gana». No es así: el escaño pasa al partido con el siguiente cociente, sea cual sea su tamaño.
 >
@@ -124,7 +126,7 @@
 
 > ¿Ha pasado esto de verdad? [Variante A, si se confirma C3: «En unas generales, que sepamos, nunca: ningún partido se ha quedado sin escaño por el 3%». Variante B: el caso real, con año y provincia.]
 >
-> Y queda registrado: el blanco se publica aparte, con su propio nombre. En 2023, unos 200.000 votos. Dice algo que el nulo no puede decir con la misma claridad: que fuiste, que votaste bien y que no elegiste a ninguno.
+> Y queda registrado: el blanco se publica aparte, con su propio nombre. En 2023, 200.673 votos. Dice algo que el nulo no puede decir con la misma claridad: que fuiste, que votaste bien y que no elegiste a ninguno.
 
 *Fuentes: L1, L2, C2 [C], C3 (pendiente), D1.*
 
@@ -138,7 +140,7 @@
 
 **PANTALLA:** la provincia grande. Escaños en Blanco gana un escaño; un partido pierde el suyo. El escaño queda gris, con una silla vacía.
 
-> ¿Y si sacara uno? Entonces ese escaño se le quita a otro partido, como cualquier escaño. La diferencia viene después: su diputado no jura el cargo. Sin jurar, no vota, no cobra y no tiene derechos de diputado. Y el escaño no pasa a nadie más.
+> ¿Y si sacara uno? Entonces ese escaño se le quita a otro partido, como cualquier escaño. La diferencia viene después: su diputado no va. Para ser diputado del todo hay que jurar o prometer la Constitución. Si pasan tres plenos sin hacerlo, pierde sus derechos de diputado hasta que lo haga. Y el escaño no pasa a nadie más: solo pasaría al siguiente de su lista si renunciara.
 >
 > Hay una pregunta que la ley no deja clara y que nosotros no hemos podido resolver: ese escaño vacío, ¿cuenta para la mayoría absoluta? [Pendiente de L8. Si se resuelve, una frase: qué significa para llegar a 176. Si no, decir que está abierta y quién podría resolverla.]
 >
@@ -152,7 +154,7 @@
 
 > Sexta opción: no ir. No cuentas para nada del reparto. Ni para el 3%, ni para el dinero. Los escaños se reparten igual, entre los que sí fueron.
 >
-> Lo que queda registrado es la participación. En 2023, votó el 66,59% del censo. Pero en esa cifra no se distingue quien no fue por protesta, quien estaba enfermo, quien vivía fuera o a quien le daba igual.
+> Lo que queda registrado es la participación. En 2023 votó el 66,59% del censo: más de doce millones de personas no fueron. Pero en esa cifra no se distingue quien no fue por protesta, quien estaba enfermo, quien vivía fuera o a quien le daba igual.
 >
 > En España votar no es obligatorio. No hay multa por no ir.
 
@@ -168,7 +170,7 @@
 | ¿Cuenta para el 3%? | Sí | Sí | No | Sí | Sí | No |
 | ¿Da dinero? | Sí | No (Congreso) | No | No | No (renuncia) | No |
 | ¿Qué queda registrado? | Votos del partido | Votos del partido | Nulos, mezclados con errores | Blancos, por separado | Votos del partido | Solo la participación |
-| ¿Cuenta para la próxima vez? | Sí | Minutos en TV pública, no firmas | No | No | Igual que un partido sin escaño | No |
+| ¿Cuenta para la próxima vez? | Sí: minutos en TV y sin firmas | No: diez minutos y firmas, igual | No | No | Igual que un partido sin escaño | No |
 
 > Seis opciones, y no hay dos iguales. El nulo y la abstención se parecen en la cuenta del reparto, pero no en lo que queda registrado. El blanco y Escaños en Blanco se parecen en la intención, pero uno es un voto a nadie y el otro es un voto a un partido.
 >
@@ -183,10 +185,11 @@
 **Nota:** igual que en vivienda, la frase final es una propuesta. Debe servir igual para quien vota, quien vota en blanco y quien se abstiene. Si en revisión suena dirigida a una opción, reescribirla.
 
 ## Si hay que recortar
-Por orden: el detalle de las dos papeletas iguales (5); el Senado, que ya está fuera; firmas para presentarse (4, mantener los minutos en TV); el párrafo de «mejor argumento» de Escaños en Blanco (7). **No recortar la simulación C2:** es lo único que separa el blanco del nulo en la cuenta, y es lo que más se confunde.
+Por orden: el detalle de las dos papeletas iguales (5); el Senado, que ya está fuera; el párrafo de la próxima vez (4, mantener una frase); el párrafo de «mejor argumento» de Escaños en Blanco (7). **No recortar la simulación C2:** es lo único que separa el blanco del nulo en la cuenta, y es lo que más se confunde.
 
 ## Gráficos candidatos
 - Mapa de 52 circunscripciones con diputados por provincia (anexo del RD 806/2026).
+- Alternativa a C1: el ejemplo práctico que trae la propia ley (art. 163, 8 escaños, seis candidaturas). Ventaja: no es nuestro.
 - Reparto D'Hondt animado, escaño a escaño, en la provincia de 5 (C1).
 - La línea del 3% que sube con los blancos y deja fuera a F (C2), con el escaño viajando a D.
 - Madrid 2023: el último escaño y los 1.323 votos (D2).

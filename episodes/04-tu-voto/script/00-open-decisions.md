@@ -1,7 +1,7 @@
 # Episodio 04: decisiones y preguntas abiertas
 
 **Última conversación:** 20 de noviembre de 2026.
-**Estado:** [mapa de preguntas](../research/02-question-map.md), [registro de fuentes](../research/01-source-ledger.md) y [guion v1](01-guion-v1.md). Sin tratamiento aparte: el guion v1 hace de tratamiento, por el calendario. **Ningún artículo de ley está verificado en el original todavía.**
+**Estado:** [mapa de preguntas](../research/02-question-map.md), [registro de fuentes](../research/01-source-ledger.md) y [guion v1](01-guion-v1.md). Sin tratamiento aparte: el guion v1 hace de tratamiento, por el calendario. La norma y los datos de 2023 están leídos en el original (BOE y Congreso, 20 de noviembre).
 
 ## Encargo
 - Segundo vídeo del canal (después de vivienda). Carpeta `04-tu-voto`; número provisional.
@@ -19,14 +19,14 @@
 5. **Madrid 2023 se nombra** (PP y PSOE), porque es un hecho del escrutinio, no una opinión. Decirlo igual que el resto: quién ganó y quién perdió el escaño, sin adjetivos.
 
 ## Hay que verificar antes de grabar
-6. **La norma, en el BOE (L1-L7).** Desde este entorno boe.es y congreso.es no resuelven. Leer cada artículo y copiar la cita literal en el registro. Especial cuidado con:
-   - Art. 175: ¿la subvención por voto se cobra por lista provincial con escaño? Cambia la celda «¿da dinero?» del partido sin escaño.
-   - Art. 64: los cortes exactos para los minutos gratis.
-   - Art. 169.3: que siga vigente en 2026.
+6. **La norma (L1-L7): hecho el 20 de noviembre.** Citas literales en el registro. Dos cambios en el guion:
+   - **Art. 64:** un partido sin representación tiene diez minutos fijos en la próxima campaña, saque los votos que saque. La v1 decía lo contrario; corregido.
+   - **Art. 20 del Reglamento:** el electo tiene derechos durante los tres primeros plenos aunque no haya jurado. «Sin jurar, no vota» era impreciso; corregido.
+   - Art. 175: la subvención por voto es por lista provincial con escaño (lectura nuestra del texto). Art. 169.3: vigente.
 7. **Mayoría absoluta y escaños sin jurar (L8).** ¿Cuenta un diputado que nunca adquirió la condición plena en los 350? Si no hay precedente claro, el guion lo dice como pregunta abierta, como en la v1.
 8. **C3: ¿el 3% ha dejado alguna vez sin escaño a alguien en unas generales?** Revisar Madrid, Barcelona y Valencia, 1977-2023. Decide la frase central del bloque del blanco (variante A o B).
-9. **Anexo del RD 806/2026:** diputados por provincia en 2026. Sin él no van las cifras de Soria y Madrid.
-10. **Datos de 2023 (D1, D2)** desde la resolución de la JEC en el BOE: blancos, nulos, participación, votos válidos en Madrid (el guion dice «más de tres millones y medio»: comprobar), el desenlace de la revisión de nulos de Madrid.
+9. **Anexo del RD 806/2026: hecho.** Madrid elige 38 (37 en 2023); Soria, 2.
+10. **Datos de 2023:** D1 hecho desde el BOE (Madrid: 3.608.673 válidos, así que «más de tres millones y medio» se sostiene). Falta D2: recalcular los 1.323 votos desde el cuadro por candidaturas y leer cómo acabó la revisión de nulos de Madrid.
 11. **Escaños en Blanco (E1-E3):** programa de 2026 en su web, provincias donde se presenta el 29, y qué pasó con las alcaldías de Navarra de 2023.
 
 ## Para la revisión de equilibrio
@@ -36,6 +36,6 @@
 
 ## Siguientes pasos
 1. Toni decide la fecha (punto 1).
-2. Verificación de la norma (6-8). Si se quiere que lo haga Claude, hay que permitir boe.es y congreso.es en la red del entorno.
+2. Cerrar lo pendiente: L8, C3, D2 y Escaños en Blanco (7, 8, 10, 11).
 3. Leer el guion en voz alta y ajustar a 9-10 minutos.
 4. Inventario visual, reutilizando la plantilla y la tabla de vivienda.
