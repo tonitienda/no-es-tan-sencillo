@@ -7,6 +7,7 @@ Canal de divulgación económica y social para España. Investigamos preguntas c
 - [01 · Pepi y Laura](episodes/01-pepi-y-laura/): ¿Quién crea realmente un puesto de trabajo?
 - [02 · Salario mínimo](episodes/02-smi/): ¿Qué ocurre cuando sube el SMI?
 - [03 · Vivienda](episodes/03-vivienda/) (candidato a publicarse primero; número provisional): si hay 1,4 viviendas por hogar, ¿cómo pueden faltar viviendas?
+- [04 · Tu voto](episodes/04-tu-voto/) (número provisional; segundo en publicarse): partido con escaño, partido sin escaño, nulo, blanco, Escaños en Blanco o no ir, ¿qué cambia con cada opción?
 
 ## Método
 
