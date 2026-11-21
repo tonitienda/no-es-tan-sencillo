@@ -25,7 +25,7 @@ export function cleanMarkdown(text) {
 }
 
 export function sourceIds(text) {
-  return [...new Set([...text.matchAll(/\bV(\d+)\b/g)].map(m => 'V' + m[1]))];
+  return [...new Set([...text.matchAll(/\b([A-Z]\d+)\b/g)].map(m => m[1]))];
 }
 
 export function parseScript(markdown) {

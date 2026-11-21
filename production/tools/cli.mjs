@@ -18,7 +18,7 @@ Steps, in order:
   narration          Extract narration lines from the script (episode.json "script")
   scaffold           Create timeline.json, visuals.ts, project.ts, scene.tsx if missing
   audio              Generate ElevenLabs narration with word timings (cached; only changed lines cost)
-      --placeholder  Free local voice for an animatic (macOS "say", else a tone)
+      --placeholder  Free local voice for an animatic (macOS "say", else espeak-ng, else a tone)
       --dry-run      Show what would be requested
       --only s4-02,s4-03
   sync               Retime the timeline to the measured audio and mix the soundtrack

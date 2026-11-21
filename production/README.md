@@ -10,7 +10,7 @@ to specific spoken words using ElevenLabs character timestamps.
 npm install && npx playwright install chromium   # once; also needs ffmpeg/ffprobe on PATH
 npm run video -- 03-vivienda narration           # script → narration.json
 npm run video -- 03-vivienda scaffold            # first time only: timeline.json, visuals.ts, …
-npm run video -- 03-vivienda audio               # ElevenLabs (or --placeholder for an animatic)
+npm run video -- 03-vivienda audio               # ElevenLabs (or --placeholder for an animatic: macOS say, or espeak-ng on Linux)
 npm run video -- 03-vivienda preview             # Motion Canvas editor with sound
 npm run video -- 03-vivienda render              # 4K/60 → production/output/03-vivienda.mp4
 npm run video -- 03-vivienda check               # format, frames, black frames, audible narration

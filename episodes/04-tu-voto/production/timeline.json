@@ -1,0 +1,357 @@
+{
+  "version": 1,
+  "fps": 60,
+  "resolution": {
+    "width": 3840,
+    "height": 2160
+  },
+  "defaults": {
+    "gap": 0.35,
+    "padBefore": 0.4,
+    "padAfter": 0.6,
+    "transition": 0.4
+  },
+  "beats": [
+    {
+      "id": "intro",
+      "visual": "intro",
+      "duration": 5,
+      "props": {
+        "kicker": "Tu voto",
+        "title": "Votar en blanco, votar nulo o no votar, ¿no es lo mismo?",
+        "premise": "Seis opciones. Las mismas cuatro preguntas para todas.",
+        "facts": [
+          {
+            "label": "Preguntas",
+            "value": "¿Mueve escaños? ¿Cuenta para el 3%? ¿Da dinero? ¿Qué queda registrado?"
+          },
+          {
+            "label": "Ley",
+            "value": "Citada del BOE, con artículo"
+          },
+          {
+            "label": "Cuentas nuestras",
+            "value": "Marcadas como tales"
+          },
+          {
+            "label": "Recomendación de voto",
+            "value": "Ninguna"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s1-p1",
+      "visual": "placeholder",
+      "lines": [
+        "s1-01",
+        "s1-02",
+        "s1-03"
+      ],
+      "props": {
+        "screen": "una papeleta y un sobre sobre la mesa. Seis cartas boca abajo: «partido que saca escaño», «partido que no saca escaño», «nulo», «blanco», «Escaños en Blanco», «no ir». Fecha: 29 de noviembre. La marca entra pequeña sobre la narración."
+      },
+      "sources": [
+        "D3"
+      ]
+    },
+    {
+      "id": "s1-p2",
+      "visual": "placeholder",
+      "lines": [
+        "s1-04"
+      ],
+      "props": {
+        "screen": "la tabla vacía. Seis columnas, cuatro filas: «¿mueve escaños?», «¿cuenta para el 3%?», «¿da dinero?», «¿qué queda registrado?»."
+      },
+      "sources": [
+        "D3"
+      ]
+    },
+    {
+      "id": "s2-p1",
+      "visual": "placeholder",
+      "lines": [
+        "s2-01",
+        "s2-02"
+      ],
+      "props": {
+        "screen": "mapa de España partido en 52 piezas. Se iluminan Soria (2) y Madrid (38), con el rótulo «Real Decreto 806/2026, anexo»."
+      },
+      "sources": [
+        "D3",
+        "C1"
+      ]
+    },
+    {
+      "id": "s2-p2",
+      "visual": "placeholder",
+      "lines": [
+        "s2-03",
+        "s2-04"
+      ],
+      "props": {
+        "screen": "simulación C1, rótulo «provincia inventada, 5 escaños». Cinco partidos. Se reparten los escaños uno a uno."
+      },
+      "sources": [
+        "D3",
+        "C1"
+      ]
+    },
+    {
+      "id": "s3-p1",
+      "visual": "placeholder",
+      "lines": [
+        "s3-01",
+        "s3-02",
+        "s3-03",
+        "s3-04"
+      ],
+      "props": {
+        "screen": "primera columna de la tabla. Después, el caso de Madrid 2023: dos barras, PP y PSOE, por el último escaño, y la cifra 1.323."
+      },
+      "sources": [
+        "L2",
+        "L5",
+        "D2"
+      ]
+    },
+    {
+      "id": "s4-p1",
+      "visual": "placeholder",
+      "lines": [
+        "s4-01",
+        "s4-02",
+        "s4-03",
+        "s4-04"
+      ],
+      "props": {
+        "screen": "segunda columna. Vuelve la provincia de cinco escaños: el 13% de D, en gris."
+      },
+      "sources": [
+        "L5",
+        "L6",
+        "L4",
+        "D4",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "s4-p2",
+      "visual": "placeholder",
+      "lines": [
+        "s4-05"
+      ],
+      "props": {
+        "screen": "mapa de 2023: porcentaje de votos a listas sin escaño, por provincia. Madrid, 1,3%; Soria, 32,8%; Teruel, 35,2%. Rótulo: «cuenta nuestra con los resultados oficiales (JEC, BOE)»."
+      },
+      "sources": [
+        "L5",
+        "L6",
+        "L4",
+        "D4",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "s5-p1",
+      "visual": "placeholder",
+      "lines": [
+        "s5-01",
+        "s5-02",
+        "s5-03",
+        "s5-04"
+      ],
+      "props": {
+        "screen": "tercera columna. Ejemplos de nulo: papeleta tachada, dos papeletas distintas en el sobre, una nota dentro. Rótulo: «LOREG, art. 96»."
+      },
+      "sources": [
+        "L1",
+        "D1"
+      ]
+    },
+    {
+      "id": "s6-p1",
+      "visual": "placeholder",
+      "lines": [
+        "s6-01",
+        "s6-02",
+        "s6-03"
+      ],
+      "props": {
+        "screen": "cuarta columna. Un sobre vacío. Rótulo literal: «Se considera voto en blanco, pero válido, el sobre que no contenga papeleta» · LOREG, art. 96.5."
+      },
+      "sources": [
+        "L1",
+        "L2",
+        "C2",
+        "C3",
+        "D1"
+      ]
+    },
+    {
+      "id": "s6-p2",
+      "visual": "placeholder",
+      "lines": [
+        "s6-04",
+        "s6-05"
+      ],
+      "props": {
+        "screen": "el 3% como una línea horizontal sobre las barras de los partidos."
+      },
+      "sources": [
+        "L1",
+        "L2",
+        "C2",
+        "C3",
+        "D1"
+      ]
+    },
+    {
+      "id": "s6-p3",
+      "visual": "placeholder",
+      "lines": [
+        "s6-06",
+        "s6-07",
+        "s6-08"
+      ],
+      "props": {
+        "screen": "simulación C2, rótulo «provincia inventada, 37 escaños; Madrid elige 38». El partido F, justo encima del 3%. Caen 35.000 blancos más. La línea sube. F se queda fuera por 50 votos. Su escaño se mueve: a D, el cuarto partido."
+      },
+      "sources": [
+        "L1",
+        "L2",
+        "C2",
+        "C3",
+        "D1"
+      ]
+    },
+    {
+      "id": "s6-p4",
+      "visual": "placeholder",
+      "lines": [
+        "s6-09",
+        "s6-10",
+        "s6-11",
+        "s6-12"
+      ],
+      "props": {
+        "screen": "Madrid, 1993. La barra del CDS, 93.347 votos, justo por debajo de la línea del 3%: 93.785. «−438». Después, los 30.554 votos en blanco de Madrid, y la línea que baja si una parte de ellos sale de la cuenta. Rótulo: «Junta Electoral Central, BOE del 16 de julio de 1993 · cuenta nuestra»."
+      },
+      "sources": [
+        "L1",
+        "L2",
+        "C2",
+        "C3",
+        "D1"
+      ]
+    },
+    {
+      "id": "s7-p1",
+      "visual": "placeholder",
+      "lines": [
+        "s7-01",
+        "s7-02",
+        "s7-03"
+      ],
+      "props": {
+        "screen": "quinta columna. La papeleta del partido, con su nombre oficial: «Escaños en Blanco para dejar Escaños Vacíos». Rótulo: «partido fundado en 2010». Mapa con las doce provincias donde se presenta al Congreso en 2026 (BOE del 3 de noviembre)."
+      },
+      "sources": [
+        "E1",
+        "E2",
+        "E3",
+        "L7",
+        "L8"
+      ]
+    },
+    {
+      "id": "s7-p2",
+      "visual": "placeholder",
+      "lines": [
+        "s7-04"
+      ],
+      "props": {
+        "screen": "la provincia grande. Escaños en Blanco gana un escaño; un partido pierde el suyo. El escaño queda gris, con una silla vacía."
+      },
+      "sources": [
+        "E1",
+        "E2",
+        "E3",
+        "L7",
+        "L8"
+      ]
+    },
+    {
+      "id": "s7-p3",
+      "visual": "placeholder",
+      "lines": [
+        "s7-05",
+        "s7-06",
+        "s7-07"
+      ],
+      "props": {
+        "screen": "1986. Un hemiciclo de 350 con cinco escaños grises. «345 diputados de pleno derecho · mayoría absoluta: 173». Fuente: Congreso de los Diputados, sesiones de investidura."
+      },
+      "sources": [
+        "E1",
+        "E2",
+        "E3",
+        "L7",
+        "L8"
+      ]
+    },
+    {
+      "id": "s8-p1",
+      "visual": "placeholder",
+      "lines": [
+        "s8-01",
+        "s8-02",
+        "s8-03"
+      ],
+      "props": {
+        "screen": "sexta columna. Una urna sin tu sobre. La participación de 2023: 66,59%."
+      },
+      "sources": [
+        "D1"
+      ]
+    },
+    {
+      "id": "s9-p1",
+      "visual": "placeholder",
+      "lines": [
+        "s9-01",
+        "s9-02"
+      ],
+      "props": {
+        "screen": "la tabla completa. Seis columnas, cuatro filas, y una quinta fila en gris: «¿cuenta para la próxima vez?»."
+      },
+      "sources": []
+    },
+    {
+      "id": "s10-p0",
+      "visual": "placeholder",
+      "lines": [
+        "s10-01",
+        "s10-02"
+      ],
+      "props": {
+        "screen": "Cierre"
+      },
+      "sources": []
+    },
+    {
+      "id": "outro",
+      "visual": "outro",
+      "minDuration": 20,
+      "transition": 0,
+      "props": {
+        "title": "¿Para qué sirve tu voto?",
+        "question": "¿Escaños? ¿El 3%? ¿Dinero? ¿Lo que queda escrito?",
+        "prompt": "¿Y en qué provincia? Fuentes, artículos de ley y registro completo en la descripción."
+      }
+    }
+  ]
+}

@@ -4,7 +4,7 @@
 //   ElevenLabs (default): text-to-speech *with timestamps*. Each API result is cached
 //   by a fingerprint of the exact request, so only changed lines cost credits.
 //   Placeholder (--placeholder): free local audio for an animatic before the script is
-//   frozen. Uses macOS `say` with a Spanish voice when available, otherwise a quiet tone
+//   frozen. Uses macOS `say` with a Spanish voice when available, then `espeak-ng -v es`, otherwise a quiet tone
 //   at a speaking-rate estimate. Character times are estimated.
 import {copyFileSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync, renameSync} from 'node:fs';
 import {join} from 'node:path';
@@ -57,6 +57,10 @@ function spanishSayVoice() {
   } catch { return null; }
 }
 
+function hasEspeak() {
+  try { command('espeak-ng', ['--version']); return true; } catch { return false; }
+}
+
 function placeholderClip(text, wav) {
   const voice = spanishSayVoice();
   const tmp = wav + '.src.aiff';
@@ -65,6 +69,12 @@ function placeholderClip(text, wav) {
       command('say', ['-v', voice, '-r', '185', '-o', tmp, text]);
       toWav(tmp, wav);
       return `say:${voice}`;
+    }
+    // Linux: espeak-ng's Spanish voice. Robotic, but intelligible for review.
+    if (hasEspeak()) {
+      command('espeak-ng', ['-v', 'es', '-s', '165', '-w', tmp + '.wav', text]);
+      try { toWav(tmp + '.wav', wav); } finally { rmSync(tmp + '.wav', {force: true}); }
+      return 'espeak-ng:es';
     }
     const duration = Math.max(1, text.length / CHARS_PER_SECOND).toFixed(3);
     // A quiet pulsing tone at syllable rate: audible in review, obviously not a voice.

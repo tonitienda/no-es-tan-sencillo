@@ -3,7 +3,8 @@
 //   https://...
 import {existsSync, readFileSync} from 'node:fs';
 
-const ENTRY = /^###\s+(V\d+)\s*[-–—]\s*(.+?)\s*$/;
+// IDs are a capital letter and a number: V9, or L1/D1/C1/E0 in episodes that group sources by kind.
+const ENTRY = /^###\s+([A-Z]\d+)\s*[-–—]\s*(.+?)\s*$/;
 const LEVEL = /\s*\[([PSC](?:\s*[,y/]\s*[PSC])*)[^\]]*\]\s*$/;
 
 export function parseLedger(markdown) {
