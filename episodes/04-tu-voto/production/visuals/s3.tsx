@@ -115,12 +115,6 @@ export const sinEscano: Visual = function* (view, ctx) {
   yield* all(appear(counter()), ev(6000, 0.8));
   yield* until(ctx, 'dinero');
   yield* pop(noCoin());
-  yield* until(ctx, 'liston');
-  yield* three().y(-10, 0.8, easeOutCubic);
-  yield* until(ctx, 'proxima');
-  yield* all(act1().opacity(0, 0.5), appear(act2(), 0.6));
-  yield* until(ctx, 'cifra');
-  yield* all(act2().opacity(0, 0.5), act1().opacity(1, 0.5));
 };
 
 /** S4: the same thing, province by province (2023). */
@@ -211,4 +205,51 @@ export const nulo: Visual = function* (view, ctx) {
   yield* appear(split(), 0.5, 0);
   yield* until(ctx, 'detalle');
   yield* all(...examples.map(e => e().opacity(0, 0.4)), turnBox().opacity(0, 0.4), pop(same()));
+};
+
+/** S3: the 3% is a share, not a fixed number. More valid votes, a higher bar. */
+export const listonSube: Visual = function* (view, ctx) {
+  const pile = createRef<Grid>(), total = createSignal(100000), extra = createSignal(0), act1 = createRef<Node>(), act2 = createRef<Node>();
+  const label = createRef<Node>(), bar = createRef<Node>(), others = createRef<Node>(), lit3 = createSignal(0);
+  // One tile = 1.000 votes; 100 tiles in rows of 10, growing upward. The 3% is three tiles.
+  view.add(<Frame>
+    <Node ref={act1}>
+      <Grid ref={pile} x={140} y={600} count={110} cols={10} step={30} tile={24} radius={3} fromBottom fill={SEAT}
+        paint={i => (i >= 100 ? VOTE : i < 3 && lit3() > 0.5 ? LINE3 : null)}/>
+      <Node ref={label} opacity={0}>
+        <Big x={140} y={130} anchor={[-1, 1]} text={() => fmt(total())} size={64}/>
+        <Tag x={142} y={142} text="VOTOS VÁLIDOS · CADA CUADRO: 1.000" size={12}/>
+      </Node>
+      <Node ref={bar} opacity={0}>
+        <Rect x={140 + 3 * 30} y={600 - 30} offset={TL} width={() => 24 * Math.max(0, (0.03 * total() - 3000) / 1000)} height={24} radius={3} fill={LINE3}/>
+        <Big x={540} y={420} anchor={[-1, 1]} text={() => `3% = ${fmt(0.03 * total())}`} size={72} fill={LINE3}/>
+        <Tag x={544} y={436} text="VOTOS PARA ENTRAR EN EL REPARTO" size={13} fill={LINE3}/>
+      </Node>
+      <Node ref={others} opacity={0}><Tag x={140} y={168} text="+10.000 VOTOS A UN PARTIDO PEQUEÑO · EJEMPLO CON NÚMEROS REDONDOS" fill={VOTE} size={13}/></Node>
+    </Node>
+    <Node ref={act2} opacity={0}>
+      {[['5.000 votos', 0.08], ['500.000 votos', 1]].map(([lab, h], k) => <Node x={330 + k * 520}>
+        <Rect y={560} offset={[0, 1]} width={120} height={20 + 300 * (h as number)} radius={[4, 4, 0, 0]} fill={TONES[3]}/>
+        <Big y={600} anchor={[0, -1]} text={lab as string} size={30}/>
+        <Node y={180}>
+          <Rect width={180} height={120} radius={12} stroke={brand.soft} lineWidth={3}/>
+          <Line points={[[-30, 72], [30, 72]]} stroke={brand.soft} lineWidth={3}/>
+          <Big anchor={[0, 0]} text="10 min" size={46}/>
+        </Node>
+      </Node>)}
+      <Tag x={640} y={60} anchor={[0, -1]} text="SIN ESCAÑO: TV PÚBLICA EN LA PRÓXIMA CAMPAÑA" fill={brand.muted}/>
+    </Node>
+  </Frame>);
+  pile().shown(100 / 110);
+  yield* until(ctx, 'cien');
+  yield* appear(label(), 0.5);
+  yield* until(ctx, 'tres');
+  lit3(1);
+  yield* appear(bar(), 0.5, 0);
+  yield* until(ctx, 'mas');
+  yield* all(appear(others(), 0.4, 0), pile().shown(1, 1.2, easeInOutCubic), total(110000, 1.2, easeInOutCubic));
+  yield* until(ctx, 'proxima');
+  yield* all(act1().opacity(0, 0.5), appear(act2(), 0.6));
+  yield* until(ctx, 'cifra');
+  yield* act2().opacity(0.25, 0.5);
 };

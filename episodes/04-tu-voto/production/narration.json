@@ -1,6 +1,6 @@
 {
-  "script": "episodes/04-tu-voto/script/02-guion-v2.md",
-  "scriptSha256": "494c531bef3f1b0515b226776844fd3582843cd1751d7fdee2673549b1c5786d",
+  "script": "episodes/04-tu-voto/script/03-guion-v3.md",
+  "scriptSha256": "53cfc91ab47b3306950e916e78d5c4c8ef14700c3338467c31c6b1826059e363",
   "sections": [
     {
       "n": 1,
@@ -31,7 +31,7 @@
         "L6",
         "L4"
       ],
-      "lines": 4
+      "lines": 5
     },
     {
       "n": 4,
@@ -90,7 +90,7 @@
       "title": "Cierre",
       "plannedAt": "8:45",
       "sources": [],
-      "lines": 2
+      "lines": 1
     }
   ],
   "screens": [
@@ -117,7 +117,12 @@
     {
       "id": "s3-p1",
       "section": 3,
-      "text": "el sobre cae sobre una columna pequeña, que crece un poco y no enciende ningún escaño. La moneda, tachada. La línea del 3% sube un poco. Después, dos columnas, 5.000 y 500.000 votos, con la misma pantalla de «10 min». Al final, el contador de votos publicados."
+      "text": "el sobre cae sobre una columna pequeña, que crece un poco y no enciende ningún escaño. La moneda, tachada. El contador de votos publicados."
+    },
+    {
+      "id": "s3-p2",
+      "section": 3,
+      "text": "una pila de votos válidos, 100.000, y al lado la barra del 3%: 3.000. Llegan 10.000 votos más, todos a un partido pequeño: la pila sube a 110.000 y la barra, a 3.300. Rótulo: «ejemplo con números redondos». Después, dos columnas, 5.000 y 500.000 votos, con la misma pantalla de «10 min»."
     },
     {
       "id": "s4-p1",
@@ -167,7 +172,7 @@
     {
       "id": "s9-p1",
       "section": 9,
-      "text": "«¿Para qué?» y los cuatro iconos de las preguntas, uno a uno."
+      "text": "los seis iconos de las opciones. Se encienden según se nombra cada motivo. Al final, «Eso no se calcula»."
     }
   ],
   "lines": [
@@ -246,23 +251,31 @@
     {
       "id": "s3-02",
       "section": 3,
-      "screen": "s3-p1",
-      "text": "Sí cuenta para el 3%: suma al total de votos válidos, así que sube un poco el listón para los demás partidos.",
+      "screen": "s3-p2",
+      "text": "Pero sí cuenta para el 3%. El 3% no es una cantidad fija de votos: es el 3% de todos los votos válidos. Si en una provincia hay 100.000 votos válidos, un partido necesita 3.000 para entrar en el reparto. Si hay 110.000, necesita 3.300.",
       "placeholders": [],
-      "spoken": "Sí cuenta para el 3%: suma al total de votos válidos, así que sube un poco el listón para los demás partidos."
+      "spoken": "Pero sí cuenta para el 3%. El 3% no es una cantidad fija de votos: es el 3% de todos los votos válidos. Si en una provincia hay 100.000 votos válidos, un partido necesita 3.000 para entrar en el reparto. Si hay 110.000, necesita 3.300."
     },
     {
       "id": "s3-03",
       "section": 3,
-      "screen": "s3-p1",
+      "screen": "s3-p2",
+      "text": "Así que cada voto válido de más, aunque vaya a un partido que no saca escaño, sube un poco ese listón para los demás partidos.",
+      "placeholders": [],
+      "spoken": "Así que cada voto válido de más, aunque vaya a un partido que no saca escaño, sube un poco ese listón para los demás partidos."
+    },
+    {
+      "id": "s3-04",
+      "section": 3,
+      "screen": "s3-p2",
       "text": "¿Y para la próxima vez? Menos de lo que parece. Un partido sin escaño tendrá diez minutos gratis en la televisión pública en la próxima campaña, haya sacado 5.000 votos o 500.000. Y tendrá que volver a reunir firmas para presentarse. Las dos cosas solo cambian con un escaño.",
       "placeholders": [],
       "spoken": "¿Y para la próxima vez? Menos de lo que parece. Un partido sin escaño tendrá diez minutos gratis en la televisión pública en la próxima campaña, haya sacado 5.000 votos o 500.000. Y tendrá que volver a reunir firmas para presentarse. Las dos cosas solo cambian con un escaño."
     },
     {
-      "id": "s3-04",
+      "id": "s3-05",
       "section": 3,
-      "screen": "s3-p1",
+      "screen": "s3-p2",
       "text": "Lo que sí queda es la cifra: cuánta gente le votó. Eso lo leen los demás partidos, la prensa y las encuestas. Nadie está obligado a hacerle caso.",
       "placeholders": [],
       "spoken": "Lo que sí queda es la cifra: cuánta gente le votó. Eso lo leen los demás partidos, la prensa y las encuestas. Nadie está obligado a hacerle caso."
@@ -319,9 +332,9 @@
       "id": "s5-03",
       "section": 5,
       "screen": "s5-p1",
-      "text": "Pero el blanco es un voto válido. Y eso tiene un efecto: sube el listón del 3%. Cuantos más votos en blanco, más votos necesita un partido pequeño para entrar en el reparto.",
+      "text": "Pero el blanco es un voto válido. Y por eso tiene el mismo efecto que acabamos de ver: sube el listón del 3%. Cuantos más votos en blanco, más votos necesita un partido pequeño para entrar en el reparto.",
       "placeholders": [],
-      "spoken": "Pero el blanco es un voto válido. Y eso tiene un efecto: sube el listón del 3%. Cuantos más votos en blanco, más votos necesita un partido pequeño para entrar en el reparto."
+      "spoken": "Pero el blanco es un voto válido. Y por eso tiene el mismo efecto que acabamos de ver: sube el listón del 3%. Cuantos más votos en blanco, más votos necesita un partido pequeño para entrar en el reparto."
     },
     {
       "id": "s5-04",
@@ -434,14 +447,6 @@
       "text": "Lo que estos datos pueden decirte es qué hace cada opción. Lo que no pueden decirte es qué te importa más: elegir entre los que pueden ganar, apoyar a quien te convence aunque no entre, decir que ninguno o no participar. Eso no se calcula.",
       "placeholders": [],
       "spoken": "Lo que estos datos pueden decirte es qué hace cada opción. Lo que no pueden decirte es qué te importa más: elegir entre los que pueden ganar, apoyar a quien te convence aunque no entre, decir que ninguno o no participar. Eso no se calcula."
-    },
-    {
-      "id": "s9-02",
-      "section": 9,
-      "screen": "s9-p1",
-      "text": "La próxima vez que alguien te diga que una opción «no sirve para nada», pregúntale: ¿para qué? ¿Escaños, dinero, el 3% o lo que queda registrado?",
-      "placeholders": [],
-      "spoken": "La próxima vez que alguien te diga que una opción «no sirve para nada», pregúntale: ¿para qué? ¿Escaños, dinero, el 3% o lo que queda registrado?"
     }
   ]
 }

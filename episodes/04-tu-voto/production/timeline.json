@@ -128,10 +128,7 @@
       "id": "s3-p1",
       "visual": "sinEscano",
       "lines": [
-        "s3-01",
-        "s3-02",
-        "s3-03",
-        "s3-04"
+        "s3-01"
       ],
       "props": {},
       "sources": [
@@ -139,11 +136,32 @@
         "L6",
         "L4"
       ],
-      "sourceLabel": "LOREG arts. 64, 169.3 y 175",
+      "sourceLabel": "LOREG art. 175",
       "cues": {
         "publica": "se publica",
-        "dinero": "tampoco le da dinero",
-        "liston": "sube un poco el listón",
+        "dinero": "tampoco le da dinero"
+      }
+    },
+    {
+      "id": "s3-p2",
+      "visual": "listonSube",
+      "lines": [
+        "s3-02",
+        "s3-03",
+        "s3-04",
+        "s3-05"
+      ],
+      "props": {},
+      "sources": [
+        "L5",
+        "L6",
+        "L4"
+      ],
+      "sourceLabel": "LOREG arts. 64, 163.1 y 169.3 · ejemplo con números redondos",
+      "cues": {
+        "cien": "100.000 votos válidos",
+        "tres": "necesita 3.000",
+        "mas": "si hay 110.000",
         "proxima": "la próxima vez",
         "cifra": "lo que sí queda"
       }
@@ -344,20 +362,19 @@
     },
     {
       "id": "s9-p1",
-      "visual": "cierre",
+      "visual": "final",
       "lines": [
-        "s9-01",
-        "s9-02"
+        "s9-01"
       ],
       "props": {},
       "sources": [],
       "sourceLabel": false,
       "cues": {
-        "paraque": "¿para qué?",
-        "c0": "¿escaños",
-        "c1": "dinero, el",
-        "c2": "el 3% o",
-        "c3": "lo que queda registrado?"
+        "ganar": "los que pueden ganar",
+        "convence": "quien te convence",
+        "ninguno": "decir que ninguno",
+        "participar": "no participar",
+        "calcula": "eso no se calcula"
       }
     },
     {

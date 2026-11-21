@@ -223,3 +223,28 @@ export const cierre: Visual = function* (view, ctx) {
   const cues = ['c0', 'c1', 'c2', 'c3'];
   for (let k = 0; k < 4; k++) { yield* until(ctx, cues[k]); yield* pop(icons[order[k]]()); }
 };
+
+/** S9: six reasons, one per option. What the data cannot weigh. */
+export const final: Visual = function* (view, ctx) {
+  const icons = [0, 1, 2, 3, 4, 5].map(() => createRef<Node>()), line = createRef<Node>();
+  const slotX = (i: number) => 165 + i * 190;
+  const SHORT = ['Con escaño', 'Sin escaño', 'Nulo', 'Blanco', 'Escaños\nen Blanco', 'No ir'];
+  view.add(<Frame>
+    {icons.map((r, i) => <Node ref={r} x={slotX(i)} y={300} opacity={0.2}>
+      <OptionIcon i={i}/>
+      <Txt y={78} text={SHORT[i]} fontFamily={brand.sans} fontSize={22} fill={brand.text} textAlign="center"/>
+    </Node>)}
+    <Node ref={line} opacity={0}><Txt x={640} y={560} text="Eso no se calcula." fontFamily={brand.serif} fontStyle="italic" fontSize={64} fill={brand.text}/></Node>
+  </Frame>);
+  const lightUp = (ids: number[]) => all(...ids.map(i => all(icons[i]().opacity(1, 0.4), icons[i]().scale(1.15, 0.25).to(1, 0.25))));
+  yield* until(ctx, 'ganar');
+  yield* lightUp([0]);
+  yield* until(ctx, 'convence');
+  yield* lightUp([1]);
+  yield* until(ctx, 'ninguno');
+  yield* lightUp([2, 3, 4]);
+  yield* until(ctx, 'participar');
+  yield* lightUp([5]);
+  yield* until(ctx, 'calcula');
+  yield* appear(line(), 0.6);
+};
