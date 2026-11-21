@@ -3,6 +3,7 @@
 **Nivel de verificación:** igual que en vivienda. **[P]** leída la fuente primaria. **[S]** solo cobertura de prensa o resumen de tercero: no usar en guion sin ir al original. **[C]** cálculo propio o simulación: decirlo en pantalla.
 
 **20 de noviembre:** LOREG consolidada, Reglamento del Congreso, RD 806/2026, Orden HAC/1062/2026 y resultados oficiales de 2023 leídos en el original. Las citas son literales.
+**21 de noviembre:** resultados oficiales de 1993, precedente de la mayoría absoluta (1986) y candidaturas proclamadas de 2026, leídos en el original. Solo queda en [S] el programa de Escaños en Blanco.
 
 ## La norma
 
@@ -50,10 +51,14 @@ https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20962
 - Fuente: https://www.congreso.es/es/cem/tit1
 - Precedente: decisión del presidente del Congreso del 4 de diciembre de 1989 y amparo ante el TC ([TC](https://hj.tribunalconstitucional.es/cs/Resolucion/GetDocumentResolucion/1544)), sin leer.
 
-### L8 - Mayoría absoluta: ¿sobre 350 siempre? [S]
+### L8 - Mayoría absoluta: ¿sobre 350 siempre? [P]
+**Respuesta: no.** Congreso de los Diputados, «Sesiones de investidura»: https://www.congreso.es/es/cem/sesiones-de-investidura
+- III Legislatura, investidura del 22-23 de julio de 1986: «siendo la mayoría absoluta requerida de 173». Y: «En la III Legislatura sólo obtuvieron la condición plena de diputado 345 de los 350 electos, por lo que la mayoría absoluta se fijó en 173 diputados. Los electos de la Agrupación de Electores Herri Batasuna por las circunscripciones de Vizcaya, Guipúzcoa y Navarra no alcanzaron la condición plena de diputado por no haber prestado la promes[a]…».
+- IV Legislatura, 1989: mayoría absoluta de 167, por recursos contencioso-electorales que afectaban a 18 diputados aún no proclamados (misma página).
+- **Consecuencia para Escaños en Blanco:** con ese precedente, un escaño que nunca se ocupa **baja** la mayoría absoluta (349 diputados de pleno derecho: 175). Es práctica de la Cámara, no una norma escrita: decirlo como «hay un precedente», no como regla.
+- Distinto de los **suspendidos** (2019, 2025), que sí adquirieron la condición plena y siguen contando en los 350:
 - En 2019, los letrados del Congreso concluyeron que los diputados **suspendidos** seguían contando en los 350: la mayoría absoluta siguió en 176 ([moncloa.com, 5 jun. 2019](https://www.moncloa.com/2019/06/05/mayoria-absoluta-congreso-31917/), web privada, no del Gobierno).
 - Mismo debate en noviembre de 2025 con la suspensión de Ábalos ([El Debate](https://www.eldebate.com/espana/20251126/vox-rechaza-psoe-sumar-puedan-rebajar-mayoria-congreso-abalos-suspendido-seria-colmo_359129.html)).
-- **Pendiente:** un diputado proclamado que no adquiere la condición plena, ¿cuenta en los 350? No lo hemos encontrado. Si cuenta, su escaño vacío hace más difícil llegar a 176. No afirmarlo en pantalla sin un informe o un precedente.
 
 ## Datos de 2023 y 2026
 
@@ -72,13 +77,19 @@ Junta Electoral Central, BOE-A-2023-18907, cuadro I: https://www.boe.es/boe/dias
 - [C] Participación: 66,59% en España. Blancos: 0,81% de los válidos. Nulos: 1,06% de los votantes.
 - [C] El 3% en Madrid en 2023: 108.260 votos.
 - Ojo: la prensa dio 30.241 nulos en Madrid (escrutinio provisional). El dato oficial es 30.827.
-- **Pendiente [C]:** total de votos a listas que no sacaron escaño en su provincia, en España.
+- Votos a listas sin escaño en su provincia: ver D4.
 
-### D2 - El último escaño de Madrid, 2023 [S]
+### D2 - El último escaño de Madrid, 2023 [P + C]
+- **Cuenta nuestra con el cuadro II del BOE (D1):** PP 1.463.183 votos (16 escaños), PSOE 1.004.599 (10), Sumar 557.780 (6), Vox 506.164 (5). El escaño 37 fue el 16.º del PP (cociente 91.449), frente al 11.º del PSOE (91.327). **Al PSOE le faltaron 1.340 votos** para quitárselo; al PP le sobraban 1.949. La prensa dio 1.323, probablemente con el escrutinio sin cerrar. El guion usa 1.340.
 - Con el voto exterior (CERA), el PP pasó de 15 a 16 escaños en Madrid y el PSOE de 11 a 10. El BOE (D1) confirma el resultado final: PP 16, PSOE 10. Total nacional: 137 y 121.
-- Diferencia en el escrutinio general para ese escaño: 1.323 votos. **Pendiente:** recalcular desde el cuadro de votos por candidatura del BOE. Antes del CERA, el PP estaba a unos 1.700-1.758.
-- El PSOE pidió revisar los nulos de Madrid. **Pendiente:** cómo acabó; leer la resolución de la JEC.
+- Según la prensa, 1.323 votos en el escrutinio general; antes del CERA, el PP estaba a unos 1.700-1.758. Recalculado arriba: 1.340.
+- El PSOE pidió revisar los nulos de Madrid. El resultado oficial publicado (D1) mantiene PP 16 y PSOE 10: la revisión no cambió el escaño. No hemos leído la resolución de la JEC; el guion no menciona la revisión.
 - Fuentes: [Maldita, 29 jul. 2023](https://maldita.es/malditodato/20230729/voto-cera-batalla-escanos/); [Maldita, 1 ago. 2023](https://maldita.es/malditateexplica/20230801/elecciones-madrid-psoe-voto-nulo/).
+
+### D4 - Votos a listas sin escaño en su provincia, 2023 [C]
+Script: `research/votos-sin-escano-2023.py`, con los cuadros I y II de D1. Comprobado: 52 circunscripciones, 350 escaños, totales iguales a los del BOE.
+- España: 1.930.424 votos a listas que no sacaron escaño en su provincia: el 7,82% de los válidos.
+- Más bajos: Madrid 1,3%, Córdoba 1,4%, Valencia 1,4%, Alicante 1,4%. Más altos: Ceuta 60,2% y Melilla 49,9% (un escaño), Teruel 35,2%, Lleida 32,8%, Soria 32,8%.
 
 ### D3 - Convocatoria del 29 de noviembre de 2026 [P]
 Real Decreto 806/2026, de 5 de octubre, BOE-A-2026-20742: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742
@@ -88,20 +99,27 @@ Real Decreto 806/2026, de 5 de octubre, BOE-A-2026-20742: https://www.boe.es/dia
 
 ## Escaños en Blanco
 
+### E0 - Dónde se presenta el 29 de noviembre [P]
+Candidaturas proclamadas, BOE-A-2026-23103, 3 de noviembre de 2026: https://www.boe.es/boe/dias/2026/11/03/pdfs/BOE-A-2026-23103.pdf
+- Nombre oficial: «Escaños en Blanco para dejar Escaños Vacíos (ESCAÑOS EN BLANCO)»; en Pontevedra, «Escanos en Branco para deixar Escanos Baleiros».
+- **Congreso, proclamada en 12 circunscripciones:** Almería, Álava, Córdoba, Gipuzkoa, León, Murcia, Palencia, Las Palmas, Pontevedra, La Rioja, Soria y Valladolid. También al Senado en las mismas.
+- **Melilla:** presentada y «No proclamada», en las dos cámaras.
+- No se presenta en Madrid ni en Barcelona. La mayor circunscripción donde está es Murcia (10 diputados).
+
 ### E1 - Qué es y qué promete [S]
 - Partido creado en 2010, en Barcelona ([Público](https://www.publico.es/politica/escanos-blanco-queremos-voten.html)).
 - Programa: dejar vacíos los escaños que obtenga; sus electos no toman posesión ni cobran; el partido no pide subvenciones; se disolverá cuando la ley convierta el voto en blanco en escaños vacíos ([programa recogido por Gasteiz Hoy](https://www.gasteizhoy.com/programa-electoral-de-escanos-en-blanco/)).
-- **Pendiente:** su programa de 2026 en su propia web, y en qué provincias se presenta el 29 de noviembre (candidaturas proclamadas, BOE).
+- **Pendiente:** su programa de 2026 en su propia web (su dominio no está permitido en este entorno). Dónde se presenta: ver E0.
 
 ### E2 - Qué ha conseguido [S]
-- Generales de 2023: 8.287 votos, 0,03%, ningún escaño (tablas de prensa; comprobar en el cuadro de candidaturas de D1).
+- Generales de 2023 [P, cuadro III de D1]: **8.448 votos**, ningún escaño, en 11 circunscripciones: Zaragoza 2.146 · Murcia 1.377 · Córdoba 942 · Gipuzkoa 933 · Álava 619 · La Rioja 608 · Valladolid 583 · Huesca 475 · Lleida 462 · Cuenca 168 · Teruel 135. La prensa daba 8.287 (escrutinio provisional).
 - Municipales de 2023, Navarra: varias alcaldías en pueblos donde era la única lista (Areso, Atez, Muruzabal, Urroz, según [moncloa.com](https://www.moncloa.com/2023/11/13/escanos-en-blanco-2268541/), que critica la estrategia). Comprobar en fuentes oficiales.
 - Nunca ha obtenido escaño en el Congreso. Confirmar también Senado y parlamentos autonómicos.
 
 ### E3 - Su mecanismo, con la ley actual [P para la norma, S para su estrategia]
 - Si gana un escaño, su candidato es diputado electo. Si no se presenta a jurar o prometer, tras tres plenos no tiene derechos (L7). Durante esos tres plenos, sí los tendría.
 - Si renunciara, el escaño pasaría al siguiente de su lista (L3). Por eso la estrategia es no tomar posesión, no renunciar. Confirmar con su programa.
-- Efecto sobre la mayoría: ver L8. Abierto.
+- Efecto sobre la mayoría: ver L8. Con el precedente de 1986, la baja.
 
 ## Simulaciones [C]
 
@@ -118,5 +136,12 @@ Script: `episodes/04-tu-voto/research/dhondt.py`.
 - Con 35.000 blancos más (269.000): válidos 3.535.000, umbral 106.050. F se queda fuera por 50 votos. Su escaño pasa a **D, el cuarto partido**, no al primero.
 - Con esos 35.000 como nulos, o como abstención, F conserva su escaño.
 
-### C3 - ¿Ha pasado de verdad? Pendiente
+### C3 - ¿Ha pasado de verdad? Sí: Madrid, 1993 [P + C]
+Junta Electoral Central, resumen de resultados del 6 de junio de 1993, BOE del 16 de julio de 1993 (BOE-A-1993-18739): https://www.boe.es/boe/dias/1993/07/16/pdfs/A21822-21843.pdf (escaneado; cifras leídas en la imagen).
+- Madrid, cuadro I: votantes 3.138.511; válidos 3.126.150; nulos 12.361; blancos 30.554. Cuadro II: PP 1.373.042 (16), PSOE 1.093.015 (13), IU 455.685 (5); 34 escaños. Cuadro III: **CDS 93.347**.
+- [C] 3% de 3.126.150 = 93.784,5: el CDS necesitaba 93.785. **Se quedó fuera por 438 votos.**
+- [C] Sin umbral, D'Hondt da PP 16, PSOE 12, IU 5, CDS 1: el escaño del CDS habría salido del PSOE.
+- [C] Sin los blancos, el 3% habría sido 92.868 y el CDS habría entrado. Bastaba con que 14.584 de los 30.554 votantes en blanco hubieran votado nulo o no hubieran ido (o con que 438 de ellos hubieran votado CDS).
+- Coincide con [elEconomista, 2019](https://www.eleconomista.es/elecciones-generales/noticias/9816281/04/19/28A-Que-es-la-regla-del-3-y-por-que-su-influencia-es-minima-en-las-elecciones-generales-espanolas.html), que lo da como el único caso. **No hemos revisado todas las generales**: el guion dice «el único caso que hemos encontrado». En 2023 no hubo ninguno: en Madrid, todas las listas sin escaño juntas sumaron el 1,3% (D4).
+- El análisis de eldiario.es que decía que el 3% nunca había sido decisivo queda contradicho por este caso.
 - Un análisis de [eldiario.es](https://www.eldiario.es/contrapoder/voto-en-blanco-derechos-politicos_132_4928717.html) dice que en las generales el 3% nunca ha dejado fuera a un partido que habría tenido escaño sin él. **Verificar con los resultados de Madrid, Barcelona y Valencia, 1977-2023**, antes de decirlo. Si es cierto, es la frase más importante del bloque del blanco.

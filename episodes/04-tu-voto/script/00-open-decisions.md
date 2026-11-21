@@ -1,7 +1,7 @@
 # Episodio 04: decisiones y preguntas abiertas
 
 **Última conversación:** 20 de noviembre de 2026.
-**Estado:** [mapa de preguntas](../research/02-question-map.md), [registro de fuentes](../research/01-source-ledger.md) y [guion v1](01-guion-v1.md). Sin tratamiento aparte: el guion v1 hace de tratamiento, por el calendario. La norma y los datos de 2023 están leídos en el original (BOE y Congreso, 20 de noviembre).
+**Estado (21 de noviembre):** guion v1 sin huecos. [mapa de preguntas](../research/02-question-map.md), [registro de fuentes](../research/01-source-ledger.md) y [guion v1](01-guion-v1.md). Sin tratamiento aparte: el guion v1 hace de tratamiento, por el calendario. La norma y los datos de 2023 están leídos en el original (BOE y Congreso, 20 de noviembre).
 
 ## Encargo
 - Segundo vídeo del canal (después de vivienda). Carpeta `04-tu-voto`; número provisional.
@@ -23,11 +23,11 @@
    - **Art. 64:** un partido sin representación tiene diez minutos fijos en la próxima campaña, saque los votos que saque. La v1 decía lo contrario; corregido.
    - **Art. 20 del Reglamento:** el electo tiene derechos durante los tres primeros plenos aunque no haya jurado. «Sin jurar, no vota» era impreciso; corregido.
    - Art. 175: la subvención por voto es por lista provincial con escaño (lectura nuestra del texto). Art. 169.3: vigente.
-7. **Mayoría absoluta y escaños sin jurar (L8).** ¿Cuenta un diputado que nunca adquirió la condición plena en los 350? Si no hay precedente claro, el guion lo dice como pregunta abierta, como en la v1.
-8. **C3: ¿el 3% ha dejado alguna vez sin escaño a alguien en unas generales?** Revisar Madrid, Barcelona y Valencia, 1977-2023. Decide la frase central del bloque del blanco (variante A o B).
+7. **Mayoría absoluta (L8): resuelto el 21 de noviembre.** Precedente de 1986: los cinco electos de Herri Batasuna no juraron y la mayoría absoluta se fijó en 173. Un escaño vacío de Escaños en Blanco la bajaría, no la subiría. En el guion, como precedente, no como regla.
+8. **El 3% (C3): resuelto.** Madrid, 1993: el CDS se quedó a 438 votos del 3% y sin escaño; sin los 30.554 votos en blanco de Madrid habría entrado. Es el único caso que hemos encontrado; no hemos revisado todas las generales, y el guion lo dice.
 9. **Anexo del RD 806/2026: hecho.** Madrid elige 38 (37 en 2023); Soria, 2.
-10. **Datos de 2023:** D1 hecho desde el BOE (Madrid: 3.608.673 válidos, así que «más de tres millones y medio» se sostiene). Falta D2: recalcular los 1.323 votos desde el cuadro por candidaturas y leer cómo acabó la revisión de nulos de Madrid.
-11. **Escaños en Blanco (E1-E3):** programa de 2026 en su web, provincias donde se presenta el 29, y qué pasó con las alcaldías de Navarra de 2023.
+10. **Datos de 2023: hechos.** Último escaño de Madrid: al PSOE le faltaron 1.340 votos (cuenta nuestra con el BOE; la prensa decía 1.323). Votos a listas sin escaño: 1.930.424, el 7,8%.
+11. **Escaños en Blanco: casi hecho.** Se presenta al Congreso en 12 provincias, no en Madrid ni Barcelona (BOE del 3 de noviembre). En 2023, 8.448 votos. Solo queda leer su programa de 2026 en su web, que no se puede abrir desde este entorno.
 
 ## Para la revisión de equilibrio
 - Que ninguna columna suene a «la opción correcta». En particular, el bloque de la abstención no debe sonar a reproche, y el del blanco no debe sonar a «tirar el voto».
@@ -36,6 +36,6 @@
 
 ## Siguientes pasos
 1. Toni decide la fecha (punto 1).
-2. Cerrar lo pendiente: L8, C3, D2 y Escaños en Blanco (7, 8, 10, 11).
+2. Guion sin huecos. Falta leerlo en voz alta (unos 11 minutos; recortar si hace falta) y la revisión de equilibrio.
 3. Leer el guion en voz alta y ajustar a 9-10 minutos.
 4. Inventario visual, reutilizando la plantilla y la tabla de vivienda.

@@ -1,6 +1,6 @@
 # Guion v1: qué hace tu voto
 
-**Fecha:** 20 de noviembre de 2026. **Estado:** primer borrador, sin leer en voz alta. La norma (L1-L7), el decreto de convocatoria y los datos de 2023 ya están leídos en el original; queda abierto L8 (mayoría absoluta), C3 (¿el 3% ha decidido algún escaño?) y Escaños en Blanco (E1-E3). Ver el [registro](../research/01-source-ledger.md) y las [decisiones](00-open-decisions.md).
+**Fecha:** 20 de noviembre de 2026. **Estado:** primer borrador completo, sin huecos y sin leer en voz alta. Toda la norma, los datos de 1993, 2023 y 2026, el precedente de la mayoría absoluta y las candidaturas de Escaños en Blanco están leídos en el original. Lo único en [S] es el programa de Escaños en Blanco. Ver el [registro](../research/01-source-ledger.md) y las [decisiones](00-open-decisions.md).
 
 **Cómo leerlo:** igual que vivienda. Las citas son narración, **PANTALLA** es lo que se ve, *Fuentes* remite al registro. **[C]**: cuenta o simulación nuestra. **PAUSA** marca un silencio.
 
@@ -8,7 +8,7 @@
 
 **Tesis:** las seis opciones no son seis formas de decir lo mismo. Cambian cosas distintas: escaños, el listón del 3%, dinero o solo una cifra publicada. Y cuánto cambian depende sobre todo de tu provincia.
 
-**Duración estimada:** unas 1.450 palabras, cerca de 10 minutos a 150 palabras por minuto.
+**Duración estimada:** unas 1.650 palabras de narración, cerca de 11 minutos a 150 palabras por minuto. Sin leer en voz alta.
 
 **Regla de independencia:** ninguna opción es «la buena». No se dice «vota», ni «vota siempre», ni «votar en blanco es tirar el voto». Cada opción pasa la misma prueba y llena una columna de la tabla.
 
@@ -56,11 +56,11 @@
 >
 > También da dinero. El Estado paga a cada partido unos 21.000 euros por escaño y 81 céntimos por voto, si su lista saca al menos un escaño.
 >
-> ¿Tu voto decide ese escaño? Casi nunca. Pero «casi nunca» no es «nunca». En 2023, el último escaño de Madrid pasó del PSOE al PP cuando se contó el voto desde el extranjero. Lo decidieron 1.323 votos, entre más de tres millones y medio.
+> ¿Tu voto decide ese escaño? Casi nunca. Pero «casi nunca» no es «nunca». En 2023, el último escaño de Madrid pasó del PSOE al PP cuando se contó el voto desde el extranjero. Con los resultados oficiales, al PSOE le faltaron 1.340 votos para recuperarlo, entre más de tres millones y medio.
 
 **PAUSA:** 1 s.
 
-> Un voto solo casi nunca decide. Mil trescientos, a veces sí. Y eso vale para todas las opciones que vienen.
+> Un voto solo casi nunca decide. Mil trescientos cuarenta, a veces sí. Y eso vale para todas las opciones que vienen.
 
 *Fuentes: L2, L5, D2.*
 
@@ -73,12 +73,14 @@
 > ¿Y para la próxima vez? Menos de lo que parece. Un partido sin escaño tendrá diez minutos gratis en la televisión pública en la próxima campaña, haya sacado 5.000 votos o 500.000. Y tendrá que volver a reunir firmas para presentarse. Las dos cosas solo cambian si saca un escaño.
 >
 > Lo que sí queda es la cifra: cuánta gente le votó. Eso lo leen los demás partidos, la prensa y las encuestas. Nadie está obligado a hacerle caso.
+>
+> No es poca gente. En 2023, casi dos millones de votos, el 7,8% de los válidos, fueron a listas que no sacaron escaño en su provincia.
 
-**PANTALLA:** dos provincias juntas, la pequeña y la grande, con el mismo partido al 5%: en una, cero escaños; en la otra, uno o dos.
+**PANTALLA:** mapa de 2023: porcentaje de votos a listas sin escaño, por provincia. Madrid, 1,3%; Soria, 32,8%; Teruel, 35,2%. Rótulo: «cuenta nuestra con los resultados oficiales (JEC, BOE)».
 
-> Y aquí la provincia lo cambia todo. El mismo 5% no saca nada en una provincia pequeña y saca escaños en Madrid. Si un voto así es «útil» o no depende de dónde vives, y de qué esperas de tu voto.
+> Y aquí la provincia lo cambia todo. En Madrid, solo el 1,3% de los votos fue a listas sin escaño. En Soria, que elige dos diputados, uno de cada tres. El mismo 5% no saca nada en una provincia pequeña y saca escaños en Madrid. Si un voto así es «útil» o no depende de dónde vives, y de qué esperas de tu voto.
 
-*Fuentes: L5, L6, L4, C1 [C], C2 [C].*
+*Fuentes: L5, L6, L4, D4 [C], C1 [C], C2 [C].*
 
 **Nota:** la primera versión decía que estos votos «cuentan para los minutos de la próxima campaña». Es falso: el art. 64 da diez minutos fijos a quien no obtuvo representación (L6).
 
@@ -124,29 +126,41 @@
 
 **PAUSA:** 1,5 s.
 
-> ¿Ha pasado esto de verdad? [Variante A, si se confirma C3: «En unas generales, que sepamos, nunca: ningún partido se ha quedado sin escaño por el 3%». Variante B: el caso real, con año y provincia.]
+**PANTALLA:** Madrid, 1993. La barra del CDS, 93.347 votos, justo por debajo de la línea del 3%: 93.785. «−438». Después, los 30.554 votos en blanco de Madrid, y la línea que baja si una parte de ellos sale de la cuenta. Rótulo: «Junta Electoral Central, BOE del 16 de julio de 1993 · cuenta nuestra».
+
+> ¿Ha pasado de verdad? Sí. En Madrid, en 1993, el CDS sacó 93.347 votos. El 3% eran 93.785. Se quedó fuera por 438 votos. Sin el umbral, habría tenido un diputado; ese escaño fue para el PSOE.
+>
+> Ese año, en Madrid, hubo más de 30.000 votos en blanco. Si unas 14.600 de esas personas hubieran votado nulo o no hubieran ido, el 3% habría bajado lo bastante para que el CDS entrara.
+>
+> Es el único caso que hemos encontrado en unas generales. No hemos revisado todas, una por una.
 >
 > Y queda registrado: el blanco se publica aparte, con su propio nombre. En 2023, 200.673 votos. Dice algo que el nulo no puede decir con la misma claridad: que fuiste, que votaste bien y que no elegiste a ninguno.
 
-*Fuentes: L1, L2, C2 [C], C3 (pendiente), D1.*
+*Fuentes: L1, L2, C2 [C], C3 [C], D1.*
 
 ## 7. Votar a Escaños en Blanco (7:10)
 
-**PANTALLA:** quinta columna. La papeleta del partido, con su nombre. Rótulo: «partido fundado en 2010; su única propuesta: dejar sus escaños vacíos».
+**PANTALLA:** quinta columna. La papeleta del partido, con su nombre oficial: «Escaños en Blanco para dejar Escaños Vacíos». Rótulo: «partido fundado en 2010». Mapa con las doce provincias donde se presenta al Congreso en 2026 (BOE del 3 de noviembre).
 
 > Quinta opción, y la que más se confunde con la cuarta. Escaños en Blanco no es el voto en blanco. Es un partido, con su propia papeleta. Su única propuesta es que los votos en blanco se conviertan en escaños vacíos. Mientras tanto, promete dejar vacíos los que gane.
 >
-> Si no saca escaño, que es lo que le ha pasado siempre en el Congreso, tu voto es exactamente la segunda opción: un voto válido a un partido que no entra en el reparto. En 2023 tuvo unos 8.000 votos en toda España.
+> Si no saca escaño, que es lo que le ha pasado siempre en el Congreso, tu voto es exactamente la segunda opción: un voto válido a un partido que no entra en el reparto. En 2023 tuvo 8.448 votos en toda España.
+>
+> Y no está en todas partes. El 29 de noviembre se presenta al Congreso en doce provincias. Si vives en Madrid o en Barcelona, esa papeleta no estará en tu colegio.
 
 **PANTALLA:** la provincia grande. Escaños en Blanco gana un escaño; un partido pierde el suyo. El escaño queda gris, con una silla vacía.
 
 > ¿Y si sacara uno? Entonces ese escaño se le quita a otro partido, como cualquier escaño. La diferencia viene después: su diputado no va. Para ser diputado del todo hay que jurar o prometer la Constitución. Si pasan tres plenos sin hacerlo, pierde sus derechos de diputado hasta que lo haga. Y el escaño no pasa a nadie más: solo pasaría al siguiente de su lista si renunciara.
 >
-> Hay una pregunta que la ley no deja clara y que nosotros no hemos podido resolver: ese escaño vacío, ¿cuenta para la mayoría absoluta? [Pendiente de L8. Si se resuelve, una frase: qué significa para llegar a 176. Si no, decir que está abierta y quién podría resolverla.]
+**PANTALLA:** 1986. Un hemiciclo de 350 con cinco escaños grises. «345 diputados de pleno derecho · mayoría absoluta: 173». Fuente: Congreso de los Diputados, sesiones de investidura.
+
+> ¿Y la mayoría absoluta? Hay un precedente. En 1986, cinco diputados electos de Herri Batasuna no juraron ni prometieron la Constitución. El Congreso contó solo a los 345 que sí lo hicieron, y la mayoría absoluta bajó de 176 a 173.
+>
+> Si se hiciera igual, un escaño vacío no pondría más difícil gobernar. Lo pondría un poco más fácil.
 >
 > Su mejor argumento: hace visible el descontento dentro de las reglas. Su límite: con la ley actual, para dejar un escaño vacío hay que ganarlo como cualquier partido.
 
-*Fuentes: E1, E2, E3, L7, L8 (pendiente).*
+*Fuentes: E1, E2, E3, L7, L8.*
 
 ## 8. No ir a votar (8:30)
 
@@ -166,7 +180,7 @@
 
 | | Partido con escaño | Partido sin escaño | Nulo | Blanco | Escaños en Blanco | No ir |
 |---|---|---|---|---|---|---|
-| ¿Mueve escaños? | Sí | No | No | Solo si deja a un partido bajo el 3% | Si lo gana, lo deja vacío | No |
+| ¿Mueve escaños? | Sí | No | No | Solo si deja a un partido bajo el 3% | Si lo gana, lo deja vacío y baja la mayoría absoluta | No |
 | ¿Cuenta para el 3%? | Sí | Sí | No | Sí | Sí | No |
 | ¿Da dinero? | Sí | No (Congreso) | No | No | No (renuncia) | No |
 | ¿Qué queda registrado? | Votos del partido | Votos del partido | Nulos, mezclados con errores | Blancos, por separado | Votos del partido | Solo la participación |
@@ -194,5 +208,7 @@ Por orden: el detalle de las dos papeletas iguales (5); el Senado, que ya está 
 - La línea del 3% que sube con los blancos y deja fuera a F (C2), con el escaño viajando a D.
 - Madrid 2023: el último escaño y los 1.323 votos (D2).
 - Tipos de nulo, dibujados (L1).
-- La silla vacía de Escaños en Blanco, con la pregunta de los 176 (L8).
+- La silla vacía de Escaños en Blanco y el hemiciclo de 1986: 345 y 173 (L8).
+- Madrid 1993: el CDS a 438 votos del 3% y los blancos que movieron la línea (C3).
+- Mapa de 2023: votos a listas sin escaño por provincia (D4).
 - Tabla final, columna a columna.
