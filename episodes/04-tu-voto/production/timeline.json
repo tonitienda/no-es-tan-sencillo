@@ -50,7 +50,8 @@
       ],
       "props": {},
       "sources": [
-        "D3"
+        "L1",
+        "L2"
       ],
       "sourceLabel": false,
       "cues": {
@@ -62,7 +63,7 @@
         "o6": "o no ir",
         "perdido": "un voto perdido",
         "distinto": "mensaje distinto",
-        "cambia": "qué cambia"
+        "cambia": "qué hace tu voto"
       }
     },
     {
@@ -73,7 +74,8 @@
       ],
       "props": {},
       "sources": [
-        "D3"
+        "L1",
+        "L2"
       ],
       "sourceLabel": false,
       "cues": {
@@ -84,46 +86,47 @@
       }
     },
     {
-      "id": "s2-p1",
-      "visual": "provincias",
+      "id": "s1-p3",
+      "visual": "umbral",
       "lines": [
-        "s2-01",
-        "s2-02"
+        "s1-05"
       ],
       "props": {},
       "sources": [
-        "D3",
-        "C1"
+        "L1",
+        "L2"
       ],
-      "sourceLabel": "RD 806/2026, anexo · diputados por circunscripción",
+      "sourceLabel": "LOREG arts. 96.5, 108.4 y 163.1",
       "cues": {
-        "sitios": "52 sitios",
-        "soria": "soria elige",
-        "madrid": "madrid, treinta y ocho"
+        "necesita": "necesita al menos",
+        "importa": "qué cuenta como voto válido",
+        "partidos": "los votos a partidos",
+        "nulos": "los nulos, no"
       }
     },
     {
-      "id": "s2-p2",
-      "visual": "cinco",
+      "id": "s2-p1",
+      "visual": "conEscano",
       "lines": [
-        "s2-03",
-        "s2-04"
+        "s2-01",
+        "s2-02",
+        "s2-03"
       ],
       "props": {},
       "sources": [
-        "D3",
-        "C1"
+        "L5",
+        "D2"
       ],
-      "sourceLabel": "Simulación: provincia inventada · cuenta nuestra",
+      "sourceLabel": "LOREG art. 175 · Orden HAC/1062/2026 · JEC, BOE 1-9-2023",
       "cues": {
-        "partidoD": "el partido d",
-        "mucho": "hace falta mucho",
-        "madrid": "como madrid"
+        "dinero": "también da dinero",
+        "centimos": "81 céntimos",
+        "decide": "decide tu voto"
       }
     },
     {
       "id": "s3-p1",
-      "visual": "conEscano",
+      "visual": "sinEscano",
       "lines": [
         "s3-01",
         "s3-02",
@@ -132,75 +135,27 @@
       ],
       "props": {},
       "sources": [
-        "L2",
         "L5",
-        "D2"
+        "L6",
+        "L4"
       ],
-      "sourceLabel": "LOREG art. 175 · Orden HAC/1062/2026 · JEC, BOE 1-9-2023",
+      "sourceLabel": "LOREG arts. 64, 169.3 y 175",
       "cues": {
-        "dinero": "también da dinero",
-        "centimos": "81 céntimos",
-        "decide": "decide ese escaño",
-        "faltaron": "le faltaron",
-        "unvoto": "un voto solo"
+        "publica": "se publica",
+        "dinero": "tampoco le da dinero",
+        "liston": "sube un poco el listón",
+        "proxima": "la próxima vez",
+        "cifra": "lo que sí queda"
       }
     },
     {
       "id": "s4-p1",
-      "visual": "sinEscano",
+      "visual": "nulo",
       "lines": [
         "s4-01",
         "s4-02",
         "s4-03",
         "s4-04"
-      ],
-      "props": {},
-      "sources": [
-        "L5",
-        "L6",
-        "L4",
-        "D4",
-        "C1",
-        "C2"
-      ],
-      "sourceLabel": "LOREG arts. 64, 169.3 y 175 · JEC, BOE 1-9-2023 · cuenta nuestra",
-      "cues": {
-        "publica": "se publica",
-        "dinero": "le da dinero",
-        "proxima": "la próxima vez",
-        "cifra": "lo que sí queda",
-        "poca": "no es poca gente"
-      }
-    },
-    {
-      "id": "s4-p2",
-      "visual": "mapaSinEscano",
-      "lines": [
-        "s4-05"
-      ],
-      "props": {},
-      "sources": [
-        "L5",
-        "L6",
-        "L4",
-        "D4",
-        "C1",
-        "C2"
-      ],
-      "sourceLabel": "JEC, BOE 1-9-2023 · cuenta nuestra · posiciones aproximadas",
-      "cues": {
-        "madrid": "en madrid",
-        "soria": "en soria"
-      }
-    },
-    {
-      "id": "s5-p1",
-      "visual": "nulo",
-      "lines": [
-        "s5-01",
-        "s5-02",
-        "s5-03",
-        "s5-04"
       ],
       "props": {},
       "sources": [
@@ -220,18 +175,17 @@
       }
     },
     {
-      "id": "s6-p1",
+      "id": "s5-p1",
       "visual": "blanco",
       "lines": [
-        "s6-01",
-        "s6-02",
-        "s6-03"
+        "s5-01",
+        "s5-02",
+        "s5-03"
       ],
       "props": {},
       "sources": [
         "L1",
         "L2",
-        "C2",
         "C3",
         "D1"
       ],
@@ -240,92 +194,58 @@
         "escanos": "no da escaños",
         "dinero": "tampoco da dinero",
         "valido": "es un voto válido",
-        "cuenta": "la del 3%"
+        "cuenta": "sube el listón"
       }
     },
     {
-      "id": "s6-p2",
-      "visual": "liston",
-      "lines": [
-        "s6-04",
-        "s6-05"
-      ],
-      "props": {},
-      "sources": [
-        "L1",
-        "L2",
-        "C2",
-        "C3",
-        "D1"
-      ],
-      "sourceLabel": "Simulación: provincia inventada · cuenta nuestra",
-      "cues": {
-        "necesita": "necesita al menos",
-        "mas": "cuantos más blancos",
-        "importa": "cuándo importa",
-        "diez": "multiplicar por diez"
-      }
-    },
-    {
-      "id": "s6-p3",
-      "visual": "grande",
-      "lines": [
-        "s6-06",
-        "s6-07",
-        "s6-08"
-      ],
-      "props": {},
-      "sources": [
-        "L1",
-        "L2",
-        "C2",
-        "C3",
-        "D1"
-      ],
-      "sourceLabel": "Simulación: provincia inventada · cuenta nuestra",
-      "cues": {
-        "justo": "justo por encima",
-        "anadimos": "añadimos 35.000",
-        "adonde": "adónde va",
-        "nulo": "hubieran votado nulo"
-      }
-    },
-    {
-      "id": "s6-p4",
+      "id": "s5-p2",
       "visual": "madrid1993",
       "lines": [
-        "s6-09",
-        "s6-10",
-        "s6-11",
-        "s6-12"
+        "s5-04",
+        "s5-05",
+        "s5-06"
       ],
       "props": {},
       "sources": [
         "L1",
         "L2",
-        "C2",
         "C3",
         "D1"
       ],
-      "sourceLabel": "JEC, BOE 16-7-1993 · JEC, BOE 1-9-2023 · cuenta nuestra",
+      "sourceLabel": "JEC, BOE 16-7-1993 · cuenta nuestra",
       "cues": {
         "tres": "se quedó fuera",
         "blancos": "votos en blanco",
         "personas": "14.600",
-        "unico": "el único caso",
-        "registrado": "y queda registrado"
+        "segundo": "el segundo partido"
       }
     },
     {
-      "id": "s7-p1",
-      "visual": "escanosEnBlanco",
+      "id": "s5-p3",
+      "visual": "blancos2023",
       "lines": [
-        "s7-01",
-        "s7-02",
-        "s7-03"
+        "s5-07"
       ],
       "props": {},
       "sources": [
+        "L1",
+        "L2",
+        "C3",
+        "D1"
+      ],
+      "sourceLabel": "JEC, BOE 1-9-2023",
+      "cues": {}
+    },
+    {
+      "id": "s6-p1",
+      "visual": "escanosEnBlanco",
+      "lines": [
+        "s6-01",
+        "s6-02"
+      ],
+      "props": {},
+      "sources": [
+        "E0",
         "E1",
         "E2",
         "E3",
@@ -336,19 +256,20 @@
       "cues": {
         "noes": "no es el voto en blanco",
         "segunda": "la segunda opción",
-        "todas": "no está en todas partes",
+        "todas": "el 29 de noviembre",
         "doce": "doce provincias",
-        "madrid": "si vives en madrid"
+        "madrid": "en madrid o en barcelona"
       }
     },
     {
-      "id": "s7-p2",
+      "id": "s6-p2",
       "visual": "sillaVacia",
       "lines": [
-        "s7-04"
+        "s6-03"
       ],
       "props": {},
       "sources": [
+        "E0",
         "E1",
         "E2",
         "E3",
@@ -364,15 +285,15 @@
       }
     },
     {
-      "id": "s7-p3",
+      "id": "s6-p3",
       "visual": "mayoria",
       "lines": [
-        "s7-05",
-        "s7-06",
-        "s7-07"
+        "s6-04",
+        "s6-05"
       ],
       "props": {},
       "sources": [
+        "E0",
         "E1",
         "E2",
         "E3",
@@ -388,12 +309,12 @@
       }
     },
     {
-      "id": "s8-p1",
+      "id": "s7-p1",
       "visual": "abstencion",
       "lines": [
-        "s8-01",
-        "s8-02",
-        "s8-03"
+        "s7-01",
+        "s7-02",
+        "s7-03"
       ],
       "props": {},
       "sources": [
@@ -408,27 +329,25 @@
       }
     },
     {
-      "id": "s9-p1",
+      "id": "s8-p1",
       "visual": "tabla",
       "lines": [
-        "s9-01",
-        "s9-02"
+        "s8-01"
       ],
       "props": {},
       "sources": [],
       "sourceLabel": false,
       "cues": {
         "nuloyabs": "el nulo y la abstención",
-        "blancoyeb": "el blanco y escaños",
-        "dondevives": "dónde vives"
+        "blancoyeb": "el blanco y escaños"
       }
     },
     {
-      "id": "s10-p0",
+      "id": "s9-p1",
       "visual": "cierre",
       "lines": [
-        "s10-01",
-        "s10-02"
+        "s9-01",
+        "s9-02"
       ],
       "props": {},
       "sources": [],
@@ -438,8 +357,7 @@
         "c0": "¿escaños",
         "c1": "dinero, el",
         "c2": "el 3% o",
-        "c3": "lo que queda escrito",
-        "provincia": "en qué provincia"
+        "c3": "lo que queda registrado?"
       }
     },
     {

@@ -138,7 +138,7 @@ export const madrid1993: Visual = function* (view, ctx) {
         <Circle x={300} y={zy(93347) - 50} size={40} fill={TONES[2]} shadowColor={SEAT} shadowBlur={12}/>
         <Big x={330} y={zy(93347) - 50} anchor={[-1, 0]} text="1 escaño" size={34}/>
       </Node>
-      <Node ref={only} opacity={0}><Txt offset={TL} x={80} y={668} text="El único caso que hemos encontrado en unas generales." fontFamily={brand.serif} fontStyle="italic" fontSize={30} fill={brand.soft}/></Node>
+      <Node ref={only} opacity={0}><Tag x={80} y={110} text="ESE ESCAÑO FUE AL PSOE, EL SEGUNDO PARTIDO · ÚNICO CASO ENCONTRADO EN UNAS GENERALES" fill={brand.soft} size={13}/></Node>
     </Node>
     <Node ref={act2} opacity={0}>
       <Envelope kind="blank" x={640} y={250} scale={1.6}/>
@@ -153,8 +153,43 @@ export const madrid1993: Visual = function* (view, ctx) {
   yield* until(ctx, 'personas');
   yield* all(moved(1, 1.2, easeInOutCubic), valid(3126150 - 14584, 1.6, easeInOutCubic));
   yield* all(gap().opacity(0, 0.3), pop(seat()));
-  yield* until(ctx, 'unico');
+  yield* until(ctx, 'segundo');
   yield* appear(only(), 0.5);
-  yield* until(ctx, 'registrado');
-  yield* all(act1().opacity(0, 0.5), appear(act2(), 0.6));
+};
+
+/** S5: the blank vote is counted and published under its own name. */
+export const blancos2023: Visual = function* (view) {
+  const n = createRef<Node>();
+  view.add(<Frame><Node ref={n} opacity={0}>
+    <Envelope kind="blank" x={640} y={250} scale={1.6}/>
+    <Big x={640} y={380} anchor={[0, -1]} text="200.673" size={110}/>
+    <Tag x={640} y={510} anchor={[0, -1]} text="VOTOS EN BLANCO · 2023 · CONTADOS APARTE"/>
+  </Node></Frame>);
+  yield* appear(n(), 0.6);
+};
+
+/** S1: what the 3% is, and what counts as a valid vote. */
+export const umbral: Visual = function* (view, ctx) {
+  const parties = [{name: 'A', votes: 70000}, {name: 'B', votes: 52000}, {name: 'C', votes: 30000}, {name: 'D', votes: 4000, tone: VOTE}];
+  const cols = makeColumns({x: 90, base: 520, width: 520, height: 360, max: 72000, parties, blank: 0});
+  cols.blank(40000);
+  const sum = createRef<Node>(), parts = [0, 1, 2, 3].map(() => createRef<Node>());
+  view.add(<Frame>
+    {cols.node}
+    <Node ref={sum} x={920} y={330}>
+      <Node ref={parts[0]} opacity={0} y={-150}><Rect width={300} height={70} radius={10} fill={rgba(VOTE, 0.12)} stroke={VOTE} lineWidth={2}/><Big anchor={[0, 0]} text="votos a partidos" size={30}/></Node>
+      <Node ref={parts[1]} opacity={0} y={-60}><Big x={-120} anchor={[0, 0]} text="+" size={44}/><Envelope kind="blank" x={-50} scale={0.6}/><Big x={10} anchor={[-1, 0]} text="votos en blanco" size={30} fill={BLANKC}/></Node>
+      <Node ref={parts[2]} opacity={0} y={40}><Rect width={300} height={4} fill={brand.soft}/><Big y={44} anchor={[0, 0]} text="votos válidos" size={40} fill={LINE3}/></Node>
+      <Node ref={parts[3]} opacity={0} y={180}><Envelope kind="null" scale={0.7} x={-80}/><Big x={10} anchor={[-1, 0]} text="nulo: fuera" size={30} fill={NULLC}/></Node>
+    </Node>
+  </Frame>);
+  yield* until(ctx, 'necesita');
+  yield* all(cols.out[3](1, 0.6));
+  yield* until(ctx, 'importa');
+  yield* appear(parts[0](), 0.4);
+  yield* until(ctx, 'partidos');
+  yield* appear(parts[1](), 0.4);
+  yield* appear(parts[2](), 0.4);
+  yield* until(ctx, 'nulos');
+  yield* pop(parts[3]());
 };

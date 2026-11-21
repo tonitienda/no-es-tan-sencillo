@@ -212,20 +212,14 @@ export const tabla: Visual = function* (view, ctx) {
 
 /** S10: the questions to ask, and the province. */
 export const cierre: Visual = function* (view, ctx) {
-  const icons = [0, 1, 2, 3].map(() => createRef<Node>()), q = createRef<Node>(), map = createRef<Node>(), mapT = createRef<TileMap>();
+  const icons = [0, 1, 2, 3].map(() => createRef<Node>()), q = createRef<Node>();
   const order = [0, 2, 1, 3]; // spoken order: escaños, dinero, el 3%, lo que queda
   view.add(<Frame>
     <Node ref={q} opacity={0}><Txt x={640} y={150} text="¿Para qué?" fontFamily={brand.serif} fontStyle="italic" fontSize={84} fill={brand.text}/></Node>
     {[0, 1, 2, 3].map(k => <Node ref={icons[k]} x={250 + k * 260} y={330} opacity={0}><Node scale={3}>{rowIcon(k)}</Node></Node>)}
-    <Node ref={map} opacity={0}>
-      <TileMap ref={mapT} cx={520} cy={420} sx={640} sy={560} zoom={0.38} tilt={50} turn={-4} persp={1400} vx={640} vy={420} lit={0.6} hollows={0}/>
-      <Txt x={640} y={520} text="¿Y en qué provincia?" fontFamily={brand.serif} fontStyle="italic" fontSize={48} fill={VOTE}/>
-    </Node>
   </Frame>);
   yield* until(ctx, 'paraque');
   yield* appear(q(), 0.5);
   const cues = ['c0', 'c1', 'c2', 'c3'];
   for (let k = 0; k < 4; k++) { yield* until(ctx, cues[k]); yield* pop(icons[order[k]]()); }
-  yield* until(ctx, 'provincia');
-  yield* appear(map(), 0.6, 0);
 };

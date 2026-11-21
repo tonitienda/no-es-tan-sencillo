@@ -47,7 +47,8 @@ export const conEscano: Visual = function* (view, ctx) {
       <Big x={110} y={70} text="3.608.673 votos válidos" size={40}/>
       <Tag x={110} y={120} text="CADA CUADRO: 1.000 VOTOS" size={12}/>
       <Circle x={110 + (1804 % 90) * 11.5 + 4} y={150 + Math.floor(1804 / 90) * 11.5 + 4} size={42} stroke={VOTE} lineWidth={3}/>
-      <Big x={1170} y={660} anchor={[1, 1]} text="1.340" size={64} fill={VOTE}/>
+      <Big x={1170} y={64} anchor={[1, -1]} text="≈1.300 votos" size={56} fill={VOTE}/>
+      <Tag x={1170} y={124} anchor={[1, -1]} text="DECIDIERON UN ESCAÑO · MADRID 2023" size={12}/>
     </Node>
   </Frame>);
   hemi().paint = i => (i < 4 ? [SEAT, TONES[1], SEAT, TONES[1]][i] : seatLit() > 0.5 ? VOTE : null);
@@ -66,26 +67,24 @@ export const conEscano: Visual = function* (view, ctx) {
   yield* until(ctx, 'centimos');
   yield* pop(coinVote());
   yield* until(ctx, 'decide');
-  yield* all(act1().opacity(0, 0.5), appear(act2(), 0.6));
-  yield* until(ctx, 'faltaron');
-  yield* pop(gap());
-  yield* until(ctx, 'unvoto');
   field().shown(0);
-  yield* all(act2().opacity(0, 0.5), act3().opacity(1, 0.5), field().shown(1, 1.2, easeInOutCubic));
+  yield* all(act1().opacity(0, 0.5), act3().opacity(1, 0.5), field().shown(1, 1.2, easeInOutCubic));
 };
 
 /** S4: your envelope lands on a party that wins nothing. */
 export const sinEscano: Visual = function* (view, ctx) {
   const env = createRef<Node>(), hemi = createRef<Hemi>(), act1 = createRef<Node>(), noCoin = createRef<Node>(), counter = createRef<Node>();
-  const act2 = createRef<Node>(), act3 = createRef<Node>(), share = createRef<Grid>();
+  const act2 = createRef<Node>(), three = createRef<Node>();
   const parties = [{name: 'A', votes: 70000}, {name: 'B', votes: 60000}, {name: 'C', votes: 34000}, {name: 'D', votes: 26000}, {name: 'E', votes: 6000, tone: VOTE}];
   const cols = makeColumns({x: 100, base: 560, width: 640, height: 380, max: 72000, parties, showLine: false});
-  const listonY = 560 - (30000 / 72000) * 380, ev = createSignal(5000);
+  const ev = createSignal(5000);
   view.add(<Frame>
     <Node ref={act1}>
       {cols.node}
-      <Line points={[[80, listonY], [760, listonY]]} stroke={SEAT} lineWidth={2} lineDash={[10, 6]}/>
-      <Tag x={768} y={listonY} anchor={[-1, 0]} text="ÚLTIMO ESCAÑO" fill={SEAT}/>
+      <Node ref={three}>
+        <Line points={[[80, 520], [760, 520]]} stroke={LINE3} lineWidth={3} lineDash={[10, 6]}/>
+        <Tag x={768} y={520} anchor={[-1, 0]} text="3%" fill={LINE3}/>
+      </Node>
       <Hemi ref={hemi} seats={5} radius={130} x={1060} y={300} dot={40}/>
       <Envelope ref={env} kind="vote" x={cols.x(4)} y={60} scale={1.1} opacity={0}/>
       <Node ref={noCoin} opacity={0} x={1000} y={420}><Coin size={56} crossed/><Big x={46} anchor={[-1, 0]} text="0 €" size={40} fill={MONEY}/></Node>
@@ -107,12 +106,6 @@ export const sinEscano: Visual = function* (view, ctx) {
       </Node>)}
       <Tag x={640} y={60} anchor={[0, -1]} text="SIN ESCAÑO: TV PÚBLICA EN LA PRÓXIMA CAMPAÑA" fill={brand.muted}/>
     </Node>
-    <Node ref={act3} opacity={0}>
-      <Grid ref={share} x={150} y={150} count={100} cols={10} step={42} tile={36} radius={4} fill={brand.tile} paint={i => (i >= 92 ? VOTE : null)}/>
-      <Big x={640} y={210} text="7,8%" size={140} fill={VOTE}/>
-      <Big x={640} y={370} text="1.930.424 votos" size={48}/>
-      <Txt offset={TL} x={644} y={436} width={520} textWrap text="fueron a listas sin escaño en su provincia · 2023" fontFamily={brand.sans} fontSize={22} fill={brand.soft}/>
-    </Node>
   </Frame>);
   hemi().paint = i => [SEAT, TONES[1], SEAT, TONES[1], TONES[2]][i];
   yield* pop(env());
@@ -122,13 +115,12 @@ export const sinEscano: Visual = function* (view, ctx) {
   yield* all(appear(counter()), ev(6000, 0.8));
   yield* until(ctx, 'dinero');
   yield* pop(noCoin());
+  yield* until(ctx, 'liston');
+  yield* three().y(-10, 0.8, easeOutCubic);
   yield* until(ctx, 'proxima');
   yield* all(act1().opacity(0, 0.5), appear(act2(), 0.6));
   yield* until(ctx, 'cifra');
-  yield* all(act2().opacity(0.25, 0.5));
-  yield* until(ctx, 'poca');
-  share().shown(0);
-  yield* all(act2().opacity(0, 0.4), act3().opacity(1, 0.4), share().shown(1, 1, easeInOutCubic));
+  yield* all(act2().opacity(0, 0.5), act1().opacity(1, 0.5));
 };
 
 /** S4: the same thing, province by province (2023). */

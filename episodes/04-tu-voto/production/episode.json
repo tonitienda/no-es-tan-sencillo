@@ -1,7 +1,7 @@
 {
   "title": "Tu voto",
   "question": "Votar en blanco, votar nulo o no votar, ¿no es lo mismo?",
-  "script": "script/01-guion-v1.md",
+  "script": "script/02-guion-v2.md",
   "ledger": "research/01-source-ledger.md",
   "pronunciation": [
     ["CDS", "C-D-S"],

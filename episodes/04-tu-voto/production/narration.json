@@ -1,55 +1,42 @@
 {
-  "script": "episodes/04-tu-voto/script/01-guion-v1.md",
-  "scriptSha256": "bd16b1904be655e330460be702cc1cf202ddb65cf710e7d5efa90b3705ea61d1",
+  "script": "episodes/04-tu-voto/script/02-guion-v2.md",
+  "scriptSha256": "494c531bef3f1b0515b226776844fd3582843cd1751d7fdee2673549b1c5786d",
   "sections": [
     {
       "n": 1,
       "title": "Seis opciones",
       "plannedAt": "0:00",
       "sources": [
-        "D3"
+        "L1",
+        "L2"
       ],
-      "lines": 4
+      "lines": 5
     },
     {
       "n": 2,
-      "title": "Antes de nada: tu provincia",
-      "plannedAt": "0:50",
+      "title": "Votar a un partido que saca escaño",
+      "plannedAt": "1:20",
       "sources": [
-        "D3",
-        "C1"
+        "L5",
+        "D2"
       ],
-      "lines": 4
+      "lines": 3
     },
     {
       "n": 3,
-      "title": "Votar a un partido que saca escaño",
-      "plannedAt": "2:00",
+      "title": "Votar a un partido que no saca escaño",
+      "plannedAt": "2:20",
       "sources": [
-        "L2",
         "L5",
-        "D2"
+        "L6",
+        "L4"
       ],
       "lines": 4
     },
     {
       "n": 4,
-      "title": "Votar a un partido que no saca escaño",
-      "plannedAt": "3:10",
-      "sources": [
-        "L5",
-        "L6",
-        "L4",
-        "D4",
-        "C1",
-        "C2"
-      ],
-      "lines": 5
-    },
-    {
-      "n": 5,
       "title": "Votar nulo",
-      "plannedAt": "4:20",
+      "plannedAt": "3:35",
       "sources": [
         "L1",
         "D1"
@@ -57,51 +44,51 @@
       "lines": 4
     },
     {
-      "n": 6,
+      "n": 5,
       "title": "Votar en blanco",
-      "plannedAt": "5:20",
+      "plannedAt": "4:35",
       "sources": [
         "L1",
         "L2",
-        "C2",
         "C3",
         "D1"
       ],
-      "lines": 12
+      "lines": 7
     },
     {
-      "n": 7,
+      "n": 6,
       "title": "Votar a Escaños en Blanco",
-      "plannedAt": "7:10",
+      "plannedAt": "6:10",
       "sources": [
+        "E0",
         "E1",
         "E2",
         "E3",
         "L7",
         "L8"
       ],
-      "lines": 7
+      "lines": 5
     },
     {
-      "n": 8,
-      "title": "No ir a votar",
-      "plannedAt": "8:30",
+      "n": 7,
+      "title": "No ir",
+      "plannedAt": "7:30",
       "sources": [
         "D1"
       ],
       "lines": 3
     },
     {
-      "n": 9,
+      "n": 8,
       "title": "La tabla",
-      "plannedAt": "9:10",
+      "plannedAt": "8:20",
       "sources": [],
-      "lines": 2
+      "lines": 1
     },
     {
-      "n": 10,
+      "n": 9,
       "title": "Cierre",
-      "plannedAt": "9:50",
+      "plannedAt": "8:45",
       "sources": [],
       "lines": 2
     }
@@ -110,87 +97,77 @@
     {
       "id": "s1-p1",
       "section": 1,
-      "text": "una papeleta y un sobre sobre la mesa. Seis cartas boca abajo: «partido que saca escaño», «partido que no saca escaño», «nulo», «blanco», «Escaños en Blanco», «no ir». Fecha: 29 de noviembre. La marca entra pequeña sobre la narración."
+      "text": "un sobre se abre en seis caminos: «con escaño», «sin escaño», «nulo», «blanco», «Escaños en Blanco», «no ir». Cinco se apagan con «¿un voto perdido?» y vuelven a encenderse, cada uno distinto."
     },
     {
       "id": "s1-p2",
       "section": 1,
-      "text": "la tabla vacía. Seis columnas, cuatro filas: «¿mueve escaños?», «¿cuenta para el 3%?», «¿da dinero?», «¿qué queda registrado?»."
+      "text": "la tabla vacía: seis columnas, cuatro filas."
+    },
+    {
+      "id": "s1-p3",
+      "section": 1,
+      "text": "columnas de partidos y la línea del 3%. Un partido pequeño, debajo de la línea, se apaga. Después, la suma: «votos a partidos + votos en blanco = votos válidos». El nulo queda fuera. Rótulo: «LOREG, arts. 96.5, 108.4 y 163.1»."
     },
     {
       "id": "s2-p1",
       "section": 2,
-      "text": "mapa de España partido en 52 piezas. Se iluminan Soria (2) y Madrid (38), con el rótulo «Real Decreto 806/2026, anexo»."
-    },
-    {
-      "id": "s2-p2",
-      "section": 2,
-      "text": "simulación C1, rótulo «provincia inventada, 5 escaños». Cinco partidos. Se reparten los escaños uno a uno."
+      "text": "el sobre cae sobre una columna, la columna crece y se enciende un escaño. Dos monedas: «21.167 € por escaño» y «0,81 € por voto». Después, un campo de cuadros con uno encendido: «≈1.300 votos»."
     },
     {
       "id": "s3-p1",
       "section": 3,
-      "text": "primera columna de la tabla. Después, el caso de Madrid 2023: dos barras, PP y PSOE, por el último escaño, y la cifra 1.323."
+      "text": "el sobre cae sobre una columna pequeña, que crece un poco y no enciende ningún escaño. La moneda, tachada. La línea del 3% sube un poco. Después, dos columnas, 5.000 y 500.000 votos, con la misma pantalla de «10 min». Al final, el contador de votos publicados."
     },
     {
       "id": "s4-p1",
       "section": 4,
-      "text": "segunda columna. Vuelve la provincia de cinco escaños: el 13% de D, en gris."
-    },
-    {
-      "id": "s4-p2",
-      "section": 4,
-      "text": "mapa de 2023: porcentaje de votos a listas sin escaño, por provincia. Madrid, 1,3%; Soria, 32,8%; Teruel, 35,2%. Rótulo: «cuenta nuestra con los resultados oficiales (JEC, BOE)»."
+      "text": "tres formas de anular: dos partidos en un sobre, papeleta tachada, papeleta no oficial. El sobre nulo rebota contra la caja de votos válidos y cae en la bandeja de nulos: 264.360. La bandeja se parte: «¿protesta?» y «¿error?». Al final, dos papeletas iguales: «= 1 voto válido»."
     },
     {
       "id": "s5-p1",
       "section": 5,
-      "text": "tercera columna. Ejemplos de nulo: papeleta tachada, dos papeletas distintas en el sobre, una nota dentro. Rótulo: «LOREG, art. 96»."
+      "text": "un sobre vacío. El hemiciclo se llena igual: ningún escaño queda vacío. La moneda, tachada. El sobre entra en la caja de votos válidos y la línea del 3% sube."
+    },
+    {
+      "id": "s5-p2",
+      "section": 5,
+      "text": "Madrid, 1993. La columna del CDS, 93.347, justo por debajo de la línea del 3%, 93.785: «−438». Los 30.554 votos en blanco. Unos 14.600 se apartan: la línea baja y el CDS entra. Rótulo: «Junta Electoral Central, BOE del 16 de julio de 1993 · cuenta nuestra»."
+    },
+    {
+      "id": "s5-p3",
+      "section": 5,
+      "text": "el sobre vacío y «200.673 · votos en blanco · 2023 · contados aparte»."
     },
     {
       "id": "s6-p1",
       "section": 6,
-      "text": "cuarta columna. Un sobre vacío. Rótulo literal: «Se considera voto en blanco, pero válido, el sobre que no contenga papeleta» · LOREG, art. 96.5."
+      "text": "el sobre vacío y la papeleta del partido, con «≠». Después, la columna pequeña del partido: «= opción 2». Después, el mapa con las doce provincias donde se presenta; Madrid y Barcelona, tachadas."
     },
     {
       "id": "s6-p2",
       "section": 6,
-      "text": "el 3% como una línea horizontal sobre las barras de los partidos."
+      "text": "el hemiciclo. Un escaño cambia de dueño y se queda vacío, con un anillo discontinuo. Tres plenos se encienden."
     },
     {
       "id": "s6-p3",
       "section": 6,
-      "text": "simulación C2, rótulo «provincia inventada, 37 escaños; Madrid elige 38». El partido F, justo encima del 3%. Caen 35.000 blancos más. La línea sube. F se queda fuera por 50 votos. Su escaño se mueve: a D, el cuarto partido."
-    },
-    {
-      "id": "s6-p4",
-      "section": 6,
-      "text": "Madrid, 1993. La barra del CDS, 93.347 votos, justo por debajo de la línea del 3%: 93.785. «−438». Después, los 30.554 votos en blanco de Madrid, y la línea que baja si una parte de ellos sale de la cuenta. Rótulo: «Junta Electoral Central, BOE del 16 de julio de 1993 · cuenta nuestra»."
+      "text": "1986. Cinco escaños vacíos. «345 de pleno derecho · mayoría absoluta: 173». Después, «1 escaño vacío: 175 · si se hiciera igual». Al final, dos tarjetas: su mejor argumento y su límite."
     },
     {
       "id": "s7-p1",
       "section": 7,
-      "text": "quinta columna. La papeleta del partido, con su nombre oficial: «Escaños en Blanco para dejar Escaños Vacíos». Rótulo: «partido fundado en 2010». Mapa con las doce provincias donde se presenta al Congreso en 2026 (BOE del 3 de noviembre)."
-    },
-    {
-      "id": "s7-p2",
-      "section": 7,
-      "text": "la provincia grande. Escaños en Blanco gana un escaño; un partido pierde el suyo. El escaño queda gris, con una silla vacía."
-    },
-    {
-      "id": "s7-p3",
-      "section": 7,
-      "text": "1986. Un hemiciclo de 350 con cinco escaños grises. «345 diputados de pleno derecho · mayoría absoluta: 173». Fuente: Congreso de los Diputados, sesiones de investidura."
+      "text": "cien personas, 67 encendidas. El hemiciclo se llena igual. «66,59%» y «12.517.011 no fueron». Cuatro preguntas sin respuesta: ¿protesta?, ¿enfermedad?, ¿vive fuera?, ¿le da igual? Al final, la moneda tachada: «sin multa»."
     },
     {
       "id": "s8-p1",
       "section": 8,
-      "text": "sexta columna. Una urna sin tu sobre. La participación de 2023: 66,59%."
+      "text": "la tabla se rellena, columna a columna. Se marcan dos parejas: nulo y no ir; blanco y Escaños en Blanco."
     },
     {
       "id": "s9-p1",
       "section": 9,
-      "text": "la tabla completa. Seis columnas, cuatro filas, y una quinta fila en gris: «¿cuenta para la próxima vez?»."
+      "text": "«¿Para qué?» y los cuatro iconos de las preguntas, uno a uno."
     }
   ],
   "lines": [
@@ -214,361 +191,257 @@
       "id": "s1-03",
       "section": 1,
       "screen": "s1-p1",
-      "text": "Las dos tienen parte de razón. No vamos a decirte qué hacer. Vamos a ver qué cambia, de verdad, con cada opción.",
+      "text": "Las dos tienen parte de razón. No vamos a decirte qué hacer. Vamos a ver qué hace tu voto en cada caso.",
       "placeholders": [],
-      "spoken": "Las dos tienen parte de razón. No vamos a decirte qué hacer. Vamos a ver qué cambia, de verdad, con cada opción."
+      "spoken": "Las dos tienen parte de razón. No vamos a decirte qué hacer. Vamos a ver qué hace tu voto en cada caso."
     },
     {
       "id": "s1-04",
       "section": 1,
       "screen": "s1-p2",
-      "text": "Cuatro preguntas para cada una. ¿Mueve escaños? ¿Cuenta para el 3%, que ahora explicamos? ¿Da dinero a alguien? ¿Y qué queda registrado?",
+      "text": "Cuatro preguntas para cada opción. ¿Mueve escaños? ¿Cuenta para el 3%? ¿Da dinero a alguien? ¿Y qué queda registrado?",
       "placeholders": [],
-      "spoken": "Cuatro preguntas para cada una. ¿Mueve escaños? ¿Cuenta para el 3%, que ahora explicamos? ¿Da dinero a alguien? ¿Y qué queda registrado?"
+      "spoken": "Cuatro preguntas para cada opción. ¿Mueve escaños? ¿Cuenta para el 3%? ¿Da dinero a alguien? ¿Y qué queda registrado?"
+    },
+    {
+      "id": "s1-05",
+      "section": 1,
+      "screen": "s1-p3",
+      "text": "El 3% lo vas a oír varias veces. Para entrar en el reparto de escaños, un partido necesita al menos el 3% de los votos válidos de su provincia. Y para este vídeo importa una cosa: qué cuenta como voto válido. Los votos a partidos y los votos en blanco, sí. Los nulos, no.",
+      "placeholders": [],
+      "spoken": "El 3% lo vas a oír varias veces. Para entrar en el reparto de escaños, un partido necesita al menos el 3% de los votos válidos de su provincia. Y para este vídeo importa una cosa: qué cuenta como voto válido. Los votos a partidos y los votos en blanco, sí. Los nulos, no."
     },
     {
       "id": "s2-01",
       "section": 2,
       "screen": "s2-p1",
-      "text": "Una cosa antes de empezar. El 29 no se reparten 350 escaños en España. Se reparten en 52 sitios: las 50 provincias, Ceuta y Melilla. Cada una elige sus diputados con sus votos, y los de las demás no cuentan.",
+      "text": "Primera opción: votar a un partido que acaba sacando escaño. Tu voto entra en el reparto y ayuda a que ese partido tenga diputados.",
       "placeholders": [],
-      "spoken": "Una cosa antes de empezar. El 29 no se reparten 350 escaños en España. Se reparten en 52 sitios: las 50 provincias, Ceuta y Melilla. Cada una elige sus diputados con sus votos, y los de las demás no cuentan."
+      "spoken": "Primera opción: votar a un partido que acaba sacando escaño. Tu voto entra en el reparto y ayuda a que ese partido tenga diputados."
     },
     {
       "id": "s2-02",
       "section": 2,
       "screen": "s2-p1",
-      "text": "Y no todas eligen los mismos. Soria elige dos diputados. Madrid, treinta y ocho. Eso cambia casi todo lo que viene.",
+      "text": "También da dinero. El Estado paga a cada partido unos 21.000 euros por escaño, y 81 céntimos por cada voto, si su lista saca al menos un escaño.",
       "placeholders": [],
-      "spoken": "Y no todas eligen los mismos. Soria elige dos diputados. Madrid, treinta y ocho. Eso cambia casi todo lo que viene."
+      "spoken": "También da dinero. El Estado paga a cada partido unos 21.000 euros por escaño, y 81 céntimos por cada voto, si su lista saca al menos un escaño."
     },
     {
       "id": "s2-03",
       "section": 2,
-      "screen": "s2-p2",
-      "text": "Mira una provincia inventada con cinco escaños. El partido D tiene el 13% de los votos y no saca ninguno. Con cinco escaños, para entrar hace falta mucho más que un 13%.",
+      "screen": "s2-p1",
+      "text": "¿Decide tu voto un escaño? Casi nunca. Pero a veces el margen es pequeño: en 2023, un escaño de Madrid se decidió por unos mil trescientos votos, entre más de tres millones y medio.",
       "placeholders": [],
-      "spoken": "Mira una provincia inventada con cinco escaños. El partido D tiene el 13% de los votos y no saca ninguno. Con cinco escaños, para entrar hace falta mucho más que un 13%."
-    },
-    {
-      "id": "s2-04",
-      "section": 2,
-      "screen": "s2-p2",
-      "text": "En una provincia como Madrid, con más de treinta, basta con algo más del 3%.",
-      "placeholders": [],
-      "spoken": "En una provincia como Madrid, con más de treinta, basta con algo más del 3%."
+      "spoken": "¿Decide tu voto un escaño? Casi nunca. Pero a veces el margen es pequeño: en 2023, un escaño de Madrid se decidió por unos mil trescientos votos, entre más de tres millones y medio."
     },
     {
       "id": "s3-01",
       "section": 3,
       "screen": "s3-p1",
-      "text": "Primera opción: votar a un partido que acaba sacando escaño en tu provincia. Es la única que cuenta en el reparto.",
+      "text": "Segunda opción: votar a un partido que no saca escaño. Tu voto es válido: se cuenta y se publica con el nombre de ese partido. Pero no entra en el reparto. Y como su lista no saca escaño, tampoco le da dinero.",
       "placeholders": [],
-      "spoken": "Primera opción: votar a un partido que acaba sacando escaño en tu provincia. Es la única que cuenta en el reparto."
+      "spoken": "Segunda opción: votar a un partido que no saca escaño. Tu voto es válido: se cuenta y se publica con el nombre de ese partido. Pero no entra en el reparto. Y como su lista no saca escaño, tampoco le da dinero."
     },
     {
       "id": "s3-02",
       "section": 3,
       "screen": "s3-p1",
-      "text": "También da dinero. El Estado paga a cada partido unos 21.000 euros por escaño y 81 céntimos por voto, si su lista saca al menos un escaño.",
+      "text": "Sí cuenta para el 3%: suma al total de votos válidos, así que sube un poco el listón para los demás partidos.",
       "placeholders": [],
-      "spoken": "También da dinero. El Estado paga a cada partido unos 21.000 euros por escaño y 81 céntimos por voto, si su lista saca al menos un escaño."
+      "spoken": "Sí cuenta para el 3%: suma al total de votos válidos, así que sube un poco el listón para los demás partidos."
     },
     {
       "id": "s3-03",
       "section": 3,
       "screen": "s3-p1",
-      "text": "¿Tu voto decide ese escaño? Casi nunca. Pero «casi nunca» no es «nunca». En 2023, el último escaño de Madrid pasó del PSOE al PP cuando se contó el voto desde el extranjero. Con los resultados oficiales, al PSOE le faltaron 1.340 votos para recuperarlo, entre más de tres millones y medio.",
+      "text": "¿Y para la próxima vez? Menos de lo que parece. Un partido sin escaño tendrá diez minutos gratis en la televisión pública en la próxima campaña, haya sacado 5.000 votos o 500.000. Y tendrá que volver a reunir firmas para presentarse. Las dos cosas solo cambian con un escaño.",
       "placeholders": [],
-      "spoken": "¿Tu voto decide ese escaño? Casi nunca. Pero «casi nunca» no es «nunca». En 2023, el último escaño de Madrid pasó del pesoe al pepé cuando se contó el voto desde el extranjero. Con los resultados oficiales, al pesoe le faltaron 1.340 votos para recuperarlo, entre más de tres millones y medio."
+      "spoken": "¿Y para la próxima vez? Menos de lo que parece. Un partido sin escaño tendrá diez minutos gratis en la televisión pública en la próxima campaña, haya sacado 5.000 votos o 500.000. Y tendrá que volver a reunir firmas para presentarse. Las dos cosas solo cambian con un escaño."
     },
     {
       "id": "s3-04",
       "section": 3,
       "screen": "s3-p1",
-      "text": "Un voto solo casi nunca decide. Mil trescientos cuarenta, a veces sí. Y eso vale para todas las opciones que vienen.",
-      "placeholders": [],
-      "spoken": "Un voto solo casi nunca decide. Mil trescientos cuarenta, a veces sí. Y eso vale para todas las opciones que vienen."
-    },
-    {
-      "id": "s4-01",
-      "section": 4,
-      "screen": "s4-p1",
-      "text": "Segunda opción: votar a un partido que no saca escaño en tu provincia. Tu voto es válido. Se cuenta y se publica con el nombre de ese partido. Pero no entra en el reparto. Y tampoco le da dinero: los 81 céntimos por voto solo se pagan a las listas que sacan escaño.",
-      "placeholders": [],
-      "spoken": "Segunda opción: votar a un partido que no saca escaño en tu provincia. Tu voto es válido. Se cuenta y se publica con el nombre de ese partido. Pero no entra en el reparto. Y tampoco le da dinero: los 81 céntimos por voto solo se pagan a las listas que sacan escaño."
-    },
-    {
-      "id": "s4-02",
-      "section": 4,
-      "screen": "s4-p1",
-      "text": "¿Y para la próxima vez? Menos de lo que parece. Un partido sin escaño tendrá diez minutos gratis en la televisión pública en la próxima campaña, haya sacado 5.000 votos o 500.000. Y tendrá que volver a reunir firmas para presentarse. Las dos cosas solo cambian si saca un escaño.",
-      "placeholders": [],
-      "spoken": "¿Y para la próxima vez? Menos de lo que parece. Un partido sin escaño tendrá diez minutos gratis en la televisión pública en la próxima campaña, haya sacado 5.000 votos o 500.000. Y tendrá que volver a reunir firmas para presentarse. Las dos cosas solo cambian si saca un escaño."
-    },
-    {
-      "id": "s4-03",
-      "section": 4,
-      "screen": "s4-p1",
       "text": "Lo que sí queda es la cifra: cuánta gente le votó. Eso lo leen los demás partidos, la prensa y las encuestas. Nadie está obligado a hacerle caso.",
       "placeholders": [],
       "spoken": "Lo que sí queda es la cifra: cuánta gente le votó. Eso lo leen los demás partidos, la prensa y las encuestas. Nadie está obligado a hacerle caso."
     },
     {
-      "id": "s4-04",
+      "id": "s4-01",
       "section": 4,
       "screen": "s4-p1",
-      "text": "No es poca gente. En 2023, casi dos millones de votos, el 7,8% de los válidos, fueron a listas que no sacaron escaño en su provincia.",
-      "placeholders": [],
-      "spoken": "No es poca gente. En 2023, casi dos millones de votos, el 7,8% de los válidos, fueron a listas que no sacaron escaño en su provincia."
-    },
-    {
-      "id": "s4-05",
-      "section": 4,
-      "screen": "s4-p2",
-      "text": "Y aquí la provincia lo cambia todo. En Madrid, solo el 1,3% de los votos fue a listas sin escaño. En Soria, que elige dos diputados, uno de cada tres. El mismo 5% no saca nada en una provincia pequeña y saca escaños en Madrid. Si un voto así es «útil» o no depende de dónde vives, y de qué esperas de tu voto.",
-      "placeholders": [],
-      "spoken": "Y aquí la provincia lo cambia todo. En Madrid, solo el 1,3% de los votos fue a listas sin escaño. En Soria, que elige dos diputados, uno de cada tres. El mismo 5% no saca nada en una provincia pequeña y saca escaños en Madrid. Si un voto así es «útil» o no depende de dónde vives, y de qué esperas de tu voto."
-    },
-    {
-      "id": "s5-01",
-      "section": 5,
-      "screen": "s5-p1",
       "text": "Tercera opción: el voto nulo. Es nulo, entre otras cosas, el sobre con papeletas de dos partidos distintos, la papeleta con nombres tachados o con algo escrito, y la papeleta que no es oficial.",
       "placeholders": [],
       "spoken": "Tercera opción: el voto nulo. Es nulo, entre otras cosas, el sobre con papeletas de dos partidos distintos, la papeleta con nombres tachados o con algo escrito, y la papeleta que no es oficial."
     },
     {
-      "id": "s5-02",
-      "section": 5,
-      "screen": "s5-p1",
-      "text": "Cuenta como participación: se sabe que fuiste. Pero no es un voto válido. No da escaños, no da dinero y no cuenta para el 3%. Es como si no estuviera en la cuenta del reparto.",
+      "id": "s4-02",
+      "section": 4,
+      "screen": "s4-p1",
+      "text": "Cuenta como participación: se sabe que fuiste. Pero no es un voto válido. No da escaños, no da dinero y no cuenta para el 3%. En el reparto, es como si no estuviera.",
       "placeholders": [],
-      "spoken": "Cuenta como participación: se sabe que fuiste. Pero no es un voto válido. No da escaños, no da dinero y no cuenta para el 3%. Es como si no estuviera en la cuenta del reparto."
+      "spoken": "Cuenta como participación: se sabe que fuiste. Pero no es un voto válido. No da escaños, no da dinero y no cuenta para el 3%. En el reparto, es como si no estuviera."
     },
     {
-      "id": "s5-03",
-      "section": 5,
-      "screen": "s5-p1",
-      "text": "Queda registrado: se publica cuántos nulos hay en cada mesa. Pero esa cifra mezcla dos cosas: quien anula a propósito y quien se equivoca. En 2023 hubo 264.360, algo más que votos en blanco. Nadie sabe cuántos eran protesta.",
+      "id": "s4-03",
+      "section": 4,
+      "screen": "s4-p1",
+      "text": "Queda registrado: se publica cuántos nulos hay en cada mesa. Pero esa cifra mezcla a quien anula a propósito con quien se equivoca. En 2023 hubo 264.360. Nadie sabe cuántos eran protesta.",
       "placeholders": [],
-      "spoken": "Queda registrado: se publica cuántos nulos hay en cada mesa. Pero esa cifra mezcla dos cosas: quien anula a propósito y quien se equivoca. En 2023 hubo 264.360, algo más que votos en blanco. Nadie sabe cuántos eran protesta."
+      "spoken": "Queda registrado: se publica cuántos nulos hay en cada mesa. Pero esa cifra mezcla a quien anula a propósito con quien se equivoca. En 2023 hubo 264.360. Nadie sabe cuántos eran protesta."
     },
     {
-      "id": "s5-04",
-      "section": 5,
-      "screen": "s5-p1",
+      "id": "s4-04",
+      "section": 4,
+      "screen": "s4-p1",
       "text": "Un detalle: si metes dos papeletas del mismo partido, no es nulo. Cuenta como un voto.",
       "placeholders": [],
       "spoken": "Un detalle: si metes dos papeletas del mismo partido, no es nulo. Cuenta como un voto."
     },
     {
+      "id": "s5-01",
+      "section": 5,
+      "screen": "s5-p1",
+      "text": "Cuarta opción: el voto en blanco. Es el sobre vacío.",
+      "placeholders": [],
+      "spoken": "Cuarta opción: el voto en blanco. Es el sobre vacío."
+    },
+    {
+      "id": "s5-02",
+      "section": 5,
+      "screen": "s5-p1",
+      "text": "No da escaños: los escaños no se quedan vacíos por los votos en blanco, se reparten todos igual. Tampoco da dinero a nadie.",
+      "placeholders": [],
+      "spoken": "No da escaños: los escaños no se quedan vacíos por los votos en blanco, se reparten todos igual. Tampoco da dinero a nadie."
+    },
+    {
+      "id": "s5-03",
+      "section": 5,
+      "screen": "s5-p1",
+      "text": "Pero el blanco es un voto válido. Y eso tiene un efecto: sube el listón del 3%. Cuantos más votos en blanco, más votos necesita un partido pequeño para entrar en el reparto.",
+      "placeholders": [],
+      "spoken": "Pero el blanco es un voto válido. Y eso tiene un efecto: sube el listón del 3%. Cuantos más votos en blanco, más votos necesita un partido pequeño para entrar en el reparto."
+    },
+    {
+      "id": "s5-04",
+      "section": 5,
+      "screen": "s5-p2",
+      "text": "¿Cambia eso algo de verdad? Casi nunca, pero ha pasado. En Madrid, en 1993, el CDS sacó 93.347 votos. El 3% eran 93.785. Se quedó fuera por 438 votos.",
+      "placeholders": [],
+      "spoken": "¿Cambia eso algo de verdad? Casi nunca, pero ha pasado. En Madrid, en 1993, el C-D-S sacó 93.347 votos. El 3% eran 93.785. Se quedó fuera por 438 votos."
+    },
+    {
+      "id": "s5-05",
+      "section": 5,
+      "screen": "s5-p2",
+      "text": "Ese año, en Madrid, hubo más de 30.000 votos en blanco. Si unas 14.600 de esas personas hubieran votado nulo o no hubieran ido, el listón habría bajado lo bastante para que el CDS entrara.",
+      "placeholders": [],
+      "spoken": "Ese año, en Madrid, hubo más de 30.000 votos en blanco. Si unas 14.600 de esas personas hubieran votado nulo o no hubieran ido, el listón habría bajado lo bastante para que el C-D-S entrara."
+    },
+    {
+      "id": "s5-06",
+      "section": 5,
+      "screen": "s5-p2",
+      "text": "Ese escaño fue para el PSOE, el segundo partido. El blanco no «va al que gana»: el escaño que pierde un partido pequeño va a quien le toque en el reparto. Y es el único caso que hemos encontrado en unas generales.",
+      "placeholders": [],
+      "spoken": "Ese escaño fue para el pesoe, el segundo partido. El blanco no «va al que gana»: el escaño que pierde un partido pequeño va a quien le toque en el reparto. Y es el único caso que hemos encontrado en unas generales."
+    },
+    {
+      "id": "s5-07",
+      "section": 5,
+      "screen": "s5-p3",
+      "text": "El blanco queda registrado aparte, con su propio nombre. En 2023, 200.673 votos. Dice algo que el nulo no puede decir con la misma claridad: que fuiste, que votaste bien y que no elegiste a ninguno.",
+      "placeholders": [],
+      "spoken": "El blanco queda registrado aparte, con su propio nombre. En 2023, 200.673 votos. Dice algo que el nulo no puede decir con la misma claridad: que fuiste, que votaste bien y que no elegiste a ninguno."
+    },
+    {
       "id": "s6-01",
       "section": 6,
       "screen": "s6-p1",
-      "text": "Cuarta opción: el voto en blanco. En el Congreso, es el sobre vacío.",
+      "text": "Quinta opción, y la que más se confunde con la cuarta. Escaños en Blanco no es el voto en blanco. Es un partido, con su propia papeleta. Su propuesta es que los votos en blanco se conviertan en escaños vacíos. Mientras tanto, promete dejar vacíos los que gane.",
       "placeholders": [],
-      "spoken": "Cuarta opción: el voto en blanco. En el Congreso, es el sobre vacío."
+      "spoken": "Quinta opción, y la que más se confunde con la cuarta. Escaños en Blanco no es el voto en blanco. Es un partido, con su propia papeleta. Su propuesta es que los votos en blanco se conviertan en escaños vacíos. Mientras tanto, promete dejar vacíos los que gane."
     },
     {
       "id": "s6-02",
       "section": 6,
       "screen": "s6-p1",
-      "text": "No da escaños. Los escaños no se quedan vacíos por los votos en blanco: se reparten todos igual. Tampoco da dinero a nadie.",
+      "text": "Si no saca escaño, que es lo que le ha pasado siempre en el Congreso, tu voto tiene los efectos de la segunda opción. En 2023 tuvo 8.448 votos en toda España. Y el 29 de noviembre solo se presenta en doce provincias: en Madrid o en Barcelona, esa papeleta no estará.",
       "placeholders": [],
-      "spoken": "No da escaños. Los escaños no se quedan vacíos por los votos en blanco: se reparten todos igual. Tampoco da dinero a nadie."
+      "spoken": "Si no saca escaño, que es lo que le ha pasado siempre en el Congreso, tu voto tiene los efectos de la segunda opción. En 2023 tuvo 8.448 votos en toda España. Y el 29 de noviembre solo se presenta en doce provincias: en Madrid o en Barcelona, esa papeleta no estará."
     },
     {
       "id": "s6-03",
       "section": 6,
-      "screen": "s6-p1",
-      "text": "Pero el blanco es un voto válido. Y eso cambia una cuenta: la del 3%.",
+      "screen": "s6-p2",
+      "text": "¿Y si sacara uno? Ese escaño se le quita a otro partido, como cualquier escaño. Pero su diputado no va. Sin jurar o prometer la Constitución, después de tres plenos pierde sus derechos de diputado. Y el escaño no pasa a nadie más.",
       "placeholders": [],
-      "spoken": "Pero el blanco es un voto válido. Y eso cambia una cuenta: la del 3%."
+      "spoken": "¿Y si sacara uno? Ese escaño se le quita a otro partido, como cualquier escaño. Pero su diputado no va. Sin jurar o prometer la Constitución, después de tres plenos pierde sus derechos de diputado. Y el escaño no pasa a nadie más."
     },
     {
       "id": "s6-04",
       "section": 6,
-      "screen": "s6-p2",
-      "text": "Para entrar en el reparto, un partido necesita al menos el 3% de los votos válidos de su provincia. Y los votos en blanco son válidos. Cuantos más blancos, más votos hacen falta para llegar al 3%.",
+      "screen": "s6-p3",
+      "text": "¿Y la mayoría absoluta? Hay un precedente. En 1986, cinco diputados electos de Herri Batasuna no juraron ni prometieron la Constitución. El Congreso contó solo a los 345 que sí lo hicieron, y la mayoría absoluta bajó de 176 a 173. Si se hiciera igual, un escaño vacío no pondría más difícil gobernar. Lo pondría un poco más fácil.",
       "placeholders": [],
-      "spoken": "Para entrar en el reparto, un partido necesita al menos el 3% de los votos válidos de su provincia. Y los votos en blanco son válidos. Cuantos más blancos, más votos hacen falta para llegar al 3%."
+      "spoken": "¿Y la mayoría absoluta? Hay un precedente. En 1986, cinco diputados electos de Herri Batasuna no juraron ni prometieron la Constitución. El Congreso contó solo a los 345 que sí lo hicieron, y la mayoría absoluta bajó de 176 a 173. Si se hiciera igual, un escaño vacío no pondría más difícil gobernar. Lo pondría un poco más fácil."
     },
     {
       "id": "s6-05",
       "section": 6,
-      "screen": "s6-p2",
-      "text": "¿Cuándo importa? Solo donde el 3% es el listón de verdad. En la provincia de cinco escaños, el listón real está muy por encima: puedes multiplicar por diez los blancos y el reparto no cambia. En la práctica, el 3% solo pesa en las provincias que eligen muchos diputados, como Madrid y Barcelona.",
-      "placeholders": [],
-      "spoken": "¿Cuándo importa? Solo donde el 3% es el listón de verdad. En la provincia de cinco escaños, el listón real está muy por encima: puedes multiplicar por diez los blancos y el reparto no cambia. En la práctica, el 3% solo pesa en las provincias que eligen muchos diputados, como Madrid y Barcelona."
-    },
-    {
-      "id": "s6-06",
-      "section": 6,
       "screen": "s6-p3",
-      "text": "Mira esta provincia inventada, casi del tamaño de Madrid. El partido F tiene un escaño, justo por encima del 3%. Añadimos 35.000 votos en blanco. El 3% sube, y F se queda fuera por 50 votos.",
+      "text": "Su mejor argumento: hace visible el descontento dentro de las reglas. Su límite: para dejar un escaño vacío, primero hay que ganarlo.",
       "placeholders": [],
-      "spoken": "Mira esta provincia inventada, casi del tamaño de Madrid. El partido F tiene un escaño, justo por encima del 3%. Añadimos 35.000 votos en blanco. El 3% sube, y F se queda fuera por 50 votos."
-    },
-    {
-      "id": "s6-07",
-      "section": 6,
-      "screen": "s6-p3",
-      "text": "¿Adónde va su escaño? Aquí no al partido más grande, sino al cuarto. Se dice a menudo que el blanco «va al que gana». No es así: el escaño pasa al partido con el siguiente cociente, sea cual sea su tamaño.",
-      "placeholders": [],
-      "spoken": "¿Adónde va su escaño? Aquí no al partido más grande, sino al cuarto. Se dice a menudo que el blanco «va al que gana». No es así: el escaño pasa al partido con el siguiente cociente, sea cual sea su tamaño."
-    },
-    {
-      "id": "s6-08",
-      "section": 6,
-      "screen": "s6-p3",
-      "text": "Si esos mismos 35.000 hubieran votado nulo, o no hubieran ido, F conservaría su escaño.",
-      "placeholders": [],
-      "spoken": "Si esos mismos 35.000 hubieran votado nulo, o no hubieran ido, F conservaría su escaño."
-    },
-    {
-      "id": "s6-09",
-      "section": 6,
-      "screen": "s6-p4",
-      "text": "¿Ha pasado de verdad? Sí. En Madrid, en 1993, el CDS sacó 93.347 votos. El 3% eran 93.785. Se quedó fuera por 438 votos. Sin el umbral, habría tenido un diputado; ese escaño fue para el PSOE.",
-      "placeholders": [],
-      "spoken": "¿Ha pasado de verdad? Sí. En Madrid, en 1993, el C-D-S sacó 93.347 votos. El 3% eran 93.785. Se quedó fuera por 438 votos. Sin el umbral, habría tenido un diputado; ese escaño fue para el pesoe."
-    },
-    {
-      "id": "s6-10",
-      "section": 6,
-      "screen": "s6-p4",
-      "text": "Ese año, en Madrid, hubo más de 30.000 votos en blanco. Si unas 14.600 de esas personas hubieran votado nulo o no hubieran ido, el 3% habría bajado lo bastante para que el CDS entrara.",
-      "placeholders": [],
-      "spoken": "Ese año, en Madrid, hubo más de 30.000 votos en blanco. Si unas 14.600 de esas personas hubieran votado nulo o no hubieran ido, el 3% habría bajado lo bastante para que el C-D-S entrara."
-    },
-    {
-      "id": "s6-11",
-      "section": 6,
-      "screen": "s6-p4",
-      "text": "Es el único caso que hemos encontrado en unas generales. No hemos revisado todas, una por una.",
-      "placeholders": [],
-      "spoken": "Es el único caso que hemos encontrado en unas generales. No hemos revisado todas, una por una."
-    },
-    {
-      "id": "s6-12",
-      "section": 6,
-      "screen": "s6-p4",
-      "text": "Y queda registrado: el blanco se publica aparte, con su propio nombre. En 2023, 200.673 votos. Dice algo que el nulo no puede decir con la misma claridad: que fuiste, que votaste bien y que no elegiste a ninguno.",
-      "placeholders": [],
-      "spoken": "Y queda registrado: el blanco se publica aparte, con su propio nombre. En 2023, 200.673 votos. Dice algo que el nulo no puede decir con la misma claridad: que fuiste, que votaste bien y que no elegiste a ninguno."
+      "spoken": "Su mejor argumento: hace visible el descontento dentro de las reglas. Su límite: para dejar un escaño vacío, primero hay que ganarlo."
     },
     {
       "id": "s7-01",
       "section": 7,
       "screen": "s7-p1",
-      "text": "Quinta opción, y la que más se confunde con la cuarta. Escaños en Blanco no es el voto en blanco. Es un partido, con su propia papeleta. Su única propuesta es que los votos en blanco se conviertan en escaños vacíos. Mientras tanto, promete dejar vacíos los que gane.",
+      "text": "Sexta opción: no ir. No cuentas para nada del reparto: ni para los escaños, ni para el 3%, ni para el dinero. Los escaños se reparten igual, entre los que sí fueron.",
       "placeholders": [],
-      "spoken": "Quinta opción, y la que más se confunde con la cuarta. Escaños en Blanco no es el voto en blanco. Es un partido, con su propia papeleta. Su única propuesta es que los votos en blanco se conviertan en escaños vacíos. Mientras tanto, promete dejar vacíos los que gane."
+      "spoken": "Sexta opción: no ir. No cuentas para nada del reparto: ni para los escaños, ni para el 3%, ni para el dinero. Los escaños se reparten igual, entre los que sí fueron."
     },
     {
       "id": "s7-02",
       "section": 7,
       "screen": "s7-p1",
-      "text": "Si no saca escaño, que es lo que le ha pasado siempre en el Congreso, tu voto es exactamente la segunda opción: un voto válido a un partido que no entra en el reparto. En 2023 tuvo 8.448 votos en toda España.",
+      "text": "Lo que queda registrado es la participación. En 2023 votó el 66,59% del censo: más de doce millones de personas no fueron. Pero en esa cifra no se distingue quién no fue por protesta, quién estaba enfermo, quién vivía fuera o a quién le daba igual.",
       "placeholders": [],
-      "spoken": "Si no saca escaño, que es lo que le ha pasado siempre en el Congreso, tu voto es exactamente la segunda opción: un voto válido a un partido que no entra en el reparto. En 2023 tuvo 8.448 votos en toda España."
+      "spoken": "Lo que queda registrado es la participación. En 2023 votó el 66,59% del censo: más de doce millones de personas no fueron. Pero en esa cifra no se distingue quién no fue por protesta, quién estaba enfermo, quién vivía fuera o a quién le daba igual."
     },
     {
       "id": "s7-03",
       "section": 7,
       "screen": "s7-p1",
-      "text": "Y no está en todas partes. El 29 de noviembre se presenta al Congreso en doce provincias. Si vives en Madrid o en Barcelona, esa papeleta no estará en tu colegio.",
-      "placeholders": [],
-      "spoken": "Y no está en todas partes. El 29 de noviembre se presenta al Congreso en doce provincias. Si vives en Madrid o en Barcelona, esa papeleta no estará en tu colegio."
-    },
-    {
-      "id": "s7-04",
-      "section": 7,
-      "screen": "s7-p2",
-      "text": "¿Y si sacara uno? Entonces ese escaño se le quita a otro partido, como cualquier escaño. La diferencia viene después: su diputado no va. Para ser diputado del todo hay que jurar o prometer la Constitución. Si pasan tres plenos sin hacerlo, pierde sus derechos de diputado hasta que lo haga. Y el escaño no pasa a nadie más: solo pasaría al siguiente de su lista si renunciara.",
-      "placeholders": [],
-      "spoken": "¿Y si sacara uno? Entonces ese escaño se le quita a otro partido, como cualquier escaño. La diferencia viene después: su diputado no va. Para ser diputado del todo hay que jurar o prometer la Constitución. Si pasan tres plenos sin hacerlo, pierde sus derechos de diputado hasta que lo haga. Y el escaño no pasa a nadie más: solo pasaría al siguiente de su lista si renunciara."
-    },
-    {
-      "id": "s7-05",
-      "section": 7,
-      "screen": "s7-p3",
-      "text": "¿Y la mayoría absoluta? Hay un precedente. En 1986, cinco diputados electos de Herri Batasuna no juraron ni prometieron la Constitución. El Congreso contó solo a los 345 que sí lo hicieron, y la mayoría absoluta bajó de 176 a 173.",
-      "placeholders": [],
-      "spoken": "¿Y la mayoría absoluta? Hay un precedente. En 1986, cinco diputados electos de Herri Batasuna no juraron ni prometieron la Constitución. El Congreso contó solo a los 345 que sí lo hicieron, y la mayoría absoluta bajó de 176 a 173."
-    },
-    {
-      "id": "s7-06",
-      "section": 7,
-      "screen": "s7-p3",
-      "text": "Si se hiciera igual, un escaño vacío no pondría más difícil gobernar. Lo pondría un poco más fácil.",
-      "placeholders": [],
-      "spoken": "Si se hiciera igual, un escaño vacío no pondría más difícil gobernar. Lo pondría un poco más fácil."
-    },
-    {
-      "id": "s7-07",
-      "section": 7,
-      "screen": "s7-p3",
-      "text": "Su mejor argumento: hace visible el descontento dentro de las reglas. Su límite: con la ley actual, para dejar un escaño vacío hay que ganarlo como cualquier partido.",
-      "placeholders": [],
-      "spoken": "Su mejor argumento: hace visible el descontento dentro de las reglas. Su límite: con la ley actual, para dejar un escaño vacío hay que ganarlo como cualquier partido."
-    },
-    {
-      "id": "s8-01",
-      "section": 8,
-      "screen": "s8-p1",
-      "text": "Sexta opción: no ir. No cuentas para nada del reparto. Ni para el 3%, ni para el dinero. Los escaños se reparten igual, entre los que sí fueron.",
-      "placeholders": [],
-      "spoken": "Sexta opción: no ir. No cuentas para nada del reparto. Ni para el 3%, ni para el dinero. Los escaños se reparten igual, entre los que sí fueron."
-    },
-    {
-      "id": "s8-02",
-      "section": 8,
-      "screen": "s8-p1",
-      "text": "Lo que queda registrado es la participación. En 2023 votó el 66,59% del censo: más de doce millones de personas no fueron. Pero en esa cifra no se distingue quien no fue por protesta, quien estaba enfermo, quien vivía fuera o a quien le daba igual.",
-      "placeholders": [],
-      "spoken": "Lo que queda registrado es la participación. En 2023 votó el 66,59% del censo: más de doce millones de personas no fueron. Pero en esa cifra no se distingue quien no fue por protesta, quien estaba enfermo, quien vivía fuera o a quien le daba igual."
-    },
-    {
-      "id": "s8-03",
-      "section": 8,
-      "screen": "s8-p1",
       "text": "En España votar no es obligatorio. No hay multa por no ir.",
       "placeholders": [],
       "spoken": "En España votar no es obligatorio. No hay multa por no ir."
     },
     {
+      "id": "s8-01",
+      "section": 8,
+      "screen": "s8-p1",
+      "text": "Seis opciones, y no hay dos iguales. El nulo y la abstención se parecen en el reparto, pero no en lo que queda registrado. El blanco y Escaños en Blanco se parecen en la intención, pero uno es un voto a nadie y el otro es un voto a un partido.",
+      "placeholders": [],
+      "spoken": "Seis opciones, y no hay dos iguales. El nulo y la abstención se parecen en el reparto, pero no en lo que queda registrado. El blanco y Escaños en Blanco se parecen en la intención, pero uno es un voto a nadie y el otro es un voto a un partido."
+    },
+    {
       "id": "s9-01",
       "section": 9,
       "screen": "s9-p1",
-      "text": "Seis opciones, y no hay dos iguales. El nulo y la abstención se parecen en la cuenta del reparto, pero no en lo que queda registrado. El blanco y Escaños en Blanco se parecen en la intención, pero uno es un voto a nadie y el otro es un voto a un partido.",
-      "placeholders": [],
-      "spoken": "Seis opciones, y no hay dos iguales. El nulo y la abstención se parecen en la cuenta del reparto, pero no en lo que queda registrado. El blanco y Escaños en Blanco se parecen en la intención, pero uno es un voto a nadie y el otro es un voto a un partido."
-    },
-    {
-      "id": "s9-02",
-      "section": 9,
-      "screen": "s9-p1",
-      "text": "Y casi todo depende de dónde vives. En una provincia pequeña, el blanco no mueve nada y un partido pequeño casi nunca entra. En Madrid o Barcelona, las dos cosas pueden cambiar un escaño.",
-      "placeholders": [],
-      "spoken": "Y casi todo depende de dónde vives. En una provincia pequeña, el blanco no mueve nada y un partido pequeño casi nunca entra. En Madrid o Barcelona, las dos cosas pueden cambiar un escaño."
-    },
-    {
-      "id": "s10-01",
-      "section": 10,
-      "screen": null,
       "text": "Lo que estos datos pueden decirte es qué hace cada opción. Lo que no pueden decirte es qué te importa más: elegir entre los que pueden ganar, apoyar a quien te convence aunque no entre, decir que ninguno o no participar. Eso no se calcula.",
       "placeholders": [],
       "spoken": "Lo que estos datos pueden decirte es qué hace cada opción. Lo que no pueden decirte es qué te importa más: elegir entre los que pueden ganar, apoyar a quien te convence aunque no entre, decir que ninguno o no participar. Eso no se calcula."
     },
     {
-      "id": "s10-02",
-      "section": 10,
-      "screen": null,
-      "text": "La próxima vez que alguien te diga que una opción «no sirve para nada», pregúntale: ¿para qué? ¿Escaños, dinero, el 3% o lo que queda escrito? ¿Y en qué provincia?",
+      "id": "s9-02",
+      "section": 9,
+      "screen": "s9-p1",
+      "text": "La próxima vez que alguien te diga que una opción «no sirve para nada», pregúntale: ¿para qué? ¿Escaños, dinero, el 3% o lo que queda registrado?",
       "placeholders": [],
-      "spoken": "La próxima vez que alguien te diga que una opción «no sirve para nada», pregúntale: ¿para qué? ¿Escaños, dinero, el 3% o lo que queda escrito? ¿Y en qué provincia?"
+      "spoken": "La próxima vez que alguien te diga que una opción «no sirve para nada», pregúntale: ¿para qué? ¿Escaños, dinero, el 3% o lo que queda registrado?"
     }
   ]
 }

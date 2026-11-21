@@ -8,6 +8,10 @@
 - Tema: qué pasa en España, en unas generales, si votas a un partido que saca escaño, a uno que no lo saca, nulo, en blanco, a Escaños en Blanco, o si no votas.
 - Objetivo: que las diferencias queden claras para que cada cual decida. **No** decir qué hacer.
 
+## Decidido (21 de noviembre)
+- **El episodio trata solo de los efectos de cada tipo de voto.** Nada de escaños por provincia, cuántos votos cuesta un escaño ni D'Hondt: eso es otro episodio, sobre la ley electoral. Guion vigente: [v2](02-guion-v2.md). El 3% queda en una frase y con el caso real de Madrid 1993, porque es lo único que separa el blanco del nulo.
+- **Visuales animados**, sin texto largo en pantalla: sobre, columnas, línea del 3%, hemiciclo. Mapa de vivienda reutilizado para Escaños en Blanco.
+
 ## Propuesto (a decidir por Toni)
 1. **Fecha.** Hoy es 20 de noviembre; la campaña acaba el 27 y la regla del canal es no publicar el 28 ni el 29. Vivienda sale el 24. Dos caminos:
    - **A (recomendado si la verificación es rápida): publicar el 26 de noviembre.** El contenido es sobre todo ley, no promesas, así que la verificación es corta si se puede leer el BOE. Calendario: norma en [P] el 21-22; anexo de escaños y C3 el 22; guion cerrado el 23 (decisión de seguir o no, ese día); voz y montaje el 24-25 reutilizando la plantilla de vivienda; publicar el 26.
