@@ -248,3 +248,21 @@ export const final: Visual = function* (view, ctx) {
   yield* until(ctx, 'calcula');
   yield* appear(line(), 0.6);
 };
+
+/** End screen: centred, no reserved panels. Static after the first second so YouTube can overlay its elements anywhere. */
+export const outro: Visual = function* (view, ctx) {
+  const p = ctx.beat.props as {title?: string; question?: string; prompt?: string};
+  const block = createRef<Node>();
+  view.add(<Frame>
+    <Node ref={block} opacity={0}>
+      <Big x={640} y={120} anchor={[0, 0]} text={brand.name} size={24} fill={brand.muted}/>
+      <Rect x={640} y={146} width={40} height={3} fill={VOTE}/>
+      <Txt x={640} y={290} width={980} textAlign="center" textWrap text={p.question ?? ''} fontFamily={brand.display} fontWeight={800}
+        fontSize={50} lineHeight="120%" fill={brand.ivory}/>
+      <Txt x={640} y={430} width={980} textAlign="center" text={p.title ?? 'Gracias por mirar hasta el final.'} fontFamily={brand.serif}
+        fontStyle="italic" fontSize={60} fill={VOTE}/>
+      <Tag x={640} y={590} anchor={[0, 0]} text={p.prompt ?? 'Fuentes y artículos de ley en la descripción.'} size={16} fill={brand.soft}/>
+    </Node>
+  </Frame>);
+  yield* appear(block(), 0.8, 10);
+};

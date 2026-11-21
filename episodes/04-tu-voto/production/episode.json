@@ -4,33 +4,65 @@
   "script": "script/03-guion-v3.md",
   "ledger": "research/01-source-ledger.md",
   "pronunciation": [
-    ["CDS", "C-D-S"],
-    ["PSOE", "pesoe"],
-    ["PP", "pepé"],
-    ["CERA", "cera"],
-    ["D'Hondt", "Dont"]
+    [
+      "CDS",
+      "C-D-S"
+    ],
+    [
+      "PSOE",
+      "pesoe"
+    ],
+    [
+      "PP",
+      "pepé"
+    ],
+    [
+      "CERA",
+      "cera"
+    ],
+    [
+      "D'Hondt",
+      "Dont"
+    ]
   ],
   "intro": {
     "kicker": "Tu voto",
     "title": "Votar en blanco, votar nulo o no votar, ¿no es lo mismo?",
     "premise": "Seis opciones. Las mismas cuatro preguntas para todas.",
     "facts": [
-      {"label": "Preguntas", "value": "¿Mueve escaños? ¿Cuenta para el 3%? ¿Da dinero? ¿Qué queda registrado?"},
-      {"label": "Ley", "value": "Citada del BOE, con artículo"},
-      {"label": "Cuentas nuestras", "value": "Marcadas como tales"},
-      {"label": "Recomendación de voto", "value": "Ninguna"}
+      {
+        "label": "Preguntas",
+        "value": "¿Mueve escaños? ¿Cuenta para el 3%? ¿Da dinero? ¿Qué queda registrado?"
+      },
+      {
+        "label": "Ley",
+        "value": "Citada del BOE, con artículo"
+      },
+      {
+        "label": "Cuentas nuestras",
+        "value": "Marcadas como tales"
+      },
+      {
+        "label": "Recomendación de voto",
+        "value": "Ninguna"
+      }
     ]
   },
   "outro": {
-    "title": "¿Para qué sirve tu voto?",
-    "question": "¿Escaños? ¿El 3%? ¿Dinero? ¿Lo que queda escrito?",
-    "prompt": "¿Y en qué provincia? Fuentes, artículos de ley y registro completo en la descripción."
+    "title": "Gracias por mirar hasta el final.",
+    "question": "Seis opciones, seis efectos distintos.\nCuál te importa más, eso lo decides tú.",
+    "prompt": "Fuentes y artículos de ley en la descripción."
   },
   "voice": {
     "modelId": "eleven_v4",
     "narrator": {
       "name": "narrador v4",
-      "voiceSettings": {"stability": 0.35, "similarityBoost": 0.75, "useSpeakerBoost": true, "speed": 1}
+      "voiceSettings": {
+        "stability": 0.35,
+        "similarityBoost": 0.75,
+        "useSpeakerBoost": true,
+        "speed": 1
+      }
     }
   },
   "youtube": {
@@ -43,8 +75,21 @@
       "Partido que saca escaño, partido que no lo saca, nulo, blanco, Escaños en Blanco o no ir. Probamos las seis opciones con las mismas cuatro preguntas: ¿mueve escaños?, ¿cuenta para el 3%?, ¿da dinero?, ¿qué queda registrado? No decimos qué votar.",
       "La ley se cita del BOE, con su artículo. Los datos de 1993, 2023 y 2026 son los oficiales de la Junta Electoral Central. Las simulaciones de reparto son provincias inventadas y se dice en pantalla."
     ],
-    "tags": ["elecciones generales", "voto en blanco", "voto nulo", "abstención", "Escaños en Blanco", "ley D'Hondt", "LOREG", "España", "No es tan sencillo"],
-    "hashtags": ["#29N", "#NoEsTanSencillo"],
+    "tags": [
+      "elecciones generales",
+      "voto en blanco",
+      "voto nulo",
+      "abstención",
+      "Escaños en Blanco",
+      "ley D'Hondt",
+      "LOREG",
+      "España",
+      "No es tan sencillo"
+    ],
+    "hashtags": [
+      "#29N",
+      "#NoEsTanSencillo"
+    ],
     "language": "español (España)",
     "category": "Educación",
     "ledgerUrl": null
