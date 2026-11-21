@@ -1,6 +1,12 @@
-// Visuals for this episode, by name. Beats in timeline.json refer to these names
-// ("visual": "dosBarras"). Built-ins: intro, outro, cartela, placeholder.
-// See production/README.md, "Writing a visual".
+// Visuals for this episode, by name. Beats in timeline.json refer to these names.
+// Built-ins: intro, outro, cartela, placeholder. See production/README.md, "Writing a visual".
 import type {VisualRegistry} from '../../../production/src/timeline';
+import {cinco, opciones, preguntas, provincias} from './visuals/s1';
+import {conEscano, mapaSinEscano, nulo, sinEscano} from './visuals/s3';
+import {blanco, grande, liston, madrid1993} from './visuals/s6';
+import {abstencion, cierre, escanosEnBlanco, mayoria, sillaVacia, tabla} from './visuals/s7';
 
-export const visuals: VisualRegistry = {};
+export const visuals: VisualRegistry = {
+  opciones, preguntas, provincias, cinco, conEscano, sinEscano, mapaSinEscano, nulo,
+  blanco, liston, grande, madrid1993, escanosEnBlanco, sillaVacia, mayoria, abstencion, tabla, cierre,
+};
