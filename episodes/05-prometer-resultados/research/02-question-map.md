@@ -32,14 +32,12 @@ La política industrial coreana o la I+D pública son «actuar sobre causas» y 
 - Pero un precio o un salario no es **solo** un termómetro: también es un **termostato**. Es un efecto (de la escasez, de la productividad) y a la vez una causa (de cuánto se oferta, de a quién se contrata). Por eso, al fijarlo, el sistema reacciona.
 - El caso más literal: **Argentina 2007-2015**, cuando se intervino el índice de precios del INDEC. Se arregló el termómetro y la inflación siguió (verificar, F12).
 
-## La plantilla: cinco preguntas para cada promesa
-Equivalente a las cuatro preguntas de vivienda. Fija en pantalla, la misma para todos los casos:
+## Lo que hay que mirar en cada caso
+No es una plantilla fija en pantalla (ver decisiones). Son las ideas que la narración debe cubrir en cada caso, contadas dentro de cada historia y solo donde aporten:
 
-1. **¿Qué número se promete?** (el marcador)
-2. **¿Qué lo produce?** (las palancas)
-3. **Si lo fijas, ¿por dónde se escapa el ajuste?** Colas, calidad, cantidad, mercado negro, horas, economía sumergida, otro producto, otro sitio.
-4. **¿Quién gana, quién paga y cuándo?** Lo que se ve y lo que no se ve (Bastiat). Quien ya está dentro frente a quien quiere entrar.
-5. **¿Se dan las condiciones en las que fijarlo funciona?** (ver abajo)
+- **Por dónde se escapa el ajuste** cuando se fija el número: colas, calidad, cantidad, mercado negro, horas, economía sumergida, otro producto, otro sitio.
+- **Quién gana y quién paga, y cuándo.** Lo que se ve y lo que no se ve (Bastiat). Quien ya está dentro frente a quien quiere entrar.
+- **Si se dan las condiciones en las que fijarlo funciona** (ver abajo).
 
 ## Cuándo fijar el marcador sí puede funcionar
 Esta sección es la que más evidencia en contra de la hipótesis concentra. Criterios candidatos, cada uno con su caso:
@@ -58,7 +56,7 @@ La otra mitad de la evidencia incómoda:
 - **Es difícil de evaluar.** «Ya llegará» no se puede refutar. Una promesa de causas puede ser una excusa para no hacer nada.
 - **La causa puede estar mal identificada.** España construyó más que nadie en 2000-2007 y los precios subieron, porque la palanca era el crédito (enlazar con vivienda).
 - **La palanca no siempre llega al marcador.** «Sube la productividad y subirán los salarios»: en Estados Unidos hay un debate serio sobre si salario y productividad se han separado y por qué. Hay quien dice que sí y quien dice que es sobre todo un problema de medición (F11). El poder de negociación también es una palanca.
-- **Los liberales también prometen efectos.** «La bajada de impuestos se paga sola», «X millones de empleos» o el déficit por ley. Usar la misma plantilla con ellos.
+- **Los liberales también prometen efectos.** «La bajada de impuestos se paga sola», «X millones de empleos» o el déficit por ley. Tratarlas con el mismo rigor.
 
 **Respuesta posible, para el cierre:** prometer palancas **medibles** (licencias concedidas, plazo de tramitación, suelo aprobado, horas de formación) y rendir cuentas con los marcadores. El marcador sirve para evaluar; no sirve como instrumento. Los bancos centrales lo hacen así: prometen un efecto (inflación del 2%) y lo persiguen moviendo una palanca (el tipo de interés). Funcionó bastante bien veinte años y falló en 2021-2022 (F13).
 
@@ -73,7 +71,7 @@ La otra mitad de la evidencia incómoda:
    - Cercano: estudiar para el examen frente a aprender; pesarse frente a cambiar de hábitos.
 4. **Precios** (3:30-5:30). Del edicto de Diocleciano a Nixon en 1971 (F1, F2). Alquiler: San Francisco (F4), Berlín (F6) y la remisión a vivienda, sin repetirla. **Contraejemplos en el mismo bloque:** la guerra (F3) y la excepción ibérica (F5).
 5. **Salarios** (5:30-7:30). La palanca: productividad por hora, tamaño de empresa, tipo de industria (F18, F19). El marcador: el SMI de 2019, +22% (F7). Lo que dice la evidencia: Card y Krueger, Puerto Rico, Alemania, Seattle (F8-F10). La idea que ordena todo: **la dosis**, medida como SMI entre salario mediano. Y el matiz de que la productividad no se convierte sola en salario (F11).
-6. **El espejo** (7:30-8:30). Las promesas de efectos del otro lado, con la misma plantilla.
+6. **El espejo** (7:30-8:30). Las promesas de efectos del otro lado, como tipos de promesa y sin nombrar partidos.
 7. **Cuándo funciona y cuándo no** (8:30-10:00). Los seis criterios, en una tabla.
 8. **Cierre** (10:00-11:00). Palancas medibles, marcadores para evaluar. Y una pregunta para el espectador: cuando oigas una promesa, ¿qué número promete y qué palanca toca?
 

@@ -84,5 +84,6 @@
 - Campbell (1979): la ley de Campbell, la versión para indicadores sociales.
 - Bastiat (1850), *Lo que se ve y lo que no se ve*.
 
-## Promesas de efectos de los dos lados (pendiente)
-- Recoger promesas literales, fechadas y con documento, de más de un partido: empleos («800.000 puestos de trabajo», PSOE 1982), recaudación («la bajada se paga sola»), déficit (reforma del art. 135, 2011), precios (topes) y salarios (SMI al 60% del salario medio). Misma regla que en vivienda: nombrar a un partido solo si se prueba también la promesa de otro.
+## Promesas de efectos de los dos lados
+- **Decidido (22 de noviembre): no se nombran partidos ni promesas concretas de partidos.** Las promesas salen como tipos genéricos: empleos («crearemos X empleos»), recaudación («la bajada se paga sola»), déficit por ley, topes de precios y salario mínimo como porcentaje del salario medio. No hace falta buscar promesas literales.
+- La reforma del art. 135 (2011) es una norma, no una promesa de partido: puede citarse como ejemplo de fijar un marcador por ley.
