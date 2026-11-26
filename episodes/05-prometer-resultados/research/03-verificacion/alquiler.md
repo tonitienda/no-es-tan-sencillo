@@ -1,173 +1,188 @@
 # Verificación F4 y F6 (topes al alquiler), 26 de noviembre de 2026
 
-**Cómo se ha hecho y por qué casi todo sigue en [S].** WebFetch no ha podido abrir ninguna fuente primaria en esta sesión: aeaweb.org, nber.org, web.stanford.edu y diw.de dieron `ENOTFOUND`, porque la red de la sesión no permite esos dominios. Por eso **no se ha leído ningún PDF ni ninguna sentencia**. Todo lo nuevo sale de resúmenes y extractos de un buscador web, que pueden parafrasear o equivocarse: **[S] en todas las entradas nuevas**. Las citas «entre comillas» son extractos del buscador, no cotejados con el original, y no tienen página. Hacia el final se agotó también el cupo de búsquedas del turno, que comparten todos los agentes, y quedaron cosas sin buscar (ver «Pendiente»).
+**Cómo se ha hecho.** Hubo dos pasadas el mismo día.
+- **Primera pasada:** sin acceso a fuentes primarias (aeaweb.org, nber.org, web.stanford.edu y diw.de daban `ENOTFOUND`). Todo salía de resúmenes y extractos de buscador: [S].
+- **Segunda pasada (26/11):** con red abierta para fuentes primarias. Se han descargado y leído: NBER w24181 (PDF completo), la ficha del AER en aeaweb.org (solo resumen), la STC 37/2022 completa en el BOE, la Ley 11/2020 en el BOE, la Ley 12/2023 en el BOE, la LAU consolidada (versión vigente y versión de mayo de 2023), la ficha del RDL 29/2026 en el BOE, Pérez García en arXiv (PDF completo, v1), el DIW Wochenbericht 8/2021 (PDF completo), el DIW Discussion Paper 1928 (PDF completo), la ficha del artículo de *Management Science* en diw.de (solo resumen) y la nota de prensa de Fedea en fedea.net. **Bloqueados por el proxy (403):** pubs.aeaweb.org (PDF del AER), web.stanford.edu, pubsonline.informs.org (*Management Science*), documentos.fedea.net (PDF de Fedea), discovery.ucl.ac.uk, diposit.ub.edu y core.ac.uk (versiones de Jofre-Monseny et al.).
+- Lo que ya está verificado en el registro del episodio 03 se reutiliza citando su entrada y nivel: V29 [P para el estudio de 2020], V31 [P], V36 [P] y V7 [P]. El vídeo no menciona ese episodio.
 
-Lo que ya está verificado en el registro del episodio 03 se reutiliza citando su entrada y nivel: V29 [P para el estudio de 2020], V36 [P] y V7 [P]. El vídeo no menciona ese episodio.
-
-**Leyenda por afirmación:** confirmado / corregido / no encontrado. «Confirmado» quiere decir confirmado en fuentes secundarias coherentes entre sí, no en el original.
-
----
-
-### F4 - San Francisco: Diamond, McQuade y Qian (2019), *American Economic Review* 109(9): 3365-3394 [S]
-DOI: https://doi.org/10.1257/aer.20181289 · Documento de trabajo: NBER w24181 (enero de 2018), https://www.nber.org/papers/w24181 · Versión del autor: https://web.stanford.edu/~diamondr/DMQ.pdf (ninguno de los tres se pudo abrir)
-
-- **Extensión de 1994: confirmado.** En 1979 San Francisco puso control de alquileres a los edificios de 5 o más viviendas. Una iniciativa en referéndum de 1994 lo extendió a los edificios multifamiliares pequeños (2-4 viviendas) construidos antes de 1980. Los construidos después quedan fuera, y esa frontera es el cuasi-experimento. *Precisar:* «edificios pequeños anteriores a 1980», no «extensión» a secas.
-- **Permanencia de los inquilinos: confirmado, con dos redacciones.**
-  - Resumen del AER: «we find rent control limits renters' mobility by 20 percent and lowers displacement from San Francisco».
-  - Resumen del documento de trabajo: «rent control increased renters' probabilities of staying at their addresses by nearly 20%».
-  - Las minorías se benefician más de la protección: negros, hispanos y asiáticos tienen 10,7, 10,1 y 6,4 puntos más de probabilidad de seguir en San Francisco, según un extracto que no hemos podido situar en el texto.
-- **~15% menos de oferta: corregido (matiz importante).** El 15% es la caída en los **edificios afectados**, no en la ciudad.
-  - Resumen del AER: «Landlords treated by rent control reduce rental housing supplies by 15 percent by selling to owner-occupants and redeveloping buildings». Según un resumen de RePEc, también convirtiendo en condominios o TIC.
-  - En toda la ciudad, la oferta de alquiler cae **~6%**, según un extracto del documento de trabajo: «rental supply in San Francisco decreased by 6%».
-  - **El guion no puede decir que San Francisco perdió un 15% de su oferta de alquiler.**
-- **Subida de alquileres de ~5%: confirmado como 5,1%, pero atribuir bien.**
-  - Resumen del documento de trabajo: «reduced rental housing supply by 15%, causing a 5.1% city-wide rent increase».
-  - El resumen publicado en el AER, según los extractos, no da el 5,1%. Termina así: «the lost rental housing supply likely drove up market rents in the long run, ultimately undermining the goals of the law».
-  - El 5,1% sale del modelo de equilibrio general del artículo: es una estimación, no un dato observado. Decir «los autores estiman».
-- **Bienestar: confirmado en diapositivas de los autores; las cifras agregadas varían entre versiones.**
-  - Diapositivas de un seminario en Columbia (2020, https://econ.columbia.edu/wp-content/uploads/sites/18/2020/02/dmq_rentcontrol_columbia.pdf, vistas por el buscador): beneficio agregado para los inquilinos protegidos de unos 2.900 millones de dólares y pérdida agregada de bienestar de otros ~2.900 millones por la subida de alquileres. El 42% de esa pérdida la pagan los residentes futuros y el 58% los que ya vivían en la ciudad en 1994.
-  - Beneficio de 2.300-6.600 dólares por persona y año, mayor para los inquilinos de más edad y antigüedad (City Observatory, que cita el artículo).
-  - KQED (2018) daba cifras de otra versión: 7.000 millones de ahorro en 18 años y un 7% de subida, con un coste de 5.000 millones. **No usar.**
-  - Los autores sugieren que un seguro público contra subidas fuertes de alquiler podría proteger igual con menos pérdida de oferta.
-- **Desigualdad y gentrificación: confirmado.**
-  - Rebecca Diamond en Brookings (2018): «rent control has actually contributed to the gentrification of San Francisco, the exact opposite of the policy's intended goal». Las viviendas retiradas del alquiler pasaron a condominios para rentas más altas.
-  - El título habla de desigualdad. Según resúmenes de terceros (Cato), la conclusión es que el control aumentó la desigualdad de renta en la ciudad.
-- **Valoración:** la frase de la memoria («las dos cosas son ciertas a la vez») se sostiene, y es justo lo que concluyen los autores: la protección de los inquilinos de 1994 es real y grande, y el coste recae en buena parte en quien llega después. **Pero las cifras hay que decirlas así:** +~20% de permanencia, −15% de oferta **en los edificios afectados** (−6% en la ciudad) y +5,1% de alquiler en toda la ciudad (estimación del modelo).
-- **Pendiente:** abrir el PDF del AER o del NBER y fijar página y tabla de cada cifra. Comprobar si el 5,1% y los 2.900 millones siguen igual en la versión publicada.
+**Leyenda por afirmación:** confirmado / corregido / no encontrado. **[P]** = leído en el original, con página. **[S]** = solo resumen o prensa. Las páginas del NBER son las impresas en el documento (= página del PDF menos 2).
 
 ---
 
-### F6a - Berlín: Mietendeckel (MietenWoG Bln) [S]
-Sentencia del Constitucional alemán: https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2021/03/fs20210325a_2bvf000120.html · Nota de prensa 28/2021: https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2021/bvg21-028.html
+### F4 - San Francisco: Diamond, McQuade y Qian (2019), *American Economic Review* 109(9): 3365-3394 [P para NBER w24181 y el resumen del AER; S para el texto del AER]
+DOI: https://doi.org/10.1257/aer.20181289 · Documento de trabajo: NBER w24181 (enero de 2018; versión del 27 de diciembre de 2017), https://www.nber.org/papers/w24181, leído completo · Ficha del AER leída en https://www.aeaweb.org/articles?id=10.1257/aer.20181289 (el PDF redirige a pubs.aeaweb.org, bloqueado) · Versión del autor en web.stanford.edu: bloqueada.
+
+- **Extensión de 1994: confirmado [P].** NBER, p. 2: «The 1994 San Francisco ballot initiative created rent control protections for small multifamily housing built prior to 1980». Tratamiento: inquilinos de edificios pequeños anteriores a 1980; control: los de edificios pequeños de 1980-1990. *Precisar:* «edificios pequeños anteriores a 1980», no «extensión» a secas.
+- **Permanencia de los inquilinos: confirmado, pero el «~20%» es el techo, no la media.**
+  - Resumen del AER [P]: «we find rent control limits renters' mobility by 20 percent and lowers displacement from San Francisco».
+  - Resumen del NBER [P, p. 2 del PDF]: «rent control increased renters' probabilities of staying at their addresses by nearly 20%».
+  - Texto del NBER [P, p. 2]: «in the medium to long term, the beneficiaries of rent control are between 10 and 20% more likely to remain at their 1994 address relative to the control group». Más fuerte en hogares mayores y con más años en la vivienda.
+  - Tabla 2 [P, p. 8]: +2,18 puntos a corto plazo (1994-1999; +4,03% sobre la media del control), +3,54 puntos a medio (2000-2004; +19,38%) y +1,47 puntos a largo (desde 2005; +12,95%). Seguir en San Francisco: +2,62%, +8,78% y +8,42%.
+  - Matiz que no estaba en la primera pasada [P, p. 3]: para los inquilinos con pocos años en la vivienda, y solo en las zonas donde más subió el alquiler, el efecto es **negativo**. Los autores lo atribuyen a desalojos y pagos de los propietarios para que se vayan.
+  - **Minorías (10,7, 10,1 y 6,4 puntos): no encontrado en el NBER.** Puede estar en la versión del AER, que no se pudo abrir. Sigue en [S]: no usar.
+- **~15% menos de oferta en los edificios afectados: confirmado [P], con cifras que bailan dentro del propio documento.**
+  - Resumen del AER [P]: «Landlords treated by rent control reduce rental housing supplies by 15 percent by selling to owner-occupants and redeveloping buildings».
+  - NBER, introducción [P, p. 3]: «there is a 15% decline in the number of renters living in these buildings and a 25% reduction in the number of renters living in rent-controlled units, relative to 1994 levels».
+  - NBER, sección 4 [P, p. 11]: caída de inquilinos «approximately equal to 20% in the late 2000s»; caída de «almost 30%» en las viviendas con control; el edificio redesarrollado sustituye a «about 10%» del parque tratado. El número total de personas en esos edificios cae ~10%, «not statistically significant».
+  - Conversión en condominio o TIC [P, p. 12]: «8 percentage points» (la introducción, p. 3, dice «almost 10%»).
+  - Conclusión [P, p. 30]: «impacted landlords reduced the supply the available rental housing by 15%» y, a la vez, «a 20% decline in the number of renters living in impacted buildings».
+  - **Usar «alrededor de un 15%» y atribuirlo a los edificios afectados.**
+- **~6% en toda la ciudad: confirmado [P], pero corregido en su naturaleza: no es una medición directa.** NBER, p. 26: «Since small multifamily housing constituted 44% of 1994 non rent-controlled housing stock, our reduced form results indicate that rental supply in San Francisco decreased by 6%». Es una extrapolación de los autores (peso del segmento × caída en el segmento), que luego entra en el modelo como supuesto, igual en todos los códigos postales (p. 27).
+- **+5,1% de alquiler en toda la ciudad: confirmado [P] como resultado del modelo.**
+  - NBER, p. 29: «We find that 6% decrease in housing supply led to 5.1% increase in rental prices». Sale del modelo dinámico de elección de barrio, con oferta perfectamente elástica fuera de San Francisco (p. 27).
+  - El resumen del AER [P] no da el 5,1%: «the lost rental housing supply likely drove up market rents in the long run, ultimately undermining the goals of the law».
+  - **Decir «los autores estiman», y no presentarlo como subida observada.** Que el 5,1% siga igual en el AER no se ha podido comprobar.
+- **Bienestar: confirmado en el NBER [P]; las diapositivas de Columbia ya no hacen falta.**
+  - Beneficio para los inquilinos de 1994 [P, p. 4]: «averaging between $2300 and $6600 per person each year, with aggregate benefits totaling over $214 million annually and $2.9 billion present discounted value terms». Sin descontar, 3.900 millones en 1995-2012 (p. 26). Solo cuenta a la población de 1994, no a quienes entraron después en esas viviendas.
+  - Coste [P, p. 4]: el 5,1% «has a present discounted cost of $2.9 billion dollars to tenants. Further, we find 42% of these losses are paid by future residents of San Francisco, while incumbent SF residents at the time of the law change bear the other 58%». En p. 31: «losses to all renters of $2.9 billion».
+  - Lectura de los autores [P, p. 30]: «the GE losses from the landlords' response to rent control essentially completely undoes the gains accrued to the households that were lucky enough to receive rent control in 1994». Y [P, p. 4]: «On net, incumbent SF residents appear to come out ahead, but this is at the great expense of welfare losses from future inhabitants».
+  - Los 2.900 millones de cada lado son valor presente con factor de descuento 0,95. Los propios autores dicen que la coincidencia es «(surprisingly) the same» (p. 30). **No vender la igualdad como un dato exacto.**
+  - KQED (7.000 millones y 7%): no aparece en el NBER. **No usar.**
+  - Alternativa [P, p. 31]: «If society desires to provide social insurance against rent increases, it would less distortionary to offer this subsidy in the form of a government subsidy or tax credit».
+- **Desigualdad y gentrificación: confirmado [P].**
+  - NBER, p. 12: «Rent control has actually fueled the gentrification of San Francisco, the exact opposite of the policy's intended goal». Es la misma idea que la cita de Brookings de la primera pasada, que decía «contributed to»: **citar la del artículo, con página.**
+  - NBER, p. 2: «the combination of more gentrification and helping rent controlled tenants remain in San Francisco has led to a higher level of income inequality in the city overall».
+- **Valoración:** se sostiene «las dos cosas son ciertas a la vez». **Cifras para el guion:** entre un 10% y un 20% más de probabilidad de seguir en la misma casa a medio y largo plazo; ~15% menos inquilinos en los edificios afectados; ~6% menos oferta en la ciudad (extrapolación de los autores); +5,1% de alquiler en toda la ciudad (estimación del modelo); ~2.900 millones de beneficio y ~2.900 millones de coste en valor presente.
+- **Segunda pasada (26/11):** confirmado: el 15%, el 6%, el 5,1%, los 2.900 millones y el reparto 42/58, todo con página. Corregido: el «~20%» de permanencia es el máximo del intervalo (10%-20%, y +4% a corto plazo); el 6% es una extrapolación y no una medición; dentro del NBER conviven 15% y 20% para la caída de inquilinos; la cita sobre gentrificación se toma del artículo y no de Brookings. Sigue sin [P]: las cifras de minorías y el texto del AER, porque el PDF de pubs.aeaweb.org está bloqueado.
+
+---
+
+### F6a - Berlín: Mietendeckel (MietenWoG Bln) [P para los estudios del DIW; S para el texto legal y la sentencia]
+Sentencia del Constitucional alemán: https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2021/03/fs20210325a_2bvf000120.html · Nota de prensa 28/2021: https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2021/bvg21-028.html (no se han abierto en esta pasada)
 
 **Fechas y contenido**
-- **En vigor desde el 23 de febrero de 2020: confirmado.** Ley de 11 de febrero de 2020, publicada en el boletín de Berlín (GVBl) el 22 de febrero y en vigor al día siguiente, para cinco años.
-- **Qué hacía: confirmado en fuentes de asociaciones de inquilinos y despachos, no en el texto legal.**
-  - Congelación de la renta neta pactada a fecha **18 de junio de 2019** hasta finales de 2021. Desde 2022, subida máxima igual a la inflación y como mucho un 1,3% al año.
-  - Rentas máximas por tabla, según antigüedad y equipamiento, para los contratos nuevos.
-  - Desde el **23 de noviembre de 2020**, nueve meses después de su entrada en vigor, derecho a rebajar las rentas que superasen en más de un 20% la tabla.
-  - Excluía la vivienda terminada **desde el 1 de enero de 2014** y la vivienda con ayuda pública.
-  - KPMG estimó que afectaba a unos 1,5 millones de viviendas. Es una estimación de un despacho, no una cifra oficial.
-  - Un resumen del artículo de *Management Science* (abajo) dice «niveles de junio de 2018». **Es un error del resumen o del extracto: la fecha es el 18 de junio de 2019.**
-- **«Anulado en abril de 2021»: corregido.**
-  - La resolución del Constitucional alemán (Beschluss, 2 BvF 1/20, 2 BvL 4/20 y 2 BvL 5/20) es del **25 de marzo de 2021** y se hizo pública el **15 de abril de 2021**. Algunos medios citan como fecha el 15 de abril.
-  - Declara la ley nula en su totalidad, desde el principio («als hätte es den Mietendeckel nie gegeben», según un extracto de prensa jurídica). Los inquilinos podían tener que devolver diferencias.
-  - **El motivo es de competencias, no económico.** El Estado federal había regulado ya el precio del alquiler de forma completa (freno de alquileres del Código Civil), así que el Land no tenía competencia. **No presentar la anulación como prueba de que el tope fallara.**
+- **En vigor desde el 23 de febrero de 2020: confirmado.** El DIW lo da como fecha de entrada en vigor obligatoria («die rechtlich bindende Einführung am 23. Februar 2020», Wochenbericht 8/2021, p. 118) [P para el DIW]. Ley de 11 de febrero de 2020 y GVBl del 22 de febrero: [S], no leído.
+- **Qué hacía: confirmado en fuentes secundarias, no en el texto legal [S].**
+  - Congelación de la renta pactada a fecha **18 de junio de 2019** hasta finales de 2021; desde 2022, subida máxima igual a la inflación y como mucho un 1,3% al año. El DP 1928 del DIW (p. 13 del PDF) recoge el tope del 1,3% [P].
+  - Rentas máximas por tabla para los contratos nuevos. Desde el **23 de noviembre de 2020**, derecho a rebajar las rentas que superasen la tabla en más de un 20% (el DP 1928 también menciona ese 20%) [S para la fecha].
+  - Excluía la vivienda terminada **desde el 1 de enero de 2014**. El DIW la usa como grupo de control: «ab dem 1. Januar 2014 fertiggestellt oder substanziell renoviert» (Wochenbericht, p. 123) [P]. **Ojo:** también quedaban fuera las viviendas anteriores renovadas a fondo.
+  - El DIW fecha el **anuncio** el 4 de junio de 2019 (Wochenbericht, p. 123) [P]. No contradice el 18 de junio como fecha de referencia de la congelación, que sigue en [S].
+  - KPMG: ~1,5 millones de viviendas afectadas [S].
+- **«Anulado en abril de 2021»: corregido [S].** Resolución del 25 de marzo de 2021 (2 BvF 1/20, 2 BvL 4/20 y 2 BvL 5/20), hecha pública el 15 de abril de 2021, que declara nula toda la ley por falta de competencia del Land. **No presentar la anulación como prueba de que el tope fallara.** El resumen de *Management Science* [P, ficha en diw.de] dice solo que el Constitucional «revoked the policy only one year later».
 
 **Estudios (todos con anuncios, no con contratos)**
-- **DIW Wochenbericht 8/2021**, Hahn, Kholodilin y Waltl, «Die unmittelbaren Auswirkungen des Berliner Mietendeckels: Wohnungen günstiger, aber schwieriger zu finden» ([DIW](https://www.diw.de/de/diw_01.c.811698.de/publikationen/wochenberichte/2021_08_3/die_unmittelbaren_auswirkungen_des_berliner_mietendeckels__wohnungen_guenstiger__aber_schwieriger_zu_finden.html)).
-  - Datos: anuncios de periódicos y portales antes y después del 23 de febrero de 2020.
-  - Rentas anunciadas de las viviendas reguladas: entre un **7% y un 11% más bajas** que las de las no reguladas, por efecto directo de la ley.
-  - Número de anuncios de alquiler en Berlín: **la mitad** («halbierte sich»).
-  - Solo **un cuarto** de los anuncios cumplía el tope.
-  - En el entorno no regulado, por ejemplo Potsdam, los precios subieron en torno a un 12%. El dato viene de la nota del DIW recogida por prensa (Tagesspiegel) y **no es una comparación causal** con Berlín.
-  - Kholodilin llamó «alarmierend» a la falta de oferta, que perjudica a quienes llegan y a los jóvenes.
-- **Hahn, Kholodilin, Waltl y Fongoni (2024)**, «Forward to the Past: Short-Term Effects of the Rent Freeze in Berlin», *Management Science* 70(3): 1901-1923 ([DOI 10.1287/mnsc.2023.4775](https://pubsonline.informs.org/doi/10.1287/mnsc.2023.4775); versiones de trabajo en DIW DP 1928 y 1999, y en SSRN 4047633).
-  - Es la versión revisada por pares del estudio del DIW. Dobles diferencias con anuncios.
-  - Las rentas anunciadas caen de golpe al entrar en vigor. Los anuncios caen de forma significativa, y una parte parece perdida de forma permanente para el alquiler.
-  - La brecha de precio con los municipios de alrededor, que ya existía, se ensancha. Allí los alquileres crecen deprisa («rapidly growing rents»).
-  - Según el resumen, el riesgo lo soportaron por completo los inquilinos («the risk was completely borne by tenants»), por los atrasos tras la anulación.
-  - **Cifras exactas del artículo: no leídas.**
-- **ifo (datos de anuncios de immowelt.de), tres trabajos:**
-  - Dolls, Fuest, Krolage, Neumeier y Stöhlker, *ifo Schnelldienst* 73(3), 2020, pp. 33-38 ([ifo](https://www.ifo.de/publikationen/2020/aufsatz-zeitschrift/oekonomische-effekte-des-berliner-mietendeckels)). Desde el **anuncio** de la ley se separan las rentas de las viviendas reguladas y las no reguladas: las de las más nuevas, no afectadas, suben más deprisa.
-  - Dolls, Fuest, Neumeier y Stöhlker, *ifo Schnelldienst* 74(3), 2021, pp. 26-32. El mercado se divide en dos, y la caída de anuncios en el segmento regulado es el primer indicio de menos oferta.
-  - Arlia, Dolls, Fuest, Gstrein, Krolage y Neumeier, *ifo Schnelldienst* 75(4), 2022, pp. 50-55, y [nota de prensa de 12 de abril de 2022](https://www.ifo.de/en/press-release/2022-04-12/berlins-rent-cap-drastically-shrank-supply-rental-properties).
-    - Los anuncios de alquiler cayeron **«hasta un 60%»** y siguieron en ese nivel tras la anulación.
-    - Las rentas reguladas bajaron. Las no reguladas subieron más que en otras grandes ciudades, y tras la anulación los niveles se acercan.
-    - La nota en inglés dice que las rentas subieron «11 percentage points less per quarter» que en otras ciudades. **La redacción es ambigua (¿por trimestre o acumulado?): no usar hasta leer el artículo.**
-    - ifo avisa de que son precios de oferta, no de contratos firmados.
-- **IW Köln (Sagner y Voigtländer):** caída de más del 50% de los anuncios, citada por los Servicios Científicos del Bundestag (WD 5-3000-045/25, 2025). El IW tiene también un estudio sobre los propietarios particulares. No leídos.
-- **«Menos anuncios en los pisos afectados y subida en los no afectados»: confirmado en lo esencial**, con matices:
-  - Los «no afectados» son de dos tipos: la vivienda nueva de Berlín (desde 2014) y los municipios de alrededor. Son mercados distintos.
-  - Menos anuncios no es lo mismo que menos viviendas alquiladas. Parte puede ser menos rotación, porque los inquilinos se mudan menos, o alquiler sin anuncio. Ningún estudio localizado mide contratos firmados.
-  - Hubo pandemia desde marzo de 2020.
+- **DIW Wochenbericht 8/2021**, Hahn, Kholodilin y Waltl, «Die unmittelbaren Auswirkungen des Berliner Mietendeckels: Wohnungen günstiger, aber schwieriger zu finden», pp. 117-124, DOI 10.18723/diw_wb:2021-8-3 ([PDF](https://www.diw.de/documents/publikationen/73/diw_01.c.811443.de/21-8-3.pdf)) **[P]**.
+  - **Datos y ventana:** anuncios de Empirica Systeme. **El periodo posterior es de solo cuatro semanas:** del 23 de febrero al 21 de marzo de 2020, cortado para no mezclarlo con la pandemia (p. 123). La primera pasada no lo decía.
+  - **Rentas: confirmado.** P. 118: los alquileres anunciados de las viviendas reguladas «sind demnach in direkter Folge auf die rechtlich bindende Einführung am 23. Februar 2020 im Vergleich zu den unregulierten um sieben bis elf Prozent gefallen». En la portada (p. 117), −11,3%. Diferencias en diferencias hedónicas, y los autores lo llaman causal (p. 122: «die auch kausal auf den Mietendeckel zurückgeführt werden kann»).
+  - **Anuncios: confirmado.** P. 122: «Nach der Einführung gab es nur noch circa 300 Mietannoncen pro Woche, während es davor noch mehr als 600 waren». Figura 3: mediana semanal de 698,5 antes del anuncio, 619 entre anuncio y entrada en vigor y 263 después. El −57,5% de la portada es 263 frente a 619 (cuenta nuestra [C]). Comparado también con las mismas semanas de los dos años anteriores: caída «deutlich und statistisch signifikant». Y p. 122: «Zurzeit ist (noch) nicht klar, ob es kurzfristig oder dauerhaft weniger Mietobjekte am Markt geben wird».
+  - **Cumplimiento: confirmado.** P. 118: «nur für ein Viertel dieser annoncierten Wohnungen werden in den Inseraten regelkonforme Mieten angegeben». **Matiz nuevo:** el DP 1928, con un margen de tolerancia del 20%, da «only about half of all advertisements do indeed follow the rules» (p. 25). El 25% depende del criterio; además, el tope limita la renta firmada, no la anunciada.
+  - **Potsdam ~12%: confirmado y no causal [P].** P. 123: «In Potsdam beispielsweise sind die Mieten seit Inkrafttreten des Berliner Mietendeckels um rund zwölf Prozent gestiegen. Das könnte daran liegen, dass…». Es una comparación descriptiva de índices (figura 4, Empirica), y el «könnte» es de los autores.
+  - **Cita de Kholodilin:** la de la portada (p. 117) es «Erste negative Effekte lassen sich aber jetzt schon ablesen: Die Zahl der angebotenen Wohnungen sinkt drastisch und die Preise im Umland steigen signifikant». **El «alarmierend» de la primera pasada no está en el Wochenbericht:** vendrá de la nota de prensa o de la prensa. Sigue en [S].
+  - **Quién gana y quién pierde (p. 123-124):** los inquilinos que ya vivían en Berlín «profitieren erst mal von den neuen Beschränkungen». Lo tienen más difícil quienes se mudan o buscan por primera vez, sobre todo «Neuankömmlinge und junge Menschen».
+- **DIW Discussion Paper 1928 (2021)**, Hahn, Kholodilin y Waltl, «Forward to the Past: Short-Term Effects of the Rent Freeze in Berlin», 42 pp. ([PDF](https://www.diw.de/documents/publikationen/73/diw_01.c.808950.de/dp1928.pdf)) **[P]**. Primera versión del estudio.
+  - P. 2: «We document a remarkable immediate aggregate drop of 7–11% in advertised rent prices, which we causally link to the rent freeze».
+  - P. 20: «The number of weekly advertised available housing units to rent halved from more than 600 per week before announcement to less than 300 only once the policy was implemented».
+  - P. 2: sin efecto en los precios al **anunciarse** la ley, solo al entrar en vigor.
+- **Hahn, Kholodilin, Waltl y Fongoni (2024)**, *Management Science* 70(3): 1901-1923 ([DOI 10.1287/mnsc.2023.4775](https://doi.org/10.1287/mnsc.2023.4775)). **Resumen [P]** en la [ficha de diw.de](https://www.diw.de/de/diw_01.c.873005.de/publikationen/externe_referierte_aufsaetze/2024_0003/forward_to_the_past__short-term_effects_of_the_rent_freeze_in_berlin.html); **texto completo no leído** (pubsonline.informs.org bloqueado).
+  - «Mechanically, advertised rents drop significantly upon the policy's enactment. A substantial rent gap along Berlin's administrative border emerges, and rapidly growing rents in Berlin's (unregulated) adjacent municipalities are observed.»
+  - «Landlords started adopting a hedging strategy insuring themselves against the risk of contractually long-term fixed low rents following a potentially unconstitutional law. Whereas this hedge was beneficial for landlords, the risk was completely borne by tenants.»
+  - «Moreover, the number of available properties for rent dropped significantly, a share of which appears to be permanently lost for the rental sector.»
+  - «Overall, negative consequences for renters appear to outweigh positive ones.» Esta frase no estaba en la primera pasada: es la conclusión de los autores, no un dato.
+  - **Las cifras exactas de la versión publicada siguen sin leerse.** Usar las del Wochenbericht y el DP 1928 diciendo que son de la primera versión.
+- **ifo (datos de immowelt.de), tres trabajos [S, no abiertos en esta pasada]:** Dolls et al. 2020 y 2021, y Arlia et al. 2022, con su [nota de prensa](https://www.ifo.de/en/press-release/2022-04-12/berlins-rent-cap-drastically-shrank-supply-rental-properties): anuncios «hasta un 60%» menos, que no se recuperan tras la anulación. El «11 percentage points less per quarter» sigue sin aclarar: **no usar.**
+- **IW Köln (Sagner y Voigtländer):** más del 50% de caída de anuncios, citada por el Bundestag (WD 5-3000-045/25) [S].
+- **«Menos anuncios en los pisos afectados y subida en los no afectados»: confirmado [P en el DIW]**, con matices:
+  - Los «no afectados» son dos mercados distintos: la vivienda nueva o renovada de Berlín y los municipios de alrededor.
+  - Menos anuncios no es lo mismo que menos viviendas alquiladas: puede ser menos rotación o alquiler sin anuncio. El DIW (p. 123) no ve, justo después de la entrada en vigor, más pisos a la venta.
+  - Las primeras cifras son de cuatro semanas, justo antes de la pandemia.
+- **Segunda pasada (26/11):** confirmado con página: −7% a −11% en las rentas anunciadas, anuncios a la mitad (−57,5%), un cuarto conforme y +12% en Potsdam. Corregido: la ventana posterior es de cuatro semanas; el +12% de Potsdam es descriptivo; el 25% de cumplimiento baja o sube según el margen (~50% con tolerancia del 20%); el «alarmierend» no está en el informe. Nuevo: la conclusión de *Management Science* de que los efectos negativos pesan más para los inquilinos. Sigue en [S]: el texto legal, la sentencia alemana, ifo e IW.
 
 ---
 
-### F6b - Cataluña: Ley 11/2020 y su anulación [S]
-Sentencia: BOE-A-2022-5807, https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5807
+### F6b - Cataluña: Ley 11/2020 y su anulación [P para la ley y la sentencia]
+Sentencia: [BOE-A-2022-5807](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5807), leída completa · Ley: [BOE-A-2020-11363](https://www.boe.es/buscar/doc.php?id=BOE-A-2020-11363), leída en lo pertinente.
 
-- **Ley 11/2020, de 18 de septiembre:** confirmada la fecha de la ley. La fecha de publicación en el DOGC y la de entrada en vigor **no se han comprobado**; recordamos el 21 y el 22 de septiembre de 2020, sin verificar. El estudio de V29 usa fianzas hasta junio de 2021 y el de V36 hasta 2022.
-- **«Anulada en parte por el Constitucional en 2022»: corregido en el fondo.**
-  - STC 37/2022, de 10 de marzo (BOE de 8 de abril de 2022), por recurso de más de cincuenta diputados del PP (6289-2020).
-  - Según el fallo que recogen los extractos, declara inconstitucionales y nulos los **arts. 1, 6 a 13, 15 y 16.2, las DA 1.ª, 2.ª y 3.ª, la DT 1.ª y la DF 4.ª b)**. También es nula la DA 4.ª (juicio verbal obligatorio), y la DF 3.ª lo es en los términos de su FJ 4 e).
-  - El sumario del BOE resume: nulidad de los preceptos que «establecen un régimen de contención y moderación de rentas» y de sus sanciones.
-  - Motivo: competencia del Estado sobre las bases de las obligaciones contractuales. **Otra vez de competencias, no de efectos.**
-  - Después vinieron las SSTC 57/2022, 118/2022 y 150/2022.
-  - «En parte» es técnicamente cierto, pero **lo que cayó es el tope entero**. Según la Cambra de la Propietat de Tarragona, los contratos firmados desde el 9 de abril de 2022 dejaron de estar limitados.
-  - **Pendiente:** leer el fallo en el BOE para pasar a [P]. El BOE está permitido en el otro entorno del proyecto, «No es tan sencillo (fuentes oficiales)».
+- **Fechas de la Ley 11/2020: confirmado [P].** Ley de 18 de septiembre de 2020, publicada en el DOGC n.º 8229 el **21 de septiembre de 2020** y en el BOE n.º 258 el 29 de septiembre. La DF 4.ª dice que «entra en vigor al día siguiente de su publicación en el "Diari Oficial de la Generalitat de Catalunya"»: **22 de septiembre de 2020**. La STC 37/2022 (FJ 8) lo confirma. La DF 4.ª b) aplazaba tres años el tope para la obra nueva y la gran rehabilitación.
+- **Qué limitaba (art. 6, citado en el FJ 4) [P]:** en áreas tensas, la renta inicial no podía superar el precio de referencia del índice de la Generalitat. Si la vivienda se había alquilado en los cinco años anteriores, tampoco podía superar la renta del último contrato, actualizada con el índice de garantía de competitividad. El anexo declaraba áreas tensas, de forma transitoria y por un año, los municipios con alquiler subido más de un 20% entre 2014 y 2019 que fueran del Área Metropolitana o tuvieran más de 20.000 habitantes.
+- **«Anulada en parte por el Constitucional en 2022»: confirmado en la forma y corregido en el fondo [P].**
+  - STC 37/2022, de 10 de marzo, del Pleno (BOE n.º 84, de 8 de abril de 2022, pp. 48495-48531), recurso 6289-2020 de más de cincuenta diputados del PP. Ponente: Ramón Sáez Valcárcel.
+  - **Fallo, literal:** «Estimar parcialmente el recurso […] 1.º Declarar que son inconstitucionales y nulos, con los efectos previstos en el fundamento jurídico 8, los siguientes artículos de la Ley del Parlamento de Cataluña 11/2020, de 18 de septiembre: 1, 6 a 13, 15 y 16.2; las disposiciones adicionales primera, segunda y tercera; la disposición transitoria primera, y la disposición final cuarta, letra b). 2.º Declarar que la disposición adicional cuarta […] es inconstitucional y nula. 3.º Declarar que la disposición final tercera […] es inconstitucional en los términos del fundamento jurídico 4 e). 4.º Desestimar el recurso en todo lo demás.»
+  - **Lo que cayó es el tope entero [P, FJ 8]:** «Todos ellos, directa o indirectamente regulan cuestiones relativas a la limitación de rentas». Se salvan, por ejemplo, el art. 3 (procedimiento de declaración de áreas tensas, FJ 6) y el art. 18 (FJ 7).
+  - **Motivo: solo de competencias [P, FJ 4].** El principio de libre fijación de la renta (LAU art. 17.1 y Código civil art. 1255) es una «base de las obligaciones contractuales», competencia exclusiva del Estado (art. 149.1.8 CE). Literal: «es forzoso concluir que el art. 6 de la Ley 11/2020 es contrario al orden competencial, pues el legislador autonómico carece de competencia para incidir sobre las reglas para la determinación de la renta derivadas del contrato de arrendamiento de vivienda».
+  - **Nuevo: la sentencia deja la puerta abierta al Estado [P, FJ 4]:** «El Estado resulta así ser el competente para fijar legalmente el principio de libertad de pactos en el establecimiento de la renta del contrato de alquiler de vivienda, así como para, en su caso, determinar sus eventuales modificaciones o modulaciones». Es lo que hizo después la Ley 12/2023 (F6c).
+  - **El Constitucional no entró en el fondo [P].** FJ 3: empieza por las impugnaciones competenciales «pues, si se estimara el recurso por esos motivos, no sería necesario abordar los de carácter sustantivo». FJ 4 in fine: la nulidad «provoca la pérdida de objeto de los demás motivos del recurso». **No se pronunció sobre el derecho de propiedad (art. 33 CE) ni sobre los efectos económicos.**
+  - **Efectos [P, FJ 8]:** «solo efectos pro futuro, manteniéndose en sus términos los contratos de arrendamiento de viviendas celebrados con anterioridad al momento de la presente resolución». Que los contratos firmados desde el 9 de abril de 2022 queden libres (Cambra de la Propietat de Tarragona) encaja con la publicación en el BOE del 8 de abril, pero esa fecha concreta no la da la sentencia [S].
+  - Después vinieron las SSTC 57/2022, 118/2022 y 150/2022 [S, no leídas].
 - **Evaluaciones del tope de 2020:**
-  - **Monràs y García-Montalvo** (documento de trabajo, versión de 2023): **reutilizar V29 del episodio 03 [P para este estudio]**. Precios ~5% más bajos; contratos nuevos ~10% menos (PPML) o ~19% (MCO), con rango real ~7-19%. Por encima del índice de referencia caen y por debajo suben.
-  - **Jofre-Monseny, Martínez-Mazza y Segú** (*Regional Science and Urban Economics*, 2023): **reutilizar V36 [P, manuscrito aceptado]**. Alquileres 4%-6% más bajos y **sin evidencia de caída** en contratos firmados, contratos terminados ni parque activo. Según el resumen del IEB, al suspenderse el tope la brecha de precios volvió a su nivel anterior [S].
-  - **Observatori Metropolità de l'Habitatge de Barcelona (O-HB), 2022-2023** ([informe ampliado](https://www.ohb.cat/wp-content/uploads/2023/01/O22015_LAB_Control-lloguer_ampliada_Informe_CAST.pdf)): precios ~7% más bajos en los municipios regulados de la provincia de Barcelona y, según su nota, ninguna disminución de la oferta ni de los contratos. Lo financian el Ayuntamiento, el AMB y la Diputación de Barcelona, que defendían el tope: decirlo [S].
-  - **EsadeEcPol (García-Montalvo, Monràs y Raya, febrero de 2023)**: el resultado depende del grupo de control. Con el resto de municipios españoles, −2,1% en precios; comparando solo Barcelona con Madrid, +1,8% [S].
-  - **Revista Catalana de Dret Públic, n.º 66 (2023)**, «Lliçons de les primeres avaluacions científiques...» ([DOI 10.58992/rcdp.i66.2023.3939](https://doi.org/10.58992/rcdp.i66.2023.3939)): un extracto resume «una dèbil reducció de preus i una considerable reducció de l'oferta». **Autor no identificado: no usar sin leerla.**
-  - **Prensa:** Ara habla de una «guerra acadèmica», con IEB (sin caída de oferta) frente a UPF (caída de oferta). Es la misma discrepancia que V29 y V36, sin causa demostrada.
-  - **Banco de España y AIReF: no encontrado.** Ni uno ni otro tienen una evaluación específica de la Ley 11/2020 localizada. Para la posición general del Banco de España, reutilizar V36 y V7 [P], Informe Anual 2025, p. 185 del PDF: los controles son eficaces a corto plazo para quien ya tiene contrato, y si se mantienen hay riesgo de menos oferta nueva y paso a turístico, temporada o venta.
+  - **Monràs y García-Montalvo** (documento de trabajo, versión de 2023): **reutilizar V29 del episodio 03 [P para este estudio]**. Precios ~5% más bajos; contratos nuevos ~10% menos (PPML) o ~19% (MCO), rango real ~7%-19%.
+  - **Jofre-Monseny, Martínez-Mazza y Segú** (*Regional Science and Urban Economics*, 2023): **reutilizar V36 [P, manuscrito aceptado]**. Alquileres 4%-6% más bajos y **sin evidencia de caída** en contratos firmados, contratos terminados ni parque activo. **Segunda pasada:** no se ha podido añadir frase literal con página; las tres copias (UCL, dipòsit UB y CORE) están bloqueadas. Hay un IEB Working Paper 2022/02 y un preprint de julio de 2023 en el repositorio de la UB, sin leer. Que la brecha volviera a su nivel al suspenderse el tope sigue en [S].
+  - **O-HB, 2022-2023:** ~7% menos y sin caída de oferta; financiado por administraciones que defendían el tope [S].
+  - **EsadeEcPol (febrero de 2023):** −2,1% o +1,8% según el grupo de control [S].
+  - **Revista Catalana de Dret Públic n.º 66:** autor no identificado. **No usar** [S].
+  - **Banco de España y AIReF:** sin evaluación específica localizada. Para la posición general del Banco de España, reutilizar V36 y V7 [P], Informe Anual 2025, p. 185 del PDF.
+- **Segunda pasada (26/11):** confirmado: fecha, número de recurso, preceptos anulados y motivo competencial, todo con cita literal. Corregido o completado: entrada en vigor el 22/9/2020 (DOGC del 21/9), ya no pendiente; efectos solo hacia el futuro, con los contratos anteriores intactos; el Constitucional no examinó la propiedad ni los efectos; la sentencia reconoce que el Estado sí puede modular la renta. Sigue en [S]: la fecha del 9 de abril y las sentencias posteriores.
 
 ---
 
-### F6c - Ley 12/2023 y zonas tensionadas, 2024-2026 [S salvo lo reutilizado]
-- **Ley y duración:** reutilizar V36 [P], [Ley 12/2023](https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203), art. 18: tres años, prorrogables cada año. **El mecanismo exacto del tope** (arts. 17.6 y 17.7 de la LAU en la redacción de la Ley 12/2023: renta del contrato anterior e índice de referencia para grandes tenedores y casos asimilados) **no se ha releído en esta verificación**. Leerlo en el BOE antes de explicarlo en pantalla.
-- **Cataluña desde marzo de 2024:** confirmado en V29 y V36 [S]. Número de municipios: 271 (Verificat, Taxdown) o 261 (idealista), sin rehacer en el DOGC.
+### F6c - Ley 12/2023 y zonas tensionadas, 2024-2026 [P para el mecanismo legal y Pérez García; S para los datos de prensa]
+- **Ley y duración:** reutilizar V36 [P], [Ley 12/2023](https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203), art. 18: tres años, prorrogables cada año. Ley de 24 de mayo, BOE n.º 124 del 25 de mayo de 2023, en vigor el **26 de mayo de 2023** (DF 9.ª) [P].
+- **El mecanismo del tope (LAU art. 17.6 y 17.7, añadidos por la DF 1.ª, apartado tres, de la Ley 12/2023) [P]:**
+  - **Art. 17.6, todos los arrendadores, en zona tensionada:** «la renta pactada al inicio del nuevo contrato no podrá exceder de la última renta de contrato de arrendamiento de vivienda habitual que hubiese estado vigente en los últimos cinco años en la misma vivienda, una vez aplicada la cláusula de actualización anual de la renta del contrato anterior». No se pueden repercutir gastos nuevos. Se puede subir hasta un 10% más en cuatro supuestos: rehabilitación, mejora energética del 30%, accesibilidad (las tres terminadas en los dos años anteriores) o contrato de diez años o más, o con prórroga voluntaria hasta diez años.
+  - **Art. 17.7, grandes tenedores:** «Sin perjuicio de lo dispuesto en el apartado anterior», la renta inicial «no podrá exceder del límite máximo del precio aplicable conforme al sistema de índices de precios de referencia». Es decir, a los grandes tenedores se les aplican los dos límites.
+  - **Viviendas sin contrato en los últimos cinco años:** se aplica el mismo límite por índice, a cualquier arrendador, **solo si** lo recoge la resolución ministerial que declara la zona.
+  - **Gran tenedor (Ley 12/2023, art. 3 k, redacción original):** titular de **más de diez** inmuebles urbanos residenciales o de más de 1.500 m² residenciales, sin garajes ni trasteros. La declaración de zona puede bajarlo a **cinco o más** inmuebles en ese ámbito. Pérez García escribe «ten or more», que no es lo que dice la ley.
+  - **Contratos anteriores (DT 4.ª):** siguen con su régimen anterior.
+- **Alquiler de temporada: resuelto en el texto legal [P].**
+  - **Con la redacción de 2023, la temporada quedaba fuera del tope.** La LAU vigente desde mayo de 2023 (art. 3.2) consideraba «arrendamiento para uso distinto del de vivienda […] los arrendamientos de fincas urbanas celebrados por temporada». Los arts. 17.6 y 17.7 solo se refieren a «contratos de arrendamiento de vivienda».
+  - **Cambio de octubre de 2026:** el RDL 29/2026, de 6 de octubre (BOE-A-2026-20823, en vigor el 8 de octubre; ver V31), reescribe la LAU. El art. 2.3 define el «arrendamiento de vivienda temporal» y el art. 3.2 deja de mencionar la temporada. El nuevo art. 17.8: en contratos temporales sucesivos sobre la misma vivienda, la renta no puede subir al año más que el IRAV vigente. El nuevo art. 17.9 limita los alquileres por habitaciones, y en zona tensionada remite a los apartados 6, 7 y 8.
+  - **Convalidación:** la ficha del BOE del RDL 29/2026 recoge «Acuerdo de convalidación, por Resolución de 12 de noviembre de 2026 (Ref. BOE-A-2026-23755)». **Esto actualiza V31**, que a 6 de noviembre la daba como pendiente. El RDL 28/2026 fue derogado por el Congreso con la misma fecha, según la LAU consolidada.
+  - **Interpretación pendiente:** si el 17.6 alcanza ahora también a un primer contrato temporal en zona tensionada es una cuestión jurídica que no resolvemos aquí. Decir solo lo que dice la letra.
+  - **Todos los datos de 2024-2026 (fianzas, anuncios, Pérez García, Fedea) son anteriores a este cambio.**
+- **Cataluña desde marzo de 2024 [P vía Pérez García, p. 4; S para el DOGC]:** 140 municipios desde el 16 de marzo de 2024 y otros 131 desde el 10 de octubre de 2024 (271 en total, como Verificat y Taxdown). Que haya 261 (idealista) no cuadra. Sin rehacer en el DOGC.
 - **Datos administrativos de fianzas (INCASÒL/Generalitat):**
-  - Reutilizar V29 (vía Verificat, 5 de noviembre de 2026) [S].
-    - +0,7% en municipios regulados frente a +13,8% en el resto desde el primer trimestre de 2024.
-    - Barcelona, renta total −4,4%, pero €/m² +2,3%, en máximo histórico: efecto composición, se alquilan pisos más pequeños.
-    - Contratos de abril-junio de 2026: ~26.500, mínimo desde 2010, con tendencia a la baja desde 2021.
-  - Nuevo, **solo en prensa que cita datos del Govern [S]:**
-    - Renta media de contratos nuevos en **toda** Cataluña, 2.º trimestre de 2026: 877,81 €/mes, +6,7% frente al mismo periodo de 2024 y +2,7% interanual (COPE, 2 de noviembre de 2026). Ojo: mezcla municipios con tope y sin tope.
-    - Barcelona, contratos nuevos del 1.er trimestre de 2026: −4,7% frente al 1.er trimestre de 2024 (Infobae, 13 de julio de 2026).
-    - Zonas tensionadas: −9,8% en dos años, según otro medio.
-    - *Barcelona Metròpolis*, revista del Ayuntamiento: −9% en contratos nuevos de Barcelona desde marzo de 2024.
-    - Comisión municipal: 1.133,30 € de media en el 2.º trimestre, −3,2% interanual.
-    - **Las cifras no casan entre sí porque miden periodos, áreas y bases distintos.** Ir a la serie original del Govern o del INCASÒL antes de elegir una.
-  - Cumplimiento: la Generalitat ha abierto **529 expedientes sancionadores** por saltarse el tope, cerca del 80% por renta superior al máximo (moncloa.com, 3 de mayo de 2026) [S].
-- **Estudios independientes sobre el tope actual: no había ninguno localizado el 6 de noviembre (V29); ahora hay al menos tres, ninguno leído:**
-  - **Pérez García (2026)**, «Effectiveness of Rent Controls: Evidence from Spain», arXiv 2602.08631, febrero de 2026, autor único ([arXiv](https://arxiv.org/abs/2602.08631)).
-    - Barcelona frente a Madrid, dobles diferencias con datos municipales administrativos: alquiler mensual por m² **~12% menor**. El tope no parece reducir ni los edificios terminados ni las compraventas.
-    - El autor pide cautela por los datos y la robustez, y el event study muestra **tendencias previas divergentes**.
-    - Un resumen de terceros (Antevorta Foundation) lo describe al revés: −13% en contratos nuevos y efecto en precios que desaparece con controles comparables. **No sabemos si habla de otra versión o se equivoca: leer el original antes de usar cualquiera de las dos lecturas.**
-  - **«The rent control paradox: a quasi-experimental evaluation of Spain's Housing Law 12/2023 in Catalonia (2023-2025)»**, *International Journal of Housing Markets and Analysis*, 2026 ([Emerald](https://www.emerald.com/ijhma/article-abstract/doi/10.1108/IJHMA-03-2026-0073/1370378/The-rent-control-paradox-a-quasi-experimental)). Dobles diferencias con datos del «Rental Housing Barometer», 2019-2025: contracción relativa significativa de la oferta y subida más moderada de los precios anunciados que en las regiones de control. **Autores y fuente del barómetro sin identificar:** si es el Barómetro de Alquiler Seguro, son datos de una empresa del sector.
-  - **«The impact of the 2023 housing law on rental prices in Catalonia: an empirical analysis using differences-in-differences»**, *IJHMA* 19(3): 619 y siguientes. Según un extracto, concluye que el tope por sí solo puede no bastar para bajar precios en zonas de alta demanda. Sin más datos.
-- **Fedea (Fernando Pinto, URJC, 8 de junio de 2026)**, según prensa (El Español y otros) [S]. Reutiliza la línea de V29, que la tenía vía Verificat.
-  - Anuncios de alquiler: **−22,2% en Barcelona y −20,5% en Cataluña** entre el 1.er trimestre de 2024 y el 4.º de 2025, frente a **+3,9% en Madrid**. V29 añade −7% en el resto de España.
-  - Precios: +5,7% en Barcelona y Cataluña, frente a +8,5% en Madrid y +10,8% en España. **El propio Fedea admite que el tope modera el precio.**
-  - El autor dice también que la subida general de precios no se puede atribuir a la Ley de vivienda.
-  - Datos de anuncios de Alquiler Seguro, empresa del sector (según Verificat).
-  - Fedea tiene otro documento sobre los decretos-leyes de octubre de 2026 (ap2026-24), no leído.
-- **Otras fuentes con interés en el asunto:**
-  - Observatorio del Alquiler, ligado al sector: prevé una caída de la oferta del 14,6% en 2025 en las regiones con zonas tensionadas, frente al 3,3% del resto. Es una previsión, no un dato.
-  - idealista (16 de marzo de 2026): «espantada» de la oferta. Reutilizar V29.
-  - UFV (octubre de 2026): con los datos disponibles es pronto para saber si los topes funcionan.
-- **Quién discrepa de quién:**
-  - Las fuentes coinciden en que **los precios de contrato o de anuncio suben menos donde hay tope**: Govern, Fedea, Pérez García y el artículo de IJHMA.
-  - Discrepan en la **oferta**. Los anuncios (Fedea con datos de Alquiler Seguro, idealista, IJHMA) caen con fuerza. Las fianzas (Govern, vía Verificat) muestran menos contratos, con una tendencia que ya bajaba desde 2021. Pérez García no ve caída de construcción ni de compraventas.
-  - Barcelona Metròpolis atribuye la caída de contratos a la temporada, a la venta o a que los inquilinos se quedan más tiempo. **Ninguna fuente lo separa.**
-- **Alquiler de temporada:**
-  - Reutilizar V29 [S]: en idealista, el temporal es ~64% de los anuncios de Barcelona, frente al 34% de marzo de 2024. Las fianzas de temporada caen un 71% entre el 3.er y el 4.º trimestre de 2025, sin causa explicada.
-  - Banco de España (V36 [P], p. 185): riesgo de paso a temporada.
-  - **No encontrado:** una evaluación causal del paso a temporada, y la regulación catalana o estatal posterior sobre contratos de temporada (no buscada por falta de cupo).
-  - **Lo que no sabemos: si la temporada escapa del todo al tope de la Ley 12/2023. Comprobarlo en el texto legal.**
+  - Reutilizar V29 (vía Verificat) [S]: +0,7% en los municipios regulados frente a +13,8% en el resto; en Barcelona, −4,4% de renta total pero +2,3% por m²; ~26.500 contratos en abril-junio de 2026.
+  - **Solo en prensa [S]:** 877,81 €/mes en toda Cataluña en el 2.º trimestre de 2026 (COPE); −4,7% en Barcelona (Infobae); −9,8% en zonas tensionadas; −9% en Barcelona según *Barcelona Metròpolis*; 1.133,30 € (comisión municipal). **No casan entre sí: ir a la serie original antes de elegir.**
+  - Cumplimiento: 529 expedientes sancionadores (moncloa.com) [S].
+- **Estudios independientes sobre el tope actual:**
+  - **Pérez García (2026)**, «Effectiveness of Rent Controls: Evidence from Spain», arXiv [2602.08631](https://arxiv.org/abs/2602.08631) v1, 9 de febrero de 2026; el PDF está fechado en julio de 2025. 15 páginas, autor único. Agradece la financiación de la «Consellería de Hacienda, Economía y Administración Pública» (beca HIUNPU/2024/02). Sin revisión por pares. **[P]**
+    - **La primera pasada se equivocó; el resumen de Antevorta acertaba en lo esencial.** El estudio **no compara Barcelona con Madrid, no usa precios por m² y no mide construcción ni compraventas**. Compara los 140 municipios catalanes de la primera ola con municipios catalanes sin tope, con datos trimestrales de la Generalitat (renta media y número de contratos) hasta 2024 (pp. 4-7). **No sabemos de dónde salía el «~12% menos por m² frente a Madrid»: no usar.**
+    - **Resumen, literal:** «The results point to a reduction in tenancy agreements and a less robust decrease in rental price growth».
+    - **Precios (p. 8):** en la especificación preferida, «rent growth was approximately 3 percentage points lower in treated municipalities» (tabla 2, −0,0298). Unos 20,5 € al mes sobre una renta media de 681 €. En el event study, la caída dura un solo trimestre, unos 6,3 puntos (p. 9).
+    - **Tendencias previas (p. 9):** los coeficientes previos son conjuntamente distintos de cero (p = 0,0223 en precios; p = 8,28e-05 en contratos). **Lo que pide cautela es eso: no basta con mencionar la cautela.**
+    - **Robustez (pp. 12-13):** con emparejamiento por puntuación de propensión, el efecto en precios es «essentially zero (0.0074) and non-significant». Con DiD sintético, −0,0017 y no significativo.
+    - **Contratos (p. 9):** «a significant reduction of around 6 tenancy agreements per 10,000 inhabitants […] a decline of around 13% in tenancy agreements signed». En la conclusión (p. 14) es robusto, entre 5 y 7 contratos menos por cada 10.000 habitantes. El autor admite que puede no ser todo oferta: alquiler informal, venta o turístico (p. 9).
+    - **Límites que declara el autor:** la renta media no está ajustada por tamaño (riesgo de efecto composición, p. 5); solo 173 de los 680 municipios de control tienen datos de renta y solo 27 la serie completa (pp. 5 y 7); en el emparejamiento quedan unos 24 controles efectivos (p. 12); los datos acaban en 2024 (p. 14).
+    - **Para el guion:** es evidencia **en contra** (contratos −13%, robusto) más que a favor (el efecto en precios no resiste las comprobaciones). Pero es un solo autor, sin revisión, con pocos controles y con tendencias previas.
+  - **«The rent control paradox…»**, *IJHMA*, 2026 (Emerald): autores y fuente del barómetro sin identificar [S]. No abierto.
+  - **«The impact of the 2023 housing law on rental prices in Catalonia…»**, *IJHMA* 19(3) [S]. No abierto.
+- **Fedea (Fernando Pinto, URJC, 8 de junio de 2026), Apuntes 2026/15**, «La Ley 12/2023 por el derecho a la vivienda: un primer balance a partir de la aplicación desigual del control de rentas en España». **[P para la nota de Fedea en [fedea.net](https://fedea.net/la-ley-12-2023-por-el-derecho-a-la-vivienda-un-primer-balance-empirico/); el PDF (documentos.fedea.net/pubs/ap/2026/ap2026-15.pdf) está bloqueado.]**
+  - **Precios, confirmado:** «Entre el primer trimestre de 2024 y el cuarto de 2025, el alquiler acumuló un incremento del 5,7 por ciento en Barcelona y en Cataluña, frente al 8,5 por ciento en Madrid y al 10,8 por ciento en el conjunto nacional». Las provincias catalanas suben entre un 3,1% y un 5,7%. **La nota no dice si es precio de anuncio o de contrato.**
+  - **Anuncios, confirmado:** «El número de anuncios de alquiler cayó un 22,2 por ciento en Barcelona y un 20,5 por ciento en Cataluña, mientras que en Madrid aumentó un 3,9 por ciento».
+  - **Corregido:** la nota no da el «−7% en el resto de España» de V29. Dice que la caída catalana «prácticamente duplica la de los territorios no regulados de nivel comparable, como la Comunidad Valenciana o Andalucía, donde el retroceso ronda el 10 por ciento y es atribuible a la fase general del mercado». El −7% puede estar en el PDF; no se ha visto.
+  - **Nuevo:** competencia por anuncio, «462 en Barcelona en el cuarto trimestre de 2025, frente a 103 en Madrid y 135 en el conjunto nacional».
+  - **Conclusión del autor, que es valoración y no dato:** «la ley no ha conseguido su objetivo declarado de facilitar un mejor acceso a la vivienda»; la moderación de rentas para los insiders convive con menos oferta y más competencia para los outsiders.
+  - **Confirmado:** «la aceleración del precio observada en el conjunto del país no puede atribuirse a la norma».
+  - **Fuente de los datos: no identificada en la nota.** Verificat (V29) dice que son de Alquiler Seguro; la métrica de «contactos por anuncio» hace pensar en un portal. **Sin el PDF no podemos confirmarlo: decir «datos de anuncios de portales privados, según Fedea» y no más.**
+  - **Diseño:** es una comparación descriptiva entre territorios, no un diseño causal con grupo de control formal. La nota habla de «comparadores no tratados».
+  - Otra nota de Fedea, ap2026-24 (Pinto y Calvo, octubre de 2026), sobre los RDL 28 y 29/2026: no leída en esta pasada (ver V31).
+- **Otras fuentes con interés en el asunto [S]:** Observatorio del Alquiler (−14,6% previsto, una previsión), idealista («espantada», V29) y UFV (es pronto para saberlo).
+- **Quién discrepa de quién (revisado):**
+  - **Precios:** la ventaja del tope es clara en los datos descriptivos (Govern vía Verificat, Fedea), pero **no resiste las comprobaciones de robustez en el único estudio econométrico leído** (Pérez García). Es decir: subidas más moderadas, con efecto causal sin demostrar.
+  - **Oferta:** hay más coincidencia de la que decía la primera pasada. Anuncios −20% a −22% (Fedea), contratos firmados −13% (Pérez García, robusto) y fianzas a la baja (Govern), aunque estas ya bajaban desde 2021. Pérez García **no** dice nada de construcción ni de compraventas: esa lectura se retira.
+  - **Ninguna fuente separa** si los contratos que faltan son menos oferta, menos rotación (inquilinos que se quedan, el objetivo de la ley) o paso a temporada o venta. Pérez García lo deja expresamente para trabajos futuros (p. 9).
+- **Segunda pasada (26/11):** confirmado y citado del BOE: el mecanismo del tope (17.6 para todos, 17.7 además para grandes tenedores) y que la temporada quedaba fuera hasta el RDL 29/2026, ya convalidado. Corregido: la lectura de Pérez García estaba al revés (precios no robustos, contratos −13% robusto, sin Madrid ni m²); en Fedea, «resto de España −7%» no está en la nota, que habla de ~10% en territorios comparables. Sigue en [S]: la fuente de datos de Fedea, las cifras de fianzas de 2026 en prensa y los dos artículos de *IJHMA*.
 
 ---
 
 ### La mejor evidencia a favor del tope (para dar el mismo peso a los dos lados)
-- **San Francisco (F4):** el beneficio para quien ya está dentro es grande y medido: +~20% de probabilidad de seguir en su casa, más protección para las minorías y ~2.900 millones de dólares de beneficio agregado (diapositivas de los autores) [S].
-- **Cataluña 2020:** el único estudio publicado con revisión por pares (V36 [P]) encuentra alquileres 4%-6% más bajos **sin caída medible** de contratos ni de parque. El O-HB llega a algo parecido (~7%), con financiación de parte interesada. Monràs y García-Montalvo (V29 [P]) también encuentran ~5% menos de precio, aunque con menos contratos.
-- **Cataluña 2024-2026:** Pérez García (arXiv, sin revisar) encuentra ~12% menos por m² frente a Madrid y sin caída de construcción ni de compraventas. Fedea, crítico con la ley, reconoce que el precio sube menos (+5,7% frente a +8,5% en Madrid).
-- **Berlín:** las rentas anunciadas de las viviendas reguladas bajaron un 7%-11% frente a las no reguladas (DIW).
-- **Las dos anulaciones, Berlín 2021 y Cataluña 2022, fueron por competencias,** no porque se demostrara que el tope fallaba.
+- **San Francisco (F4) [P]:** entre un 10% y un 20% más de probabilidad de seguir en la misma vivienda a medio y largo plazo, más en mayores y en quien llevaba años. Beneficio de 2.300 a 6.600 dólares por persona y año y ~2.900 millones en valor presente para los inquilinos de 1994. Según los autores, los residentes de entonces salen ganando en neto.
+- **Cataluña 2020:** el estudio con revisión por pares (V36 [P]) encuentra alquileres 4%-6% más bajos **sin caída medible** de contratos ni de parque. Monràs y García-Montalvo (V29 [P]) también ven ~5% menos de precio. El O-HB (~7%) va en la misma línea, con financiación de parte interesada [S].
+- **Cataluña 2024-2026:** los precios suben menos donde hay tope (+5,7% frente a +8,5% en Madrid, Fedea [P en la nota]), y lo reconoce un autor crítico con la ley. Pérez García estima en su especificación preferida 3 puntos menos de crecimiento de la renta (unos 20 € al mes), aunque no resiste las comprobaciones [P]. La ley 12/2023 protege además al inquilino con prórrogas, no solo con precio (art. 10 LAU).
+- **Berlín [P]:** las rentas anunciadas de las viviendas reguladas bajan un 7%-11% frente a las no reguladas, efecto que los autores llaman causal (DIW). Los inquilinos ya instalados «profitieren erst mal».
+- **Las dos anulaciones fueron por competencias [P para Cataluña; S para Berlín].** El Constitucional español no entró en el fondo y dijo expresamente que el Estado puede modular la renta.
 
 ### La mejor evidencia en contra
-- **San Francisco:** −15% de oferta en los edificios afectados (−6% en la ciudad) y +5,1% de alquiler en toda la ciudad (estimado). El 42% de la pérdida de bienestar recae en futuros residentes. Los autores hablan de gentrificación, «the exact opposite of the policy's intended goal».
-- **Berlín:** los anuncios caen a la mitad (DIW) o «hasta un 60%» (ifo) y no se recuperan tras la anulación. Los segmentos no regulados y los municipios de alrededor suben más. Solo un 25% de los anuncios cumplía el tope.
-- **Cataluña:** contratos nuevos ~10% menos (rango 7-19%, V29) con el tope de 2020. Con el actual, anuncios −20% a −22% (Fedea) y más peso del temporal en los anuncios. En Barcelona, el precio por m² está en máximo histórico aunque baje la renta total, por el efecto composición.
+- **San Francisco [P]:** ~15% menos inquilinos en los edificios afectados (los autores dan entre el 15% y el 20%), ~6% menos oferta en la ciudad (extrapolado) y +5,1% de alquiler en toda la ciudad (estimado), con un coste de ~2.900 millones, el 42% para residentes futuros. «Rent control has actually fueled the gentrification of San Francisco, the exact opposite of the policy's intended goal» (p. 12).
+- **Berlín:** anuncios a la mitad en las primeras cuatro semanas (DIW [P]), parte de ellos perdidos para siempre según *Management Science* [P en el resumen], y «hasta un 60%» menos según ifo [S]. Los municipios de alrededor suben más (+12% en Potsdam, descriptivo). La conclusión de *Management Science*: «negative consequences for renters appear to outweigh positive ones».
+- **Cataluña:** con el tope de 2020, contratos nuevos ~10% menos (rango 7%-19%, V29). Con el actual, anuncios −20% a −22% (Fedea [P en la nota]) y contratos firmados −13% de forma robusta (Pérez García [P]), con 4,5 veces más contactos por anuncio en Barcelona que en Madrid (Fedea). En Barcelona, el precio por m² está en máximo histórico aunque baje la renta total (V29 [S]).
 
-### Pendiente (no hecho por la red bloqueada y el cupo de búsquedas agotado)
-1. Abrir el AER o el NBER w24181 (F4) y el artículo de *Management Science* (Berlín) para pasar a [P] con página y tabla.
-2. Fallo de la STC 37/2022 y arts. 17.6-17.7 de la LAU en el BOE, desde el entorno que permite boe.es.
-3. Leer Pérez García (arXiv) y los dos artículos de *IJHMA*: autores, datos y cifras.
-4. Un «estudio Cigna» que, según un resumen, da contratos nuevos 5,6%-6,7% menores y un 57% de contratos largos por encima del tope: **no localizado, no usar.**
-5. AIReF y Banco de España: ninguna evaluación específica del tope catalán localizada. Volver a buscar en sus repositorios.
-6. Serie original del INCASÒL o la Generalitat (fianzas por trimestre, municipios con y sin tope, temporada).
+### Pendiente
+1. **AER, versión publicada:** PDF bloqueado (pubs.aeaweb.org). Falta comprobar si siguen el 5,1%, los 2.900 millones y las cifras de minorías.
+2. **Management Science (Berlín):** texto completo bloqueado (pubsonline.informs.org). Tampoco se ha localizado en diw.de el DP 1999, la versión revisada.
+3. **Fedea ap2026-15:** PDF bloqueado (documentos.fedea.net). Falta identificar la fuente de los anuncios y ver si da el −7% del resto de España.
+4. **Jofre-Monseny et al.:** UCL, dipòsit UB y CORE bloqueados. Sin frase literal con página; V36 sigue siendo la referencia.
+5. **Sentencia alemana y texto del MietenWoG Bln:** no abiertos (bundesverfassungsgericht.de y berlin.de no probados en esta pasada).
+6. **Los dos artículos de *IJHMA*** (Emerald), **ifo** e **IW**: sin leer.
+7. **Serie original del INCASÒL o la Generalitat** (fianzas por trimestre, municipios con y sin tope, temporada).
+8. **Estudio «Cigna»:** no localizado. No usar.
+9. **Interpretación jurídica del RDL 29/2026 sobre la temporada en zona tensionada:** pedirla a alguien con formación jurídica antes de explicarla en pantalla.
