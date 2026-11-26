@@ -26,7 +26,11 @@
 ## Decisiones pendientes para el autor
 1. **¿El peso como hilo conductor?** Abrir con «voy a bajar 10 kilos» antes de las promesas políticas y cerrar volviendo a la báscula («sirve para comprobar si los hábitos funcionan, no para mover el peso»). El examen iría dentro del bloque de ejemplos fuera de la política. Recomendación: sí.
 2. **¿Cuántos casos de precios?** Propuesta: alquiler (San Francisco, Berlín y los topes en España), un caso histórico (Nixon o Diocleciano) y la excepción ibérica como contraejemplo. ¿Entran los medicamentos?
-3. **Título provisional.** Opciones: «¿Se puede bajar la fiebre por ley?», «Prometer el termómetro», «Lo que se promete y lo que se mueve».
+3. **Título.** Al autor le gusta «¿Se puede bajar la fiebre por ley?», pero duda de que se busque. Opciones para añadir un término de búsqueda sin perder el gancho:
+   - «Control de precios: ¿se puede bajar la fiebre por ley?»
+   - «¿Se puede bajar la fiebre por ley? Precios, salarios y promesas»
+   - Título solo con el gancho; los términos de búsqueda (control de precios, salario mínimo, topes al alquiler, ley de Goodhart) van en la descripción y en los capítulos.
+4. **Miniatura sin subida manual.** La cuenta no está verificada, así que no se puede subir una miniatura propia: YouTube elige entre fotogramas del vídeo. Propuesta: que la imagen central (termómetro y fiebre, texto grande) aparezca varias veces en el vídeo; subir primero en privado, ver qué fotogramas ofrece YouTube y volver a renderizar si ninguno sirve.
 
 ## Por verificar antes del guion
 - Todo el registro de fuentes. Prioridad: F7 (evaluaciones del SMI de 2019 y cifra de 2026), F9 (Alemania), F4 (San Francisco), F5 (excepción ibérica), F12 (Argentina), F20 y F21 (peso y examen).
