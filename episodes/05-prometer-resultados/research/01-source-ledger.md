@@ -25,7 +25,7 @@
 
 ### F6 - Berlín: Mietendeckel (febrero de 2020; anulado por el Constitucional alemán en abril de 2021) [S]
 - Estudios del DIW y de Kholodilin y otros: menos anuncios de alquiler en los pisos afectados y subida en los no afectados. Confirmar los porcentajes.
-- Para España: remitir a lo ya verificado en vivienda (Banco de España sobre los topes; Ley 11/2020 catalana y su evaluación).
+- Para España: Ley 11/2020 catalana (anulada en parte por el Constitucional en 2022), topes de la Ley de vivienda de 2023 en zonas tensionadas y lo que dice el Banco de España. Se pueden reutilizar fuentes ya verificadas en el registro del episodio 03, pero **el vídeo no lo menciona ni da por sabido nada de él**.
 
 ## Salarios
 
@@ -78,6 +78,19 @@
 ### F17 - Las ratas de Hanói (1902): Vann (2003), *French Colonial History* [S]
 - Pago por cola de rata. Aparecieron ratas sin cola vivas y criaderos. Documentado en archivos coloniales.
 - **La cobra de Delhi no tiene fuente primaria conocida** (se popularizó con Horst Siebert, 2001). Si se usa, decir que es una anécdota.
+
+## Ejemplos personales
+
+### F20 - Peso: dar el peso, rebote y autopesaje [S]
+- Deportes de combate: muertes de tres luchadores universitarios en Estados Unidos en 1997 por pérdida rápida de peso antes del pesaje; la NCAA cambió las reglas de pesaje en 1998. Confirmar con el informe de los CDC (MMWR, 1998).
+- Revisiones sobre pérdida rápida de peso en deportes de combate (p. ej. Franchini y otros, 2012).
+- Rebote: Anderson y otros (2001), *American Journal of Clinical Nutrition*, metaanálisis de seguimiento a cinco años. Confirmar qué parte del peso perdido se recupera.
+- Autopesaje: revisiones (p. ej. Zheng y otros, 2015) que asocian pesarse con regularidad a más pérdida de peso. Es correlación en muchos estudios: comprobar si hay ensayos.
+
+### F21 - Examen: fraude, inflación de notas y efecto test [S]
+- Atlanta Public Schools: investigación estatal de 2011 sobre las pruebas de 2009; juicio y condenas en 2015.
+- Koretz, *The Testing Charade* (2017): notas que suben en exámenes con consecuencias y no en exámenes de control (p. ej. Kentucky frente a NAEP).
+- Roediger y Karpicke (2006), *Psychological Science*: el efecto test. Practicar con exámenes mejora lo que se recuerda frente a releer.
 
 ## Conceptos (citar si se nombran)
 - Goodhart (1975): cuando una medida se convierte en objetivo, deja de ser buena medida (la formulación popular es de Marilyn Strathern, 1997).

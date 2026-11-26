@@ -47,33 +47,51 @@ Esta sección es la que más evidencia en contra de la hipótesis concentra. Cri
 3. **Es temporal, en una emergencia, y con racionamiento.** Estados Unidos en la Segunda Guerra Mundial (F3). El precio se fija, pero también se organiza el reparto: el ajuste no se deja escapar sin más.
 4. **El diseño del mercado amplifica el problema.** La «excepción ibérica» de 2022: topar el precio del gas para generar electricidad abarató la luz en un mercado donde la central más cara fija el precio de todas (F5). Hubo costes, pero el resultado no fue el desastre que predice la versión simple.
 5. **Fijar el marcador activa la palanca.** Alemania 2015: el salario mínimo no redujo el empleo y movió trabajadores hacia empresas más productivas (F9). Es el contraejemplo más incómodo para la hipótesis, porque el efecto decretado **causó** una causa.
-6. **No hay palanca rápida y esperar cuesta mucho.** Quien busca piso hoy no vive en 2050 (frase de vivienda).
+6. **No hay palanca rápida y esperar cuesta mucho.** Quien busca piso hoy no vive en 2050.
 
 ## Cuándo «actuar sobre las causas» falla
 La otra mitad de la evidencia incómoda:
 
 - **Tarda.** Construir, formar o mejorar la productividad cuesta años o décadas; las legislaturas duran cuatro.
 - **Es difícil de evaluar.** «Ya llegará» no se puede refutar. Una promesa de causas puede ser una excusa para no hacer nada.
-- **La causa puede estar mal identificada.** España construyó más que nadie en 2000-2007 y los precios subieron, porque la palanca era el crédito (enlazar con vivienda).
+- **La causa puede estar mal identificada.** España construyó más que nadie en 2000-2007 y los precios subieron, porque la palanca era el crédito.
 - **La palanca no siempre llega al marcador.** «Sube la productividad y subirán los salarios»: en Estados Unidos hay un debate serio sobre si salario y productividad se han separado y por qué. Hay quien dice que sí y quien dice que es sobre todo un problema de medición (F11). El poder de negociación también es una palanca.
 - **Los liberales también prometen efectos.** «La bajada de impuestos se paga sola», «X millones de empleos» o el déficit por ley. Tratarlas con el mismo rigor.
 
 **Respuesta posible, para el cierre:** prometer palancas **medibles** (licencias concedidas, plazo de tramitación, suelo aprobado, horas de formación) y rendir cuentas con los marcadores. El marcador sirve para evaluar; no sirve como instrumento. Los bancos centrales lo hacen así: prometen un efecto (inflación del 2%) y lo persiguen moviendo una palanca (el tipo de interés). Funcionó bastante bien veinte años y falló en 2021-2022 (F13).
 
+## Los dos ejemplos personales: el peso y el examen
+Son los más cercanos y no tienen bando. Funcionan porque el espectador ya ha vivido las dos versiones.
+
+### «Voy a bajar 10 kilos» frente a «voy a dejar de comer X y caminar una hora al día»
+- **Marcador:** el peso. **Palanca:** lo que comes y lo que te mueves.
+- **Fijar el marcador:** dietas relámpago, saltarse comidas, deshidratarse antes de pesarse. La báscula marca lo prometido y el cuerpo no ha cambiado lo que importa. El caso literal: los deportistas de combate que «dan el peso» con sauna y sin beber el día antes del pesaje. En 1997 murieron tres luchadores universitarios en Estados Unidos haciéndolo, y la NCAA cambió las reglas (F20).
+- **Por dónde se escapa el ajuste:** el rebote. Buena parte del peso perdido con dietas se recupera en pocos años (F20).
+- **El matiz a favor del marcador:** pesarse con regularidad se asocia a perder más peso (F20). La báscula no mueve el peso, pero dice si los hábitos funcionan. Es la misma idea del cierre: marcador para evaluar, palanca para actuar.
+- **Cuidado:** el peso no depende solo de la voluntad (biología, medicación, entorno). No dar consejos de salud ni sugerir que es «cuestión de querer». El ejemplo trata de qué se promete, no de cómo adelgazar.
+
+### «Voy a sacar un 9» frente a «voy a estudiar una hora al día y hacer exámenes de otros años»
+- **Marcador:** la nota. **Palanca:** horas de estudio y práctica.
+- **Fijar el marcador:** la chuleta, memorizar sin entender, estudiar solo «lo que entra». Sube la nota y no sube lo aprendido.
+- **La versión institucional:** cuando la nota de los alumnos decide el sueldo o el puesto de los profesores, aparece «enseñar para el examen» y, en el extremo, el fraude. Atlanta, 2009: profesores que corregían las respuestas de sus alumnos; condenas en 2015 (F21). Y la inflación de notas en exámenes de alto impacto que no se confirma en exámenes independientes (Koretz, F21).
+- **El matiz a favor del marcador:** hacerse exámenes es una de las mejores formas de aprender (el efecto test, F21). Usado bien, el marcador se convierte en palanca. Encaja con el contraejemplo alemán del salario mínimo.
+
+### Propuesta: el peso como hilo conductor
+Abrir con «voy a bajar 10 kilos» antes de las promesas políticas y cerrar volviendo a la báscula. El examen va dentro del bloque de ejemplos fuera de la política. Ver decisiones.
+
 ## Desarrollo propuesto
-1. **Apertura: tres promesas** (0:00-0:50). Una de precios, una de salarios y una de la derecha, para no empezar escorado. Ej.: «El alquiler no subirá de X», «Nadie cobrará menos de Y», «Crearemos Z empleos» o «El déficit, a cero por ley». NO ES TAN SENCILLO.
+1. **Apertura: tres promesas** (0:00-0:50). Si el peso es el hilo conductor, primero «voy a bajar 10 kilos» y después las políticas. Una de precios, una de salarios y una de la derecha, para no empezar escorado. Ej.: «El alquiler no subirá de X», «Nadie cobrará menos de Y», «Crearemos Z empleos» o «El déficit, a cero por ley». NO ES TAN SENCILLO.
 2. **Termómetro y termostato** (0:50-2:00). La metáfora y Argentina como caso literal.
-3. **Fuera de la política: la ley de Goodhart** (2:00-3:30). Ejemplos sin bando, para que el espectador acepte la idea antes de los casos que le duelen:
+3. **Fuera de la política** (2:00-3:30). Ejemplos sin bando, para que el espectador acepte la idea antes de los casos que le duelen. Primero los personales (ver la sección siguiente), después la ley de Goodhart en instituciones:
    - Urgencias del Reino Unido y el objetivo de las cuatro horas (F14).
    - Hoy No Circula en Ciudad de México: la gente compró un segundo coche, más viejo (F15).
    - Wells Fargo y las cuentas falsas por objetivos de venta (F16).
    - Las ratas de Hanói (F17). **No usar la cobra de Delhi como hecho:** no está documentada.
-   - Cercano: estudiar para el examen frente a aprender; pesarse frente a cambiar de hábitos.
-4. **Precios** (3:30-5:30). Del edicto de Diocleciano a Nixon en 1971 (F1, F2). Alquiler: San Francisco (F4), Berlín (F6) y la remisión a vivienda, sin repetirla. **Contraejemplos en el mismo bloque:** la guerra (F3) y la excepción ibérica (F5).
+4. **Precios** (3:30-5:30). Del edicto de Diocleciano a Nixon en 1971 (F1, F2). Alquiler: San Francisco (F4), Berlín (F6) y los topes en España (F6), contados aquí sin dar por sabido nada de otros vídeos. **Contraejemplos en el mismo bloque:** la guerra (F3) y la excepción ibérica (F5).
 5. **Salarios** (5:30-7:30). La palanca: productividad por hora, tamaño de empresa, tipo de industria (F18, F19). El marcador: el SMI de 2019, +22% (F7). Lo que dice la evidencia: Card y Krueger, Puerto Rico, Alemania, Seattle (F8-F10). La idea que ordena todo: **la dosis**, medida como SMI entre salario mediano. Y el matiz de que la productividad no se convierte sola en salario (F11).
 6. **El espejo** (7:30-8:30). Las promesas de efectos del otro lado, como tipos de promesa y sin nombrar partidos.
 7. **Cuándo funciona y cuándo no** (8:30-10:00). Los seis criterios, en una tabla.
-8. **Cierre** (10:00-11:00). Palancas medibles, marcadores para evaluar. Y una pregunta para el espectador: cuando oigas una promesa, ¿qué número promete y qué palanca toca?
+8. **Cierre** (10:00-11:00). Palancas medibles, marcadores para evaluar. Si el peso es el hilo conductor, se vuelve a la báscula: sirve para comprobar si los hábitos funcionan, no para mover el peso. Y una pregunta para el espectador: cuando oigas una promesa, ¿qué número promete y qué palanca toca?
 
 ## Contrafactuales
 - **«El SMI de 2019 destruyó empleo.»** El empleo creció en 2019. La pregunta es cuánto habría crecido sin la subida, y eso no se observa: hay estimaciones distintas según el método y quién las firma (F7). Mostrar el rango y decir quién publica cada cifra.
@@ -89,6 +107,6 @@ La otra mitad de la evidencia incómoda:
 - ¿Por qué los políticos prometen marcadores? Son visibles, atribuibles e inmediatos; los costes llegan dispersos y tarde. **Sin atribuir mala intención:** los votantes también premiamos esas promesas.
 
 ## Fuera del alcance
-- El SMI en profundidad: es el episodio 02. Aquí, un caso con la dosis como idea central (ver decisiones, punto 2).
-- Los topes de alquiler en España en profundidad: ya están en el episodio 03. Aquí, remitir.
+- **Sin referencias a otros vídeos del canal** (ver decisiones). El episodio se entiende solo.
+- El SMI y los topes de alquiler, más allá de lo que necesita el argumento: aquí son casos, no el tema. La idea que ordena el SMI es la dosis; la de los topes, quien ya está dentro frente a quien quiere entrar.
 - Teoría monetaria, salvo la frase de los bancos centrales.
