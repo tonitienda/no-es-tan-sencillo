@@ -38,5 +38,12 @@
    - Título solo con el gancho; los términos de búsqueda (control de precios, salario mínimo, topes al alquiler, ley de Goodhart) van en la descripción y en los capítulos.
 2. **Miniatura sin subida manual.** La cuenta no está verificada, así que no se puede subir una miniatura propia: YouTube elige entre fotogramas del vídeo. Propuesta: que la imagen central (termómetro y fiebre, texto grande) aparezca varias veces en el vídeo; subir primero en privado, ver qué fotogramas ofrece YouTube y volver a renderizar si ninguno sirve.
 
-## Por verificar antes del guion
-- Todo el registro de fuentes. Prioridad: F7 (evaluaciones del SMI de 2019 y cifra de 2026), F9 (Alemania), F4 (San Francisco), F5 (excepción ibérica), F12 (Argentina), F20 y F21 (peso y examen).
+## Verificación
+- **26 de noviembre:** primera pasada sobre todo el registro. Resultados en cada entrada del [registro](../research/01-source-ledger.md) y detalle en [03-verificacion/](../research/03-verificacion/). Todo sigue en [S]: la red de la sesión no deja abrir los originales.
+- **Lo que cambia el argumento** (ya corregido en el mapa de preguntas):
+  - El SMI de 2019 tiene efectos negativos de pequeños a moderados sobre el empleo de los afectados en casi todas las evaluaciones, con subida clara del salario. España está cerca del límite de lo observado (~59% de la mediana en EE. UU., que es el máximo de los datos, no un umbral).
+  - Alemania sigue siendo el contraejemplo central, con pérdidas pequeñas en *minijobs*.
+  - Alquiler: la mejor evidencia a favor es fuerte (Cataluña 2020: −4-6% sin caída de oferta medible). En San Francisco, el −15% de oferta es de los edificios afectados, no de la ciudad.
+  - Urgencias de Inglaterra pasa de ejemplo de Goodhart a ejemplo de marcador que funcionó con manipulación en los bordes.
+  - Peso: el autopesaje ayuda dentro de un cambio de hábitos; solo, no está claro.
+- **Pendiente:** leer los originales para pasar a [P]; F1 (Lactancio), F17 (ratas de Hanói) y las citas de Goodhart, Strathern y Campbell, sin verificar; los tres estudios causales de 2026 sobre los topes catalanes; la tabla del IPC del BLS (F3).
