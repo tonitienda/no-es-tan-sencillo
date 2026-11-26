@@ -26,13 +26,17 @@
 ## Decidido (26 de noviembre, después)
 10. **El peso es el hilo conductor, de momento.** Abre con «voy a bajar 10 kilos», antes de las promesas políticas, y el cierre vuelve a la báscula («sirve para comprobar si los hábitos funcionan, no para mover el peso»). El examen va dentro del bloque de ejemplos fuera de la política. **Si al escribir el guion funciona mejor el examen, se cambia.** Para que el cambio sea barato, el hilo conductor solo aparece en la apertura y en el cierre, y los dos ejemplos se escriben con la misma estructura.
 
+11. **Precios: el alquiler es el caso principal.** San Francisco, Berlín y los topes en España. Mismo peso para el argumento a favor (estabilidad de quien ya alquila) y para el coste (menos oferta, más precio para quien busca); la palanca alternativa es la oferta (construir, suelo), con su problema: tarda. Sin nombrar partidos.
+    - **Caso histórico (Nixon o Diocleciano):** una frase como mucho, o fuera.
+    - **Excepción ibérica:** se queda, corta (~30 s), como contraejemplo de cuándo fijar el precio funciona: por el diseño del mercado eléctrico.
+    - **Medicamentos:** fuera.
+
 ## Decisiones pendientes para el autor
-1. **¿Cuántos casos de precios?** Propuesta: alquiler (San Francisco, Berlín y los topes en España), un caso histórico (Nixon o Diocleciano) y la excepción ibérica como contraejemplo. ¿Entran los medicamentos?
-2. **Título.** Al autor le gusta «¿Se puede bajar la fiebre por ley?», pero duda de que se busque. Opciones para añadir un término de búsqueda sin perder el gancho:
+1. **Título.** Al autor le gusta «¿Se puede bajar la fiebre por ley?», pero duda de que se busque. Opciones para añadir un término de búsqueda sin perder el gancho:
    - «Control de precios: ¿se puede bajar la fiebre por ley?»
    - «¿Se puede bajar la fiebre por ley? Precios, salarios y promesas»
    - Título solo con el gancho; los términos de búsqueda (control de precios, salario mínimo, topes al alquiler, ley de Goodhart) van en la descripción y en los capítulos.
-3. **Miniatura sin subida manual.** La cuenta no está verificada, así que no se puede subir una miniatura propia: YouTube elige entre fotogramas del vídeo. Propuesta: que la imagen central (termómetro y fiebre, texto grande) aparezca varias veces en el vídeo; subir primero en privado, ver qué fotogramas ofrece YouTube y volver a renderizar si ninguno sirve.
+2. **Miniatura sin subida manual.** La cuenta no está verificada, así que no se puede subir una miniatura propia: YouTube elige entre fotogramas del vídeo. Propuesta: que la imagen central (termómetro y fiebre, texto grande) aparezca varias veces en el vídeo; subir primero en privado, ver qué fotogramas ofrece YouTube y volver a renderizar si ninguno sirve.
 
 ## Por verificar antes del guion
 - Todo el registro de fuentes. Prioridad: F7 (evaluaciones del SMI de 2019 y cifra de 2026), F9 (Alemania), F4 (San Francisco), F5 (excepción ibérica), F12 (Argentina), F20 y F21 (peso y examen).

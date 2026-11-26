@@ -87,7 +87,7 @@ Abre con «voy a bajar 10 kilos» antes de las promesas políticas y el cierre v
    - Hoy No Circula en Ciudad de México: la gente compró un segundo coche, más viejo (F15).
    - Wells Fargo y las cuentas falsas por objetivos de venta (F16).
    - Las ratas de Hanói (F17). **No usar la cobra de Delhi como hecho:** no está documentada.
-4. **Precios** (3:30-5:30). Del edicto de Diocleciano a Nixon en 1971 (F1, F2). Alquiler: San Francisco (F4), Berlín (F6) y los topes en España (F6), contados aquí sin dar por sabido nada de otros vídeos. **Contraejemplos en el mismo bloque:** la guerra (F3) y la excepción ibérica (F5).
+4. **Precios: el alquiler** (3:30-5:30). Caso principal: San Francisco (F4), Berlín y los topes en España (F6). Mismo peso para quien ya alquila (estabilidad) y para quien busca piso (menos oferta, más precio). La palanca alternativa, la oferta, y su problema: tarda. Como mucho, una frase histórica (Nixon, F2, o Diocleciano, F1) para decir que la idea no es nueva. **Contraejemplo corto (~30 s):** la excepción ibérica (F5).
 5. **Salarios** (5:30-7:30). La palanca: productividad por hora, tamaño de empresa, tipo de industria (F18, F19). El marcador: el SMI de 2019, +22% (F7). Lo que dice la evidencia: Card y Krueger, Puerto Rico, Alemania, Seattle (F8-F10). La idea que ordena todo: **la dosis**, medida como SMI entre salario mediano. Y el matiz de que la productividad no se convierte sola en salario (F11).
 6. **El espejo** (7:30-8:30). Las promesas de efectos del otro lado, como tipos de promesa y sin nombrar partidos.
 7. **Cuándo funciona y cuándo no** (8:30-10:00). Los seis criterios, en una tabla.
@@ -102,7 +102,7 @@ Abre con «voy a bajar 10 kilos» antes de las promesas políticas y el cierre v
 ## Contradiction review / fuentes adversariales
 - La mejor versión del argumento a favor de fijar marcadores: monopsonio (Manning), dignidad y suelo mínimo como decisión normativa, no solo de eficiencia (regla 3). Que una medida tenga costes no la hace mala: es una decisión sobre quién los paga.
 - ¿Leyes antiespeculación en catástrofes? Aquí el desacuerdo es sobre todo normativo (¿es justo cobrar el triple por agua tras un huracán?). Útil para separar lo descriptivo de lo normativo, o fuera por tiempo.
-- Precio de los medicamentos: Europa los regula y paga menos que Estados Unidos sin que falten la mayoría. El coste discutido es la innovación futura y los retrasos de lanzamiento. Es un contraejemplo fuerte; decidir si cabe.
+- Precio de los medicamentos: Europa los regula y paga menos que Estados Unidos sin que falten la mayoría. Contraejemplo fuerte, **fuera por tiempo** (decisiones, punto 11). Tenerlo preparado por si sale en comentarios.
 - Política industrial: Corea en los setenta como palanca no liberal que funcionó, y los casos que no funcionaron. Una frase, o fuera.
 - ¿Por qué los políticos prometen marcadores? Son visibles, atribuibles e inmediatos; los costes llegan dispersos y tarde. **Sin atribuir mala intención:** los votantes también premiamos esas promesas.
 
