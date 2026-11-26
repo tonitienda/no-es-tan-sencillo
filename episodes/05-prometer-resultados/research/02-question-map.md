@@ -76,11 +76,11 @@ Son los más cercanos y no tienen bando. Funcionan porque el espectador ya ha vi
 - **La versión institucional:** cuando la nota de los alumnos decide el sueldo o el puesto de los profesores, aparece «enseñar para el examen» y, en el extremo, el fraude. Atlanta, 2009: profesores que corregían las respuestas de sus alumnos; condenas en 2015 (F21). Y la inflación de notas en exámenes de alto impacto que no se confirma en exámenes independientes (Koretz, F21).
 - **El matiz a favor del marcador:** hacerse exámenes es una de las mejores formas de aprender (el efecto test, F21). Usado bien, el marcador se convierte en palanca. Encaja con el contraejemplo alemán del salario mínimo.
 
-### Propuesta: el peso como hilo conductor
-Abrir con «voy a bajar 10 kilos» antes de las promesas políticas y cerrar volviendo a la báscula. El examen va dentro del bloque de ejemplos fuera de la política. Ver decisiones.
+### El peso como hilo conductor (decidido, revisable)
+Abre con «voy a bajar 10 kilos» antes de las promesas políticas y el cierre vuelve a la báscula. El examen va dentro del bloque de ejemplos fuera de la política. Si en el guion funciona mejor el examen, se intercambian: por eso el hilo solo aparece en la apertura y el cierre (ver decisiones, punto 10).
 
 ## Desarrollo propuesto
-1. **Apertura: tres promesas** (0:00-0:50). Si el peso es el hilo conductor, primero «voy a bajar 10 kilos» y después las políticas. Una de precios, una de salarios y una de la derecha, para no empezar escorado. Ej.: «El alquiler no subirá de X», «Nadie cobrará menos de Y», «Crearemos Z empleos» o «El déficit, a cero por ley». NO ES TAN SENCILLO.
+1. **Apertura: tres promesas** (0:00-0:50). Primero «voy a bajar 10 kilos» y después las políticas. Una de precios, una de salarios y una de la derecha, para no empezar escorado. Ej.: «El alquiler no subirá de X», «Nadie cobrará menos de Y», «Crearemos Z empleos» o «El déficit, a cero por ley». NO ES TAN SENCILLO.
 2. **Termómetro y termostato** (0:50-2:00). La metáfora y Argentina como caso literal.
 3. **Fuera de la política** (2:00-3:30). Ejemplos sin bando, para que el espectador acepte la idea antes de los casos que le duelen. Primero los personales (ver la sección siguiente), después la ley de Goodhart en instituciones:
    - Urgencias del Reino Unido y el objetivo de las cuatro horas (F14).
@@ -91,7 +91,7 @@ Abrir con «voy a bajar 10 kilos» antes de las promesas políticas y cerrar vol
 5. **Salarios** (5:30-7:30). La palanca: productividad por hora, tamaño de empresa, tipo de industria (F18, F19). El marcador: el SMI de 2019, +22% (F7). Lo que dice la evidencia: Card y Krueger, Puerto Rico, Alemania, Seattle (F8-F10). La idea que ordena todo: **la dosis**, medida como SMI entre salario mediano. Y el matiz de que la productividad no se convierte sola en salario (F11).
 6. **El espejo** (7:30-8:30). Las promesas de efectos del otro lado, como tipos de promesa y sin nombrar partidos.
 7. **Cuándo funciona y cuándo no** (8:30-10:00). Los seis criterios, en una tabla.
-8. **Cierre** (10:00-11:00). Palancas medibles, marcadores para evaluar. Si el peso es el hilo conductor, se vuelve a la báscula: sirve para comprobar si los hábitos funcionan, no para mover el peso. Y una pregunta para el espectador: cuando oigas una promesa, ¿qué número promete y qué palanca toca?
+8. **Cierre** (10:00-11:00). Palancas medibles, marcadores para evaluar. Se vuelve a la báscula: sirve para comprobar si los hábitos funcionan, no para mover el peso. Y una pregunta para el espectador: cuando oigas una promesa, ¿qué número promete y qué palanca toca?
 
 ## Contrafactuales
 - **«El SMI de 2019 destruyó empleo.»** El empleo creció en 2019. La pregunta es cuánto habría crecido sin la subida, y eso no se observa: hay estimaciones distintas según el método y quién las firma (F7). Mostrar el rango y decir quién publica cada cifra.
