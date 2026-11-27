@@ -10,7 +10,7 @@
 
 **Tesis (hipótesis, no conclusión):** prometer un resultado es prometer algo que no controlas del todo. Lo que sí controlas son las acciones. Cuando se fuerza el resultado sin cambiar lo que lo produce, el número se mueve y el problema se escapa por otro sitio. Pero a veces forzar el número funciona, y el vídeo enseña cuándo.
 
-**Duración estimada:** unas 1.700 palabras de narración, cerca de 11 minutos. Recortes previstos al final.
+**Duración estimada:** unas 1.580 palabras de narración, cerca de 10 minutos y medio a 150 palabras por minuto. Recortes previstos al final.
 
 **Reglas:** sin nombres de partidos ni promesas concretas de partidos. Sin referencias a otros vídeos del canal. Cada caso que apoya la idea va junto a uno que la complica.
 
