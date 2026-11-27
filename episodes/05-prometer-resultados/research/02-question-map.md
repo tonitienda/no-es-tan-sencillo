@@ -3,7 +3,9 @@
 **Estado:** concreción del 22 de noviembre, corregida el 26 con la primera pasada de verificación. Todo sigue en [S] en el [registro](01-source-ledger.md): confirmado con fragmentos de búsqueda, sin leer los originales.
 
 ## Pregunta central
-Cuando alguien promete un **número** (un precio, un salario, una tasa de paro), ¿qué pasa si intenta fijar ese número directamente, en vez de cambiar lo que lo produce? **¿Y cuándo sí funciona fijarlo?**
+**Reformulada el 27 de noviembre:** ¿qué pasa cuando se prometen resultados que no están directamente en la mano de quien promete (el peso, la nota, el precio, el empleo), en vez de las acciones que sí lo están y que se espera que los causen? El alquiler y el SMI son ejemplos, no el tema.
+
+Formulación anterior: Cuando alguien promete un **número** (un precio, un salario, una tasa de paro), ¿qué pasa si intenta fijar ese número directamente, en vez de cambiar lo que lo produce? **¿Y cuándo sí funciona fijarlo?**
 
 ## La hipótesis de partida (declarada, no decidida)
 Viene del autor y tira hacia el lado liberal. Se formula aquí para ponerla a prueba, no para demostrarla (carta editorial, regla 1):

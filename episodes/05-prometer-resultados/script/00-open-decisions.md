@@ -1,7 +1,7 @@
 # Episodio 05: decisiones y preguntas abiertas
 
 **Última conversación:** 26 de noviembre de 2026.
-**Estado:** primer pase de concreción. Hay [mapa de preguntas](../research/02-question-map.md) y [registro de fuentes](../research/01-source-ledger.md), todo en [S]. Sin guion.
+**Estado:** [guion v1](01-guion-v1.md) escrito el 27 de noviembre, sin leer en voz alta. [Mapa de preguntas](../research/02-question-map.md) y [registro de fuentes](../research/01-source-ledger.md) con dos pasadas de verificación.
 
 ## Encargo de la primera conversación
 - Tema: promesas (políticas y no políticas) sobre resultados; cómo se confunden efectos y causas; cómo intentar controlar los efectos causa más efectos; por qué puede ser mejor promover las causas.
@@ -30,6 +30,9 @@
     - **Caso histórico (Nixon o Diocleciano):** una frase como mucho, o fuera.
     - **Excepción ibérica:** se queda, corta (~30 s), como contraejemplo de cuándo fijar el precio funciona: por el diseño del mercado eléctrico.
     - **Medicamentos:** fuera.
+
+## Decidido (27 de noviembre)
+12. **El tema es qué se promete, no el alquiler.** Promesas de resultados (efectos que no están directamente en la mano de quien promete) frente a promesas de acciones (que sí lo están y que se espera que causen esos efectos). El alquiler y el SMI son ejemplos con el mismo peso que el peso o el examen; ninguno es el tema. El guion v1 se ordena así: concepto con ejemplos personales, Goodhart, la política (fijar el número por ley), dos ejemplos cortos, cuándo funciona, el espejo y el cierre.
 
 ## Decisiones pendientes para el autor
 1. **Título.** Al autor le gusta «¿Se puede bajar la fiebre por ley?», pero duda de que se busque. Opciones para añadir un término de búsqueda sin perder el gancho:
